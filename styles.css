@@ -259,6 +259,24 @@ a { color: inherit; text-decoration: none; }
   pointer-events: none;
 }
 
+.poster-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: var(--bg-3);
+}
+
+.poster-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
 .poster .rating-badge {
   position: absolute;
   top: 10px;
@@ -346,6 +364,30 @@ a { color: inherit; text-decoration: none; }
   text-align: center;
 }
 
+.site-footer .attribution {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-2);
+  opacity: 0.85;
+}
+
+.site-footer .attribution a {
+  color: var(--text-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#dataStamp {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  font-size: 11.5px;
+  color: var(--text-1);
+}
+
 /* ============ Modal ============ */
 .modal {
   position: fixed;
@@ -421,6 +463,17 @@ a { color: inherit; text-decoration: none; }
   color: rgba(255, 255, 255, 0.45);
   background-size: cover;
   background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-poster-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
 }
 
 .modal-body {

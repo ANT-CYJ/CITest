@@ -1,0 +1,68 @@
+name: Refresh weekly trending movies
+
+on:
+  # 每周一北京时间上午 9 点跑(UTC 01:00)
+  schedule:
+    - cron: '0 1 * * 1'
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+  # push 到 main 时,如果改了 workflow 自身也跑一次,方便测试
+  push:
+    paths:
+      - '.github/workflows/refresh-movies.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch trending + genres from TMDb
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$TMDB_API_KEY" ]; then
+            echo "::error::TMDB_API_KEY secret is not set. Add it in repo Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+
+          BASE="https://api.themoviedb.org/3"
+          LANG="zh-CN"
+          WEEK="week"
+
+          echo "Fetching genre list..."
+          GENRES_JSON=$(curl -fsSL "${BASE}/genre/movie/list?api_key=${TMDB_API_KEY}&language=${LANG}")
+          echo "$GENRES_JSON" | head -c 200 && echo "..."
+
+          echo "Fetching weekly trending movies..."
+          TRENDING_JSON=$(curl -fsSL "${BASE}/trending/movie/${WEEK}?api_key=${TMDB_API_KEY}&language=${LANG}")
+          COUNT=$(echo "$TRENDING_JSON" | node -e "let s='';process.stdin.on('data',c=>s+=c).on('end',()=>{const j=JSON.parse(s);console.log((j.results||[]).length)})")
+          echo "Got ${COUNT} movies."
+
+          mkdir -p data
+          node scripts/build-movies-json.mjs \
+            --genres "$GENRES_JSON" \
+            --trending "$TRENDING_JSON" \
+            --out data/movies.json
+
+          echo "Wrote data/movies.json:"
+          head -c 400 data/movies.json && echo "..."
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/movies.json; then
+            echo "No changes to data/movies.json."
+          else
+            git add data/movies.json
+            git commit -m "chore(data): refresh weekly trending movies"
+            git push
+          fi
