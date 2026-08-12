@@ -65,36 +65,7 @@ jobs:
 
           # 每部电影再并发拉详情 / 演职员 / 预告片,写到 details.json
           echo "Fetching per-movie details, credits, and videos..."
-          node -e "
-            const fs = require('fs');
-            const key = process.env.TMDB_API_KEY;
-            const lang = process.env.LANG;
-            const base = process.env.BASE;
-            const list = JSON.parse(fs.readFileSync('now_playing.json','utf8')).results;
-            const top = list.slice(0, 12);
-            const out = {};
-            await Promise.all(top.map(async (m) => {
-              const enc = encodeURIComponent;
-              const urls = [
-                base + '/movie/' + m.id + '?api_key=' + key + '&language=' + lang,
-                base + '/movie/' + m.id + '/credits?api_key=' + key + '&language=' + lang,
-                base + '/movie/' + m.id + '/videos?api_key=' + key + '&language=' + lang,
-              ];
-              try {
-                const [det, cred, vid] = await Promise.all(urls.map(async (u) => {
-                  const r = await fetch(u);
-                  if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + u);
-                  return r.json();
-                }));
-                out[m.id] = { details: det, credits: cred, videos: vid };
-                console.log('  ✓', m.id, m.title);
-              } catch (e) {
-                console.error('  ✗', m.id, e.message);
-                out[m.id] = { details: null, credits: null, videos: null, error: e.message };
-              }
-            }));
-            fs.writeFileSync('details.json', JSON.stringify(out));
-          "
+          node scripts/fetch-details.mjs now_playing.json details.json
           DCNT=$(node -e "console.log(Object.keys(JSON.parse(require('fs').readFileSync('details.json','utf8'))).length)")
           echo "Fetched details for ${DCNT} movies."
 
