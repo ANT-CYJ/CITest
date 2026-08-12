@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 // 将 TMDb 响应(genre list + weekly trending)合并成 data/movies.json
-// 用法: node scripts/build-movies-json.mjs --genres <json> --trending <json> --out <path>
+// 用法: node scripts/build-movies-json.mjs --genres <json-string> --trending <json-string> --out <path>
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
-import { mkdirSync } from 'node:fs';
 
 function arg(name, fallback) {
   const i = process.argv.indexOf(`--${name}`);
@@ -16,12 +15,12 @@ const trendingRaw = arg('trending');
 const outPath = arg('out');
 
 if (!genresRaw || !trendingRaw || !outPath) {
-  console.error('Usage: --genres <json> --trending <json> --out <path>');
+  console.error('Usage: --genres <json-string> --trending <json-string> --out <path>');
   process.exit(1);
 }
 
-const { genres } = JSON.parse(readFileSync(genresRaw, 'utf8'));
-const { results = [] } = JSON.parse(readFileSync(trendingRaw, 'utf8'));
+const { genres } = JSON.parse(genresRaw);
+const { results = [] } = JSON.parse(trendingRaw);
 
 const genreMap = new Map(genres.map((g) => [g.id, g.name]));
 
