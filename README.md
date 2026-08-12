@@ -37,6 +37,8 @@ movie-weekly/
 ├── index.html      # 页面骨架
 ├── styles.css      # 主题 + 布局 + 响应式
 ├── script.js       # 数据 + 渲染 + 交互
+├── 404.html        # 自定义 404
+├── .nojekyll       # 跳过 Jekyll 渲染
 └── README.md       # 你正在看的
 ```
 
