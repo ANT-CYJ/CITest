@@ -26,62 +26,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch now-playing + genres + per-movie details from TMDb (CN)
+      - name: Refresh data from TMDb (CN)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
-          set -euo pipefail
-
           if [ -z "$TMDB_API_KEY" ]; then
             echo "::error::TMDB_API_KEY secret is not set. Add it in repo Settings → Secrets and variables → Actions."
             exit 1
           fi
-
-          BASE="https://api.themoviedb.org/3"
-          LANG="zh-CN"
-          REGION="CN"
-
-          echo "Fetching genre list..."
-          GENRES_JSON=$(curl -fsSL "${BASE}/genre/movie/list?api_key=${TMDB_API_KEY}&language=${LANG}")
-
-          echo "Fetching now-playing movies in China (page 1-2)..."
-          NOW1=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=1")
-          NOW2=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=2")
-
-          # 合并两页 results
-          node -e "
-            const fs = require('fs');
-            const a = JSON.parse(process.argv[1]);
-            const b = JSON.parse(process.argv[2]);
-            const seen = new Set();
-            const merged = [];
-            for (const m of [...(a.results||[]), ...(b.results||[])]) {
-              if (!seen.has(m.id)) { seen.add(m.id); merged.push(m); }
-            }
-            process.stdout.write(JSON.stringify({ results: merged.slice(0, 40) }));
-          " "$NOW1" "$NOW2" > now_playing.json
-          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('now_playing.json','utf8')).results.length)")
-          echo "Got ${COUNT} movies."
-
-          # 每部电影再并发拉详情 / 演职员 / 预告片,写到 details.json
-          echo "Fetching per-movie details, credits, and videos..."
-          node scripts/fetch-details.mjs now_playing.json details.json
-          DCNT=$(node -e "console.log(Object.keys(JSON.parse(require('fs').readFileSync('details.json','utf8'))).length)")
-          echo "Fetched details for ${DCNT} movies."
-
-          NOW_JSON=$(cat now_playing.json)
-          DETAILS_JSON=$(cat details.json)
-          rm now_playing.json details.json
-
-          mkdir -p data
-          node scripts/build-movies-json.mjs \
-            --genres "$GENRES_JSON" \
-            --trending "$NOW_JSON" \
-            --details "$DETAILS_JSON" \
-            --out data/movies.json
-
+          export LANG="zh-CN"
+          export REGION="CN"
+          export BASE="https://api.themoviedb.org/3"
+          node scripts/refresh.mjs data/movies.json
           echo "Wrote data/movies.json:"
-          head -c 800 data/movies.json && echo "..."
+          head -c 400 data/movies.json && echo "..."
 
       - name: Commit and push
         run: |

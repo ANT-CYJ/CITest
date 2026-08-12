@@ -18,4 +18,5 @@ npm-debug.log*
 
 # 本地脚本 / 临时数据
 .test-build.cjs
+test-merge.js
 data/_test.json
