@@ -19,7 +19,7 @@ function formatWeekRange(date) {
   const sunday = new Date(monday);
   sunday.setDate(monday.getDate() + 6);
   const fmt = (x) => `${x.getMonth() + 1} 月 ${x.getDate()} 日`;
-  return `${monday.getFullYear} · ${fmt(monday)} – ${fmt(sunday)}`;
+  return `${monday.getFullYear()} · ${fmt(monday)} – ${fmt(sunday)}`;
 }
 
 function renderWeek() {
