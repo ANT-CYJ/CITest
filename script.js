@@ -71,9 +71,24 @@ function posterStyleFor(seed) {
 
 function posterInner(m, seed) {
   if (m.poster) {
-    return `<div class="poster-img" style="background-image:url('${m.poster}');${posterStyleFor(seed)}"></div>`;
+    return `<div class="poster-img" style="background-image:url('${m.poster}');${posterStyleFor(seed)}" data-fallback="${seed}"></div>`;
   }
   return `<div class="poster-fallback" style="${posterStyleFor(seed)}"><span>🎬</span></div>`;
+}
+
+// 海报加载失败(CDN 不通/被墙):整体替换为渐变 + emoji 占位
+function bindPosterFallback() {
+  $('#movieGrid').addEventListener('error', (e) => {
+    const t = e.target;
+    if (t && t.classList && t.classList.contains('poster-img')) {
+      const seed = Number(t.dataset.fallback || 0);
+      const fallback = document.createElement('div');
+      fallback.className = 'poster-fallback';
+      fallback.style.cssText = posterStyleFor(seed);
+      fallback.innerHTML = '<span>🎬</span>';
+      t.replaceWith(fallback);
+    }
+  }, true);
 }
 
 function renderMovies(movies, filter = 'all') {
@@ -204,4 +219,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderMovies(MOVIES);
   bindFilters();
   bindModal();
+  bindPosterFallback();
 });
