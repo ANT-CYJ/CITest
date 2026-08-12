@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>本周热门电影推荐 · Movie Weekly</title>
+  <meta name="description" content="每周更新,精选全球热门电影,附带评分、简介与观影指南。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark">🎬</span>
+        <div>
+          <h1 class="brand-title">本周热门电影</h1>
+          <p class="brand-sub" id="weekLabel">Loading week…</p>
+        </div>
+      </div>
+      <nav class="filters" id="genreFilters" aria-label="类型筛选">
+        <button class="chip is-active" data-genre="all">全部</button>
+        <button class="chip" data-genre="动作">动作</button>
+        <button class="chip" data-genre="剧情">剧情</button>
+        <button class="chip" data-genre="科幻">科幻</button>
+        <button class="chip" data-genre="动画">动画</button>
+        <button class="chip" data-genre="悬疑">悬疑</button>
+        <button class="chip" data-genre="喜剧">喜剧</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">编辑精选</p>
+        <h2>这周值得关灯看的好片</h2>
+        <p class="hero-desc">综合院线票房、IMDb/豆瓣口碑、社媒讨论热度,挑出 8 部本周最值得看的电影。点击卡片看简介,挑一部今晚就刷吧。</p>
+        <div class="hero-stats">
+          <div><strong id="movieCount">0</strong><span>本周推荐</span></div>
+          <div><strong>4.6</strong><span>平均评分</span></div>
+          <div><strong>2.1B</strong><span>全球票房 (USD)</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="film-strip"></div>
+        <div class="film-strip delay"></div>
+      </div>
+    </section>
+
+    <section class="grid" id="movieGrid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Movie Weekly · 数据为示例,仅供前端演示</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <article class="modal-card">
+      <button class="modal-close" data-close="true" aria-label="关闭">×</button>
+      <div class="modal-poster" id="modalPoster"></div>
+      <div class="modal-body">
+        <h3 id="modalTitle">—</h3>
+        <p class="modal-meta" id="modalMeta">—</p>
+        <p class="modal-desc" id="modalDesc">—</p>
+        <div class="modal-tags" id="modalTags"></div>
+      </div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

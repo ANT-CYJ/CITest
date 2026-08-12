@@ -1,0 +1,17 @@
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 依赖与构建产物(本项目目前无依赖,预留)
+node_modules/
+dist/
+.env
+.env.local
+
+# 日志
+*.log
+npm-debug.log*
