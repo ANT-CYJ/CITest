@@ -15,3 +15,7 @@ dist/
 # 日志
 *.log
 npm-debug.log*
+
+# 本地脚本 / 临时数据
+.test-build.cjs
+data/_test.json

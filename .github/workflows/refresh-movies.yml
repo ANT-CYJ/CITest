@@ -6,10 +6,14 @@ on:
     - cron: '0 1 * * 1'
   # 允许在 Actions 页面手动触发
   workflow_dispatch:
-  # push 到 main 时,如果改了 workflow 自身也跑一次,方便测试
+  # 推送到 main 时跑一次,方便改了前端/工作流后立刻刷新数据
+  # paths-ignore 把 data/movies.json 排除,避免 Actions 自己 commit 后再触发自己
   push:
-    paths:
-      - '.github/workflows/refresh-movies.yml'
+    branches:
+      - main
+    paths-ignore:
+      - 'data/movies.json'
+      - '**.md'
 
 permissions:
   contents: write
@@ -17,12 +21,12 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch now-playing + genres from TMDb (CN)
+      - name: Fetch now-playing + genres + per-movie details from TMDb (CN)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
@@ -39,12 +43,12 @@ jobs:
 
           echo "Fetching genre list..."
           GENRES_JSON=$(curl -fsSL "${BASE}/genre/movie/list?api_key=${TMDB_API_KEY}&language=${LANG}")
-          echo "$GENRES_JSON" | head -c 200 && echo "..."
 
           echo "Fetching now-playing movies in China (page 1-2)..."
           NOW1=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=1")
           NOW2=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=2")
-          # 合并两页 results,用 node 一次性写文件避免 shell 转义噩梦
+
+          # 合并两页 results
           node -e "
             const fs = require('fs');
             const a = JSON.parse(process.argv[1]);
@@ -58,17 +62,55 @@ jobs:
           " "$NOW1" "$NOW2" > now_playing.json
           COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('now_playing.json','utf8')).results.length)")
           echo "Got ${COUNT} movies."
+
+          # 每部电影再并发拉详情 / 演职员 / 预告片,写到 details.json
+          echo "Fetching per-movie details, credits, and videos..."
+          node -e "
+            const fs = require('fs');
+            const key = process.env.TMDB_API_KEY;
+            const lang = process.env.LANG;
+            const base = process.env.BASE;
+            const list = JSON.parse(fs.readFileSync('now_playing.json','utf8')).results;
+            const top = list.slice(0, 12);
+            const out = {};
+            await Promise.all(top.map(async (m) => {
+              const enc = encodeURIComponent;
+              const urls = [
+                base + '/movie/' + m.id + '?api_key=' + key + '&language=' + lang,
+                base + '/movie/' + m.id + '/credits?api_key=' + key + '&language=' + lang,
+                base + '/movie/' + m.id + '/videos?api_key=' + key + '&language=' + lang,
+              ];
+              try {
+                const [det, cred, vid] = await Promise.all(urls.map(async (u) => {
+                  const r = await fetch(u);
+                  if (!r.ok) throw new Error('HTTP ' + r.status + ' for ' + u);
+                  return r.json();
+                }));
+                out[m.id] = { details: det, credits: cred, videos: vid };
+                console.log('  ✓', m.id, m.title);
+              } catch (e) {
+                console.error('  ✗', m.id, e.message);
+                out[m.id] = { details: null, credits: null, videos: null, error: e.message };
+              }
+            }));
+            fs.writeFileSync('details.json', JSON.stringify(out));
+          "
+          DCNT=$(node -e "console.log(Object.keys(JSON.parse(require('fs').readFileSync('details.json','utf8'))).length)")
+          echo "Fetched details for ${DCNT} movies."
+
           NOW_JSON=$(cat now_playing.json)
-          rm now_playing.json
+          DETAILS_JSON=$(cat details.json)
+          rm now_playing.json details.json
 
           mkdir -p data
           node scripts/build-movies-json.mjs \
             --genres "$GENRES_JSON" \
             --trending "$NOW_JSON" \
+            --details "$DETAILS_JSON" \
             --out data/movies.json
 
           echo "Wrote data/movies.json:"
-          head -c 400 data/movies.json && echo "..."
+          head -c 800 data/movies.json && echo "..."
 
       - name: Commit and push
         run: |
@@ -78,6 +120,6 @@ jobs:
             echo "No changes to data/movies.json."
           else
             git add data/movies.json
-            git commit -m "chore(data): refresh China now-playing movies"
+            git commit -m "chore(data): refresh China now-playing movies with details"
             git push
           fi

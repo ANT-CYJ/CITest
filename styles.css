@@ -423,7 +423,7 @@ a { color: inherit; text-decoration: none; }
   background: var(--bg-1);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  max-width: 520px;
+  max-width: 640px;
   width: 100%;
   max-height: 90vh;
   overflow: auto;
@@ -438,75 +438,375 @@ a { color: inherit; text-decoration: none; }
   to { transform: scale(1); opacity: 1; }
 }
 
-.modal-close {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--text-0);
-  border: 1px solid var(--line);
-  cursor: pointer;
-  font-size: 20px;
-  line-height: 1;
-  z-index: 2;
-  font-family: inherit;
-}
-
-.modal-close:hover { background: var(--accent); }
-
-.modal-poster {
-  aspect-ratio: 16 / 9;
-  display: grid;
-  place-items: center;
-  font-size: 80px;
-  color: rgba(255, 255, 255, 0.45);
-  background-size: cover;
-  background-position: center;
+/* ----- Hero 区域:背景图 + 海报 + 标题 ----- */
+.modal-hero {
   position: relative;
+  min-height: 220px;
+  background: linear-gradient(135deg, #1a1d28 0%, #0f1218 100%);
   overflow: hidden;
 }
 
-.modal-poster-img {
+.modal-backdrop-slot {
   position: absolute;
   inset: 0;
+}
+
+.modal-backdrop-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-  background-color: var(--bg-3);
+  filter: blur(2px) saturate(110%);
+  transform: scale(1.05);
   display: block;
 }
 
-.modal-body {
-  padding: 22px 24px 26px;
+.modal-backdrop-fallback {
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255, 94, 91, 0.18), transparent 50%),
+    radial-gradient(circle at 70% 70%, rgba(139, 92, 246, 0.18), transparent 50%);
 }
 
-.modal-body h3 {
-  margin: 0 0 6px;
+.modal-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(11, 13, 18, 0.2) 0%, rgba(11, 13, 18, 0.85) 70%, var(--bg-1) 100%),
+    linear-gradient(90deg, rgba(11, 13, 18, 0.6) 0%, transparent 60%);
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--text-0);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
   font-size: 22px;
-  font-weight: 700;
+  line-height: 1;
+  z-index: 3;
+  font-family: inherit;
+  backdrop-filter: blur(6px);
 }
 
-.modal-meta {
-  margin: 0 0 14px;
+.modal-close:hover { background: var(--accent); border-color: transparent; }
+
+.modal-hero-content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 18px;
+  padding: 80px 22px 22px;
+  align-items: end;
+}
+
+.modal-poster-slot {
+  width: 110px;
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.7);
+  background: var(--bg-3);
+}
+
+.modal-poster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.modal-hero-text { min-width: 0; }
+
+.modal-hero-text h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.modal-original {
+  margin: 0 0 12px;
   color: var(--text-2);
   font-size: 13px;
+  font-style: italic;
 }
 
-.modal-desc {
-  margin: 0 0 16px;
-  color: var(--text-1);
-  font-size: 14.5px;
-  line-height: 1.7;
-}
-
-.modal-tags {
+.modal-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+}
+
+.pill {
+  font-size: 11.5px;
+  color: var(--text-0);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 3px 10px;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+
+/* ----- Body 内容区 ----- */
+.modal-body {
+  padding: 22px 24px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.modal-section h4 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.modal-section h4::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 12px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  border-radius: 2px;
+  margin-right: 8px;
+  vertical-align: -1px;
+}
+
+/* 评分圆环 + tagline */
+.modal-score-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.score-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.score-circle::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  background: var(--bg-1);
+}
+
+.score-circle-inner {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.score-circle-inner strong {
+  font-size: 22px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-2), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.score-circle-inner small {
+  font-size: 10px;
+  color: var(--text-2);
+  margin-top: 2px;
+}
+
+.modal-score-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.modal-vote {
+  display: block;
+  color: var(--text-2);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.modal-tagline {
+  margin: 0;
+  color: var(--text-1);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* 简介 */
+.modal-desc {
+  margin: 0;
+  color: var(--text-1);
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+
+/* 导演 & 主演 */
+.modal-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 14px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+.person img,
+.person .avatar-fallback {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bg-3);
+  border: 2px solid var(--line);
+}
+
+.person .avatar-fallback {
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-1);
+  background: linear-gradient(135deg, var(--bg-2), var(--bg-3));
+}
+
+.person-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.person-meta strong {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-0);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 110px;
+}
+
+.person-meta small {
+  font-size: 11px;
+  color: var(--text-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 110px;
+}
+
+/* 制作信息 */
+.modal-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal-info li {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+}
+
+.modal-info li:last-child { border-bottom: none; }
+
+.modal-info li > span:first-child {
+  color: var(--text-2);
+}
+
+.modal-info li > span:last-child {
+  color: var(--text-0);
+  text-align: right;
+}
+
+/* 预告片 */
+.modal-trailer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-3);
+}
+
+.modal-trailer iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 跳转按钮 */
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  color: #1a0c0a;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.action-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -8px rgba(255, 94, 91, 0.6);
+}
+
+.action-btn.ghost {
+  background: transparent;
+  color: var(--text-0);
+  border-color: var(--line);
+}
+
+.action-btn.ghost:hover {
+  border-color: var(--accent);
+  background: rgba(255, 94, 91, 0.08);
 }
 
 /* ============ Responsive ============ */
@@ -517,4 +817,15 @@ a { color: inherit; text-decoration: none; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
   .title { font-size: 14.5px; }
   .poster { font-size: 44px; }
+  .modal { padding: 12px; }
+  .modal-hero-content { grid-template-columns: 84px 1fr; gap: 14px; padding: 60px 16px 16px; }
+  .modal-poster-slot { width: 84px; }
+  .modal-hero-text h2 { font-size: 19px; }
+  .modal-body { padding: 18px 16px 22px; gap: 18px; }
+  .modal-people { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; }
+  .person img, .person .avatar-fallback { width: 54px; height: 54px; }
+  .score-circle { width: 64px; height: 64px; }
+  .score-circle-inner strong { font-size: 18px; }
+  .modal-info li { grid-template-columns: 56px 1fr; font-size: 12.5px; }
+  .action-btn { padding: 9px 14px; font-size: 12.5px; flex: 1; justify-content: center; }
 }

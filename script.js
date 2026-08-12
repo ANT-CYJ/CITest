@@ -156,31 +156,206 @@ async function loadMovies() {
 }
 
 // ============ 弹窗 ============
-function openModal(id) {
-  const m = MOVIES.find((x) => String(x.id) === String(id));
-  if (!m) return;
+function formatRuntime(min) {
+  if (!min) return null;
+  const h = Math.floor(min / 60);
+  const r = min % 60;
+  return h > 0 ? `${h} 小时 ${r} 分` : `${r} 分钟`;
+}
+
+function formatDate(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return `${d.getFullYear()} 年 ${d.getMonth() + 1} 月 ${d.getDate()} 日`;
+}
+
+function voteLabel(n) {
+  if (!n) return null;
+  if (n >= 10000) return `${(n / 10000).toFixed(1)} 万人评分`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1)} 千人评分`;
+  return `${n} 人评分`;
+}
+
+function scoreCircle(rating) {
+  if (!rating) return '';
+  // 把 0-10 映射到 0-360 度,作为圆环进度
+  const pct = Math.max(0, Math.min(100, (rating / 10) * 100));
+  const deg = (pct * 3.6).toFixed(1);
+  const color = rating >= 7 ? 'var(--good)' : rating >= 5 ? 'var(--warn)' : 'var(--accent)';
+  return `<div class="score-circle" style="background: conic-gradient(${color} ${deg}deg, rgba(255,255,255,0.12) 0deg);">
+    <div class="score-circle-inner"><strong>${rating.toFixed(1)}</strong><small>/10</small></div>
+  </div>`;
+}
+
+function peopleAvatars(people, withRole = true) {
+  if (!people || people.length === 0) return '';
+  return people.map((p) => {
+    const initial = (p.name || '?')[0]?.toUpperCase() || '?';
+    const avatar = p.profile
+      ? `<img src="${escapeAttr(p.profile)}" alt="${escapeAttr(p.name)}" loading="lazy" data-person-name="${escapeAttr(p.name)}">`
+      : `<div class="avatar-fallback">${escapeHtml(initial)}</div>`;
+    const role = withRole
+      ? `<small>${escapeHtml(p.character || p.role || '')}</small>`
+      : '';
+    return `<div class="person">
+      ${avatar}
+      <div class="person-meta">
+        <strong>${escapeHtml(p.name)}</strong>
+        ${role}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// 给一组 person 头像绑圆形 fallback:头像加载失败时换成首字母
+function bindAvatarFallbacks() {
+  const card = $('#modal').querySelector('.modal-card');
+  if (!card) return;
+  card.querySelectorAll('img[data-person-name]').forEach((img) => {
+    img.addEventListener('error', () => {
+      const name = img.dataset.personName || '?';
+      const initial = (name[0] || '?').toUpperCase();
+      const fb = document.createElement('div');
+      fb.className = 'avatar-fallback';
+      fb.textContent = initial;
+      img.replaceWith(fb);
+    }, { once: true });
+  });
+}
+
+// 渲染详情弹窗
+function renderModal(m) {
   const seed = String(m.id).split('').reduce((s, c) => s + c.charCodeAt(0), 0);
-  if (m.poster) {
-    $('#modalPoster').innerHTML = `<img class="modal-poster-img" src="${escapeAttr(m.poster)}" alt="${escapeAttr(m.title)}" data-fallback="${seed}">`;
-  } else {
-    $('#modalPoster').innerHTML = `<div class="modal-poster-img" style="${posterStyleFor(seed)};display:grid;place-items:center;"><span style="font-size:96px">🎬</span></div>`;
-  }
-  // 弹窗同样接 onerror:CDN 不通时换为占位
-  const modalImg = $('#modalPoster').querySelector('img.modal-poster-img');
+
+  // ----- 顶部 hero:背景图 + 海报 + 标题 -----
+  const fallback = posterFallbackEl(seed);
+  const hero = fallback;
+  const backdrop = m.backdrop
+    ? `<img class="modal-backdrop-img" src="${escapeAttr(m.backdrop)}" alt="${escapeAttr(m.title)} 剧照" loading="lazy">`
+    : (m.poster ? `<img class="modal-backdrop-img" src="${escapeAttr(m.poster)}" alt="${escapeAttr(m.title)}" loading="lazy">` : '');
+  const poster = m.poster
+    ? `<img class="modal-poster-img" src="${escapeAttr(m.poster)}" alt="${escapeAttr(m.title)} 海报" loading="lazy" data-fallback="${seed}">`
+    : '';
+
+  const pills = [
+    m.year || (m.releaseDate ? m.releaseDate.slice(0, 4) : null),
+    formatRuntime(m.runtime),
+    ...((m.genres || []).slice(0, 2))
+  ].filter(Boolean);
+
+  const heroHtml = `
+    <div class="modal-hero">
+      <div class="modal-backdrop-slot">${backdrop || '<div class="modal-backdrop-fallback"></div>'}</div>
+      <div class="modal-hero-overlay"></div>
+      <button class="modal-close" data-close="true" aria-label="关闭">×</button>
+      <div class="modal-hero-content">
+        <div class="modal-poster-slot">${poster || `<div class="modal-poster-img" style="${posterStyleFor(seed)};display:grid;place-items:center;"><span style="font-size:80px">🎬</span></div>`}</div>
+        <div class="modal-hero-text">
+          <h2 id="modalTitle">${escapeHtml(m.title)}</h2>
+          ${m.originalTitle && m.originalTitle !== m.title ? `<p class="modal-original">${escapeHtml(m.originalTitle)}</p>` : ''}
+          <div class="modal-pills">${pills.map((p) => `<span class="pill">${escapeHtml(p)}</span>`).join('')}</div>
+        </div>
+      </div>
+    </div>`;
+
+  // ----- 评分 + tagline -----
+  const voteText = voteLabel(m.voteCount);
+  const tagline = m.tagline ? `<p class="modal-tagline">"${escapeHtml(m.tagline)}"</p>` : '';
+  const scoreHtml = (m.rating || voteText) ? `
+    <div class="modal-score-row">
+      ${m.rating ? scoreCircle(m.rating) : ''}
+      <div class="modal-score-meta">
+        ${voteText ? `<small class="modal-vote">${escapeHtml(voteText)}</small>` : ''}
+        ${tagline}
+      </div>
+    </div>` : '';
+
+  // ----- 简介 -----
+  const overviewHtml = m.overview ? `
+    <section class="modal-section">
+      <h4>剧情简介</h4>
+      <p class="modal-desc">${escapeHtml(m.overview)}</p>
+    </section>` : '';
+
+  // ----- 导演 + 主演 -----
+  const director = m.director ? { name: m.director.name, role: '导演' } : null;
+  const cast = (m.cast || []).slice(0, 6).map((c) => ({ name: c.name, role: c.character, profile: c.profile }));
+  const people = [director, ...cast].filter(Boolean);
+  const peopleHtml = people.length ? `
+    <section class="modal-section">
+      <h4>导演 & 主演</h4>
+      <div class="modal-people">${peopleAvatars(people)}</div>
+    </section>` : '';
+
+  // ----- 制作信息 -----
+  const infoRows = [
+    m.genres?.length && ['类型', m.genres.join(' / ')],
+    m.runtime && ['时长', formatRuntime(m.runtime)],
+    (m.releaseDate || m.year) && ['上映', formatDate(m.releaseDate) || m.year],
+    m.status && ['状态', m.status],
+    m.productionCompanies?.length && ['制作', m.productionCompanies.join(' · ')],
+    m.originalLanguage && ['语言', m.originalLanguage.toUpperCase()],
+  ].filter(Boolean);
+  const infoHtml = infoRows.length ? `
+    <section class="modal-section">
+      <h4>制作信息</h4>
+      <ul class="modal-info">
+        ${infoRows.map(([k, v]) => `<li><span>${escapeHtml(k)}</span><span>${escapeHtml(v)}</span></li>`).join('')}
+      </ul>
+    </section>` : '';
+
+  // ----- 预告片 -----
+  const trailer = m.trailer;
+  const trailerHtml = trailer ? `
+    <section class="modal-section">
+      <h4>预告片 · ${escapeHtml(trailer.name || 'Trailer')}</h4>
+      <div class="modal-trailer">
+        <iframe src="https://www.youtube-nocookie.com/embed/${escapeAttr(trailer.key)}?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>` : '';
+
+  // ----- 跳转链接 -----
+  const tmdbUrl = `https://www.themoviedb.org/movie/${m.id}`;
+  const ytSearch = `https://www.youtube.com/results?search_query=${encodeURIComponent((m.originalTitle || m.title) + ' 预告片')}`;
+  const actionsHtml = `
+    <div class="modal-actions">
+      <a class="action-btn" target="_blank" rel="noopener" href="${escapeAttr(ytSearch)}">▶ 在 YouTube 搜索</a>
+      <a class="action-btn ghost" target="_blank" rel="noopener" href="${escapeAttr(tmdbUrl)}">在 TMDb 查看 →</a>
+    </div>`;
+
+  // 拼到 modal 里
+  const card = $('#modal').querySelector('.modal-card');
+  card.innerHTML = heroHtml + `
+    <div class="modal-body">
+      ${scoreHtml}
+      ${overviewHtml}
+      ${peopleHtml}
+      ${infoHtml}
+      ${trailerHtml}
+      ${actionsHtml}
+    </div>`;
+
+  // 海报加载失败兜底
+  const modalImg = card.querySelector('img.modal-poster-img');
   if (modalImg) {
     modalImg.addEventListener('error', () => {
       modalImg.replaceWith(posterFallbackEl(seed));
     }, { once: true });
   }
-  $('#modalTitle').textContent = m.title;
-  const meta = [
-    m.year || '—',
-    m.rating ? '★ ' + m.rating.toFixed(1) : null,
-    m.originalTitle && m.originalTitle !== m.title ? m.originalTitle : null,
-  ].filter(Boolean).join(' · ');
-  $('#modalMeta').textContent = meta || '—';
-  $('#modalDesc').textContent = m.overview || '暂无简介。';
-  $('#modalTags').innerHTML = (m.genres || []).map((g) => `<span class="tag">${escapeHtml(g)}</span>`).join('');
+  const backdropImg = card.querySelector('.modal-backdrop-img');
+  if (backdropImg) {
+    backdropImg.addEventListener('error', () => {
+      backdropImg.style.display = 'none';
+    }, { once: true });
+  }
+  bindAvatarFallbacks();
+}
+
+function openModal(id) {
+  const m = MOVIES.find((x) => String(x.id) === String(id));
+  if (!m) return;
+  renderModal(m);
   $('#modal').classList.add('is-open');
   $('#modal').setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
@@ -190,6 +365,9 @@ function closeModal() {
   $('#modal').classList.remove('is-open');
   $('#modal').setAttribute('aria-hidden', 'true');
   document.body.style.overflow = '';
+  // 停止播放 YouTube(iframe 被销毁即可)
+  const card = $('#modal').querySelector('.modal-card');
+  if (card) card.innerHTML = '';
 }
 
 // ============ 事件 ============
