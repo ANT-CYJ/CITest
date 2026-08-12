@@ -1,4 +1,4 @@
-name: Refresh weekly trending movies
+name: Refresh China box-office movies
 
 on:
   # 每周一北京时间上午 9 点跑(UTC 01:00)
@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch trending + genres from TMDb
+      - name: Fetch now-playing + genres from TMDb (CN)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
@@ -35,21 +35,36 @@ jobs:
 
           BASE="https://api.themoviedb.org/3"
           LANG="zh-CN"
-          WEEK="week"
+          REGION="CN"
 
           echo "Fetching genre list..."
           GENRES_JSON=$(curl -fsSL "${BASE}/genre/movie/list?api_key=${TMDB_API_KEY}&language=${LANG}")
           echo "$GENRES_JSON" | head -c 200 && echo "..."
 
-          echo "Fetching weekly trending movies..."
-          TRENDING_JSON=$(curl -fsSL "${BASE}/trending/movie/${WEEK}?api_key=${TMDB_API_KEY}&language=${LANG}")
-          COUNT=$(echo "$TRENDING_JSON" | node -e "let s='';process.stdin.on('data',c=>s+=c).on('end',()=>{const j=JSON.parse(s);console.log((j.results||[]).length)})")
+          echo "Fetching now-playing movies in China (page 1-2)..."
+          NOW1=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=1")
+          NOW2=$(curl -fsSL "${BASE}/movie/now_playing?api_key=${TMDB_API_KEY}&language=${LANG}&region=${REGION}&page=2")
+          # 合并两页 results,用 node 一次性写文件避免 shell 转义噩梦
+          node -e "
+            const fs = require('fs');
+            const a = JSON.parse(process.argv[1]);
+            const b = JSON.parse(process.argv[2]);
+            const seen = new Set();
+            const merged = [];
+            for (const m of [...(a.results||[]), ...(b.results||[])]) {
+              if (!seen.has(m.id)) { seen.add(m.id); merged.push(m); }
+            }
+            process.stdout.write(JSON.stringify({ results: merged.slice(0, 40) }));
+          " "$NOW1" "$NOW2" > now_playing.json
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('now_playing.json','utf8')).results.length)")
           echo "Got ${COUNT} movies."
+          NOW_JSON=$(cat now_playing.json)
+          rm now_playing.json
 
           mkdir -p data
           node scripts/build-movies-json.mjs \
             --genres "$GENRES_JSON" \
-            --trending "$TRENDING_JSON" \
+            --trending "$NOW_JSON" \
             --out data/movies.json
 
           echo "Wrote data/movies.json:"
@@ -63,6 +78,6 @@ jobs:
             echo "No changes to data/movies.json."
           else
             git add data/movies.json
-            git commit -m "chore(data): refresh weekly trending movies"
+            git commit -m "chore(data): refresh China now-playing movies"
             git push
           fi

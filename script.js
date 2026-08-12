@@ -1,10 +1,10 @@
-// 本周热门电影
-// 数据来源:TMDb trending/movie/week,每周一由 GitHub Actions 抓取并写入 data/movies.json
+// 中国大陆本周院线热门
+// 数据来源:TMDb movie/now_playing?region=CN,每周一由 GitHub Actions 抓取并写入 data/movies.json
 // 如果 JSON 加载失败(尚未生成、网络异常),回退到内置兜底数据,保证页面不白屏
 
 // ============ 兜底数据(数据未刷新时使用) ============
 const FALLBACK_MOVIES = [
-  { id: 'fb-1', title: '示例:数据加载中', year: 2025, rating: 0, genres: [], overview: 'GitHub Actions 还没生成首份数据,或本周 trending 接口暂不可用。等下一次定时任务跑完刷新即可。' },
+  { id: 'fb-1', title: '示例:数据加载中', year: 2025, rating: 0, genres: [], overview: 'GitHub Actions 还没生成首份数据,或本周 TMDb 接口暂不可用。等下一次定时任务跑完刷新即可。' },
 ];
 
 // ============ 渲染 ============
@@ -31,10 +31,9 @@ function renderStats(movies) {
   const rated = movies.filter((m) => m.rating);
   const avg = rated.length ? (rated.reduce((s, m) => s + m.rating, 0) / rated.length).toFixed(1) : '—';
   $('#movieCount').textContent = movies.length;
+  // statsStrong[2] 由 HTML 静态写「CN」地区标签,这里不动
   const statsStrong = document.querySelectorAll('.hero-stats strong');
   statsStrong[1].textContent = avg;
-  // 票房字段在新数据源里没有,展示平均评分 + 数据生成时间更实在
-  statsStrong[2].textContent = movies.length ? 'TMDb' : '—';
 }
 
 // 把 TMDb genre 名映射到 chip key
@@ -70,21 +69,11 @@ function posterStyleFor(seed) {
   return `background: linear-gradient(135deg, ${a} 0%, ${b} 100%);`;
 }
 
-function posterMarkup(m, seed) {
+function posterInner(m, seed) {
   if (m.poster) {
-    return `
-      <div class="poster-img" style="background-image:url('${m.poster}');${posterStyleFor(seed)}"></div>
-      <span class="rank-badge">#${seed + 1}</span>
-      <span class="rating-badge">${m.rating ? '★ ' + m.rating.toFixed(1) : 'NEW'}</span>
-    `;
+    return `<div class="poster-img" style="background-image:url('${m.poster}');${posterStyleFor(seed)}"></div>`;
   }
-  return `
-    <div class="poster-fallback" style="${posterStyleFor(seed)}">
-      <span class="rank-badge">#${seed + 1}</span>
-      <span class="rating-badge">${m.rating ? '★ ' + m.rating.toFixed(1) : 'NEW'}</span>
-      <span>🎬</span>
-    </div>
-  `;
+  return `<div class="poster-fallback" style="${posterStyleFor(seed)}"><span>🎬</span></div>`;
 }
 
 function renderMovies(movies, filter = 'all') {
@@ -99,7 +88,11 @@ function renderMovies(movies, filter = 'all') {
     .map(
       (m, i) => `
       <article class="card" data-id="${m.id}" tabindex="0" role="button" aria-label="查看 ${m.title} 详情">
-        ${posterMarkup(m, i)}
+        <div class="poster">
+          ${posterInner(m, i)}
+          <span class="rank-badge">#${i + 1}</span>
+          <span class="rating-badge">${m.rating ? '★ ' + m.rating.toFixed(1) : 'NEW'}</span>
+        </div>
         <div class="body">
           <h3 class="title">${escapeHtml(m.title)}</h3>
           <p class="meta">${m.year || '—'}${m.genres?.length ? ' · ' + m.genres.slice(0, 2).join(' / ') : ''}</p>
