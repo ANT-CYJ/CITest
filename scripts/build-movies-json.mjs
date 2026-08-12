@@ -42,7 +42,7 @@ writeFileSync(
   JSON.stringify(
     {
       generatedAt: new Date().toISOString(),
-      source: 'TMDb trending/movie/week',
+      source: 'TMDb movie/now_playing?region=CN',
       movies,
     },
     null,

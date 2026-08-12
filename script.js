@@ -69,10 +69,20 @@ function posterStyleFor(seed) {
   return `background: linear-gradient(135deg, ${a} 0%, ${b} 100%);`;
 }
 
+function posterFallbackEl(seed) {
+  const el = document.createElement('div');
+  el.className = 'poster-fallback';
+  el.style.cssText = posterStyleFor(seed);
+  el.innerHTML = '<span>🎬</span>';
+  return el;
+}
+
+// 海报 URL 进 <img>,这样 CDN 失败才会触发原生 error 事件 —— 用 background-image 不会触发
 function posterInner(m, seed) {
   if (m.poster) {
-    return `<div class="poster-img" style="background-image:url('${m.poster}');${posterStyleFor(seed)}" data-fallback="${seed}"></div>`;
+    return `<img class="poster-img" src="${escapeAttr(m.poster)}" alt="${escapeAttr(m.title)}" loading="lazy" data-fallback="${seed}">`;
   }
+  // 没有 poster 字段直接走 fallback,不用浪费一次 img 请求
   return `<div class="poster-fallback" style="${posterStyleFor(seed)}"><span>🎬</span></div>`;
 }
 
@@ -80,13 +90,9 @@ function posterInner(m, seed) {
 function bindPosterFallback() {
   $('#movieGrid').addEventListener('error', (e) => {
     const t = e.target;
-    if (t && t.classList && t.classList.contains('poster-img')) {
+    if (t && t.tagName === 'IMG' && t.classList && t.classList.contains('poster-img')) {
       const seed = Number(t.dataset.fallback || 0);
-      const fallback = document.createElement('div');
-      fallback.className = 'poster-fallback';
-      fallback.style.cssText = posterStyleFor(seed);
-      fallback.innerHTML = '<span>🎬</span>';
-      t.replaceWith(fallback);
+      t.replaceWith(posterFallbackEl(seed));
     }
   }, true);
 }
@@ -124,6 +130,10 @@ function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+function escapeAttr(s) {
+  return escapeHtml(s);
+}
+
 // ============ 数据加载 ============
 let MOVIES = [];
 
@@ -150,13 +160,18 @@ function openModal(id) {
   const m = MOVIES.find((x) => String(x.id) === String(id));
   if (!m) return;
   const seed = String(m.id).split('').reduce((s, c) => s + c.charCodeAt(0), 0);
-  const posterBg = m.poster
-    ? `background-image:url('${m.poster}');${posterStyleFor(seed)}`
-    : posterStyleFor(seed);
-  $('#modalPoster').innerHTML = `
-    <div class="modal-poster-img" style="${posterBg}">
-      ${!m.poster ? '<span style="font-size:96px">🎬</span>' : ''}
-    </div>`;
+  if (m.poster) {
+    $('#modalPoster').innerHTML = `<img class="modal-poster-img" src="${escapeAttr(m.poster)}" alt="${escapeAttr(m.title)}" data-fallback="${seed}">`;
+  } else {
+    $('#modalPoster').innerHTML = `<div class="modal-poster-img" style="${posterStyleFor(seed)};display:grid;place-items:center;"><span style="font-size:96px">🎬</span></div>`;
+  }
+  // 弹窗同样接 onerror:CDN 不通时换为占位
+  const modalImg = $('#modalPoster').querySelector('img.modal-poster-img');
+  if (modalImg) {
+    modalImg.addEventListener('error', () => {
+      modalImg.replaceWith(posterFallbackEl(seed));
+    }, { once: true });
+  }
   $('#modalTitle').textContent = m.title;
   const meta = [
     m.year || '—',
