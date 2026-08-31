@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:14:04.734Z",
+  "generatedAt": "2026-08-31T06:19:22.905Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
     {
@@ -9,7 +9,7 @@
       "year": 2026,
       "releaseDate": "2026-07-29",
       "rating": 7.9,
-      "voteCount": 2092,
+      "voteCount": 2290,
       "overview": "重建普通生活后，彼得一边在大学完成学业、一边从事兼职以维持生计，同时仍肩负着守护纽约街头的蜘蛛侠责任。然而，当一个神秘力量从内部腐蚀这座城市的安全与秩序，彼得被迫再次披上战衣。他必须在强大的敌人与昔日纽带之间找到平衡，并重新定义英雄的意义。",
       "poster": "https://image.tmdb.org/t/p/w500/7AjIupf0lxNKNq0p8z36jv5ZpiJ.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
@@ -55,7 +55,7 @@
           "id": 19498,
           "name": "乔·博恩瑟",
           "character": "Frank Castle / Punisher",
-          "profile": "https://image.tmdb.org/t/p/w185/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg"
+          "profile": "https://image.tmdb.org/t/p/w185/aSH27tGD4PJoCO54RQnARSSSIQy.jpg"
         },
         {
           "id": 1649152,
@@ -79,7 +79,7 @@
           "id": 59693,
           "name": "丽莎·科伦-萨亚斯",
           "character": "Detective Jean DeWolff",
-          "profile": "https://image.tmdb.org/t/p/w185/qBb5eYEoZAlStrRXvsFlKukKJG8.jpg"
+          "profile": "https://image.tmdb.org/t/p/w185/q2gHcef0wckji0AS8ZEO6cYx065.jpg"
         }
       ],
       "trailer": null
@@ -91,7 +91,7 @@
       "year": 2026,
       "releaseDate": "2026-08-01",
       "rating": 8,
-      "voteCount": 3116,
+      "voteCount": 3341,
       "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
       "poster": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg",
@@ -165,15 +165,95 @@
       "trailer": null
     },
     {
+      "id": 1213243,
+      "title": "毒：成人童话",
+      "originalTitle": "ಟಾಕ್ಸಿಕ್",
+      "year": 2026,
+      "releaseDate": "2026-08-26",
+      "rating": 6.8,
+      "voteCount": 30,
+      "overview": "",
+      "poster": "https://image.tmdb.org/t/p/w500/uPDutjavZO22SbIngBezk173vSb.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg",
+      "genres": [
+        "动作",
+        "犯罪",
+        "剧情"
+      ],
+      "runtime": 195,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "kn",
+      "productionCompanies": [
+        "KVN Productions",
+        "Monster Mind Creations"
+      ],
+      "director": {
+        "id": 237715,
+        "name": "吉图·莫罕达斯"
+      },
+      "cast": [
+        {
+          "id": 1293681,
+          "name": "亚什",
+          "character": "Raya / Ticket",
+          "profile": "https://image.tmdb.org/t/p/w185/ixHvgN8hGh8YgWd3j9RqUATvBiy.jpg"
+        },
+        {
+          "id": 1340978,
+          "name": "伽罗·阿德瓦尼",
+          "character": "Nadia",
+          "profile": "https://image.tmdb.org/t/p/w185/2xmU03a6kTWUvuTPMdofiFLxdAw.jpg"
+        },
+        {
+          "id": 91548,
+          "name": "纳扬塔拉",
+          "character": "Ganga",
+          "profile": "https://image.tmdb.org/t/p/w185/sYUzvjsSsqeOgBblSzda6ZwwbEa.jpg"
+        },
+        {
+          "id": 1108805,
+          "name": "胡玛·库雷希",
+          "character": "Elizabeth",
+          "profile": "https://image.tmdb.org/t/p/w185/nJWauZQdRjMJxwY3UP4SXrqh9CM.jpg"
+        },
+        {
+          "id": 2030881,
+          "name": "塔拉·蘇塔里亞",
+          "character": "Rebecca",
+          "profile": "https://image.tmdb.org/t/p/w185/eNUEGt4Z2I8Ni4km4a7IYlZCcME.jpg"
+        },
+        {
+          "id": 2252714,
+          "name": "Rukmini Vasanth",
+          "character": "Mellisa",
+          "profile": "https://image.tmdb.org/t/p/w185/sQrlyh8YSnqFKsZ80E0HUWtx7Um.jpg"
+        },
+        {
+          "id": 1544619,
+          "name": "Sudev Nair",
+          "character": "Karmadi",
+          "profile": "https://image.tmdb.org/t/p/w185/6x111KVuthpPOGJYTvdXLmh3J3p.jpg"
+        },
+        {
+          "id": 1342538,
+          "name": "Akshay Oberoi",
+          "character": "Tony",
+          "profile": "https://image.tmdb.org/t/p/w185/dsFqDJzSzUiKZpicmj05Iv1YbOs.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
       "id": 1339713,
       "title": "痴迷",
       "originalTitle": "Obsession",
       "year": 2026,
       "releaseDate": "2026-07-24",
       "rating": 8.2,
-      "voteCount": 4973,
+      "voteCount": 5175,
       "overview": "在折断神秘的“心愿柳”以赢得暗恋对象的心之后，一个对爱情充满幻想的人如愿以偿地得到了自己想要的一切，但很快他发现，有些欲望需要付出黑暗而可怕的代价。",
-      "poster": "https://image.tmdb.org/t/p/w500/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/32HbiLe4AWBqsM7WrYEYpL3oHmS.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
       "genres": [
         "恐怖",
@@ -204,7 +284,7 @@
           "id": 2638587,
           "name": "英迪·納瓦瑞特",
           "character": "Nikki",
-          "profile": "https://image.tmdb.org/t/p/w185/8mYBaOximzwBgXOYRzbS6eUnoMX.jpg"
+          "profile": "https://image.tmdb.org/t/p/w185/qlNBUGON8FebgzcqVhhRSVFYSa5.jpg"
         },
         {
           "id": 2823609,
@@ -251,10 +331,10 @@
       "originalTitle": "The End of Oak Street",
       "year": 2026,
       "releaseDate": "2026-08-14",
-      "rating": 6.4,
-      "voteCount": 326,
+      "rating": 6.3,
+      "voteCount": 414,
       "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster": "https://image.tmdb.org/t/p/w500/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/a3rWaD4nbPlJ6kSOMO26j8fKS8a.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
       "genres": [
         "科幻",
@@ -280,7 +360,7 @@
           "id": 1813,
           "name": "安妮·海瑟薇",
           "character": "Denise Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/bWjGahMMHkFIhYBXzqBN4WREeyl.jpg"
+          "profile": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
         },
         {
           "id": 3061,
@@ -328,13 +408,250 @@
       "trailer": null
     },
     {
+      "id": 278,
+      "title": "肖申克的救赎",
+      "originalTitle": "The Shawshank Redemption",
+      "year": 2026,
+      "releaseDate": "2026-08-28",
+      "rating": 8.7,
+      "voteCount": 31176,
+      "overview": "安迪·杜佛兰因被错判谋杀妻子及其情人，被判处两项无期徒刑，送入缅因州的肖申克监狱服刑。在残酷而压抑的监狱生活中，安迪凭借冷静、智慧和始终未曾熄灭的希望逐渐赢得狱友们的尊重，并与瑞德建立起深厚的友谊。漫长的岁月里，他也开始用自己的方式改变身边的人，以及这座看似牢不可破的监狱。",
+      "poster": "https://image.tmdb.org/t/p/w500/iKZev9OgfklidO8AvdrYlwung2o.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "runtime": 142,
+      "tagline": "恐惧会将你囚禁，希望则能让你获得自由。",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Castle Rock Entertainment"
+      ],
+      "director": {
+        "id": 4027,
+        "name": "弗兰克·德拉邦特"
+      },
+      "cast": [
+        {
+          "id": 504,
+          "name": "蒂姆·罗宾斯",
+          "character": "Andy Dufresne",
+          "profile": "https://image.tmdb.org/t/p/w185/3FfJMIVwXgsIXbAT8ECBSZJAncR.jpg"
+        },
+        {
+          "id": 192,
+          "name": "摩根·弗里曼",
+          "character": "Ellis Boyd 'Red' Redding",
+          "profile": "https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+        },
+        {
+          "id": 4029,
+          "name": "鲍勃·冈顿",
+          "character": "Warden Norton",
+          "profile": "https://image.tmdb.org/t/p/w185/ulbVvuBToBN3aCGcV028hwO0MOP.jpg"
+        },
+        {
+          "id": 6573,
+          "name": "威廉姆·赛德勒",
+          "character": "Heywood",
+          "profile": "https://image.tmdb.org/t/p/w185/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg"
+        },
+        {
+          "id": 6574,
+          "name": "克兰西·布朗",
+          "character": "Captain Byron T. Hadley",
+          "profile": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg"
+        },
+        {
+          "id": 6575,
+          "name": "吉尔·贝罗斯",
+          "character": "Tommy",
+          "profile": "https://image.tmdb.org/t/p/w185/eCOIv2nSGnWTHdn88NoMyNOKWyR.jpg"
+        },
+        {
+          "id": 6577,
+          "name": "小詹姆斯·艾伦·惠特莫尔",
+          "character": "Brooks Hatlen",
+          "profile": "https://image.tmdb.org/t/p/w185/nYMAbkfwFIgKK84vnLoQctI6vHg.jpg"
+        },
+        {
+          "id": 6576,
+          "name": "马克·罗斯顿",
+          "character": "Bogs Diamond",
+          "profile": "https://image.tmdb.org/t/p/w185/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 10681,
+      "title": "机器人总动员",
+      "originalTitle": "WALL·E",
+      "year": 2026,
+      "releaseDate": "2026-08-15",
+      "rating": 8.1,
+      "voteCount": 20755,
+      "overview": "公元 2700 年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长无边的宇宙之旅。临行前他们委托 Buynlarge 的公司对地球垃圾进行清理，该公司开发了名为 WALL·E（地球废品分装员的缩写）的机器人担当此重任。 这些机器人按照程序日复一日、年复一年辛勤工作，但随着时间的流逝和恶劣环境的侵蚀，WALL·E 们接连损坏、停止运动。最后只有一个仍在进行这项似乎永无止境的工作。经历了漫长的岁月，它开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活…",
+      "poster": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/nYs4ZwnJBK4AgljhvzwNz7fpr3E.jpg",
+      "genres": [
+        "动画",
+        "家庭",
+        "科幻"
+      ],
+      "runtime": 98,
+      "tagline": "一个超越“平凡”的冒险",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Pixar"
+      ],
+      "director": {
+        "id": 7,
+        "name": "安德鲁·斯坦顿"
+      },
+      "cast": [
+        {
+          "id": 670,
+          "name": "本·贝尔特",
+          "character": "WALL·E / M-O (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/7asFDWjls2bYQSfXJf5StjXmlhI.jpg"
+        },
+        {
+          "id": 72754,
+          "name": "艾丽莎·奈特",
+          "character": "EVE (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/exRLyaNaHcgawQA0DoBxo5IvdoI.jpg"
+        },
+        {
+          "id": 60074,
+          "name": "杰夫·格尔林",
+          "character": "Captain (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg"
+        },
+        {
+          "id": 20753,
+          "name": "佛莱德·威拉特",
+          "character": "Shelby Forthright, BnL CEO",
+          "profile": "https://image.tmdb.org/t/p/w185/AaHxpkee9nQfBpQeDyJLoPNtYR6.jpg"
+        },
+        {
+          "id": 7907,
+          "name": "约翰·拉岑伯格",
+          "character": "John (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
+        },
+        {
+          "id": 11074,
+          "name": "凯茜·纳基麦",
+          "character": "Mary (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg"
+        },
+        {
+          "id": 10205,
+          "name": "西格妮·韦弗",
+          "character": "Ship's Computer (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
+        },
+        {
+          "id": 24358,
+          "name": "洛瑞·艾伦",
+          "character": "Additional Voices (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/cavATg4fX0zAl2MHwlt1IZei7EI.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 1101412,
+      "title": "坠落2：死点",
+      "originalTitle": "Fall 2: Deadpoint",
+      "year": 2026,
+      "releaseDate": "2026-09-01",
+      "rating": 5.6,
+      "voteCount": 5,
+      "overview": "痛失姐妹汉特之后，杰克斯与汉特那无畏的好友露斯再度重聚。为了抚平内心的伤痛，两人结伴前往泰国著名的坤山山脉徒步疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的3000英尺高空栈道上。面对死神的威胁，杰克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
+      "poster": "https://image.tmdb.org/t/p/w500/zLYltuy90xdkrHM9RVNqIPDrcuI.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/g4wdPZlhVioK69H8Q0o9Id5QhNs.jpg",
+      "genres": [
+        "惊悚"
+      ],
+      "runtime": 98,
+      "tagline": "别往下看！",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Tea Shop Productions",
+        "Capstone Pictures",
+        "Flawless Production",
+        "Cousin Jones"
+      ],
+      "director": {
+        "id": 56502,
+        "name": "彼得·斯派瑞"
+      },
+      "cast": [
+        {
+          "id": 2480853,
+          "name": "哈里特·斯莱特",
+          "character": "Jax",
+          "profile": "https://image.tmdb.org/t/p/w185/9BJxdhi4tuiQdgT8bfDuiPipnsx.jpg"
+        },
+        {
+          "id": 3486664,
+          "name": "Arsema Thomas",
+          "character": "Luce",
+          "profile": "https://image.tmdb.org/t/p/w185/gIsQlGmik9KYbJ086QgFTpvPAUP.jpg"
+        },
+        {
+          "id": 1626604,
+          "name": "汤姆·布里特尼",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
+        },
+        {
+          "id": 4730009,
+          "name": "Einar Haraldsson",
+          "character": "Joe",
+          "profile": "https://image.tmdb.org/t/p/w185/fj6fMfpn1ROaMNhS2UUuHLuoGSi.jpg"
+        },
+        {
+          "id": 2425569,
+          "name": "Juju Journey Brener",
+          "character": "Young Jax",
+          "profile": "https://image.tmdb.org/t/p/w185/huLe5YUe2ks6mmg1MUA1MGLwqV7.jpg"
+        },
+        {
+          "id": 3698000,
+          "name": "Jordan Coleman",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/57FrMe016RyMHm8WDL2mK7P0bmS.jpg"
+        },
+        {
+          "id": 2978112,
+          "name": "Alexandra Bartlett",
+          "character": "Nearby Climber",
+          "profile": null
+        },
+        {
+          "id": 2675970,
+          "name": "Andrey Kasushkin",
+          "character": "Smuggler",
+          "profile": null
+        }
+      ],
+      "trailer": null
+    },
+    {
       "id": 1185806,
       "title": "汪汪队立大功大电影3：勇闯恐龙岛",
       "originalTitle": "PAW Patrol: The Dino Movie",
       "year": 2026,
       "releaseDate": "2026-07-25",
-      "rating": 7.2,
-      "voteCount": 37,
+      "rating": 7.1,
+      "voteCount": 41,
       "overview": "一场突如其来的超强风暴，将莱德队长与汪汪队意外带到神秘恐龙岛，还邂逅了被困荒岛的新朋友小狗乐乐。与此同时，宿敌海丁那市长大肆采矿，不慎唤醒沉睡火山！岩浆喷涌、岛屿崩塌，恐龙岛陷入巨大危机。面对这场规模空前的惊险灾难，勇敢的汪汪队绝不退缩！狗狗们携手恐龙并肩作战，能否冲破险境、化解危机，守护恐龙岛？",
       "poster": "https://image.tmdb.org/t/p/w500/v5eNuyj8lj6YYrPBxQfebn7yI1v.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
@@ -411,13 +728,47 @@
       "trailer": null
     },
     {
+      "id": 823219,
+      "title": "猫猫的奇幻漂流",
+      "originalTitle": "Straume",
+      "year": 2025,
+      "releaseDate": "2025-02-28",
+      "rating": 8.1,
+      "voteCount": 3022,
+      "overview": "这是一段关于友谊与生存的动人篇章，将独立动画的创作雄心与想象力推至令人惊叹的高度。这部荣获奥斯卡奖、风靡全球的作品，讲述了一只勇敢的猫在家园被大洪水摧毁后的故事。它与一只水豚、一只狐猴、一只小鸟和一只小狗结伴，共同驾驶小船寻找陆地。在这颗已然化为水世界的星球上，它们必须凭借信任、勇气与智慧渡过重重险境。凭借开源软件与小团队协作，富有远见的独立动画师金茨·齐尔巴洛迪斯营造了一场绝妙的感官之旅，深刻沉思了环境的脆弱与社群精神的真谛。",
+      "poster": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
+      "genres": [
+        "冒险",
+        "动画",
+        "家庭",
+        "奇幻"
+      ],
+      "runtime": 85,
+      "tagline": "只要有猫在，就没什么好怕的！",
+      "status": "Released",
+      "originalLanguage": "lv",
+      "productionCompanies": [
+        "Dream Well Studio",
+        "Sacrebleu Productions",
+        "Take Five",
+        "ARTE France Cinéma"
+      ],
+      "director": {
+        "id": 1328012,
+        "name": "金兹·兹巴洛迪斯"
+      },
+      "cast": [],
+      "trailer": null
+    },
+    {
       "id": 1391021,
       "title": "欢迎来龙餐馆",
       "originalTitle": "欢迎来龙餐馆",
       "year": 2026,
       "releaseDate": "2026-08-08",
-      "rating": 9.3,
-      "voteCount": 19,
+      "rating": 9.1,
+      "voteCount": 22,
       "overview": "徐福为养家还债远赴中东中餐馆当厨师，在当地结识了大堂经理马俊生。他们以地道中国风味广招八方来客，龙餐馆声名鹊起。然而随着战争爆发，当地形势急转直下，没有人能够独善其身，徐福和马俊生也不例外，他们的命运将何去何从？战火中的龙餐馆又将如何维系？",
       "poster": "https://image.tmdb.org/t/p/w500/2OJX7udqqpk5c82pXXdL2hnny0D.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
@@ -426,7 +777,7 @@
         "战争"
       ],
       "runtime": 140,
-      "tagline": null,
+      "tagline": "世事千万，好好吃饭",
       "status": "Released",
       "originalLanguage": "zh",
       "productionCompanies": [
@@ -497,257 +848,24 @@
       }
     },
     {
-      "id": 10681,
-      "title": "机器人总动员",
-      "originalTitle": "WALL·E",
-      "year": 2026,
-      "releaseDate": "2026-08-15",
-      "rating": 8.1,
-      "voteCount": 20717,
-      "overview": "公元 2700 年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长无边的宇宙之旅。临行前他们委托 Buynlarge 的公司对地球垃圾进行清理，该公司开发了名为 WALL·E（地球废品分装员的缩写）的机器人担当此重任。 这些机器人按照程序日复一日、年复一年辛勤工作，但随着时间的流逝和恶劣环境的侵蚀，WALL·E 们接连损坏、停止运动。最后只有一个仍在进行这项似乎永无止境的工作。经历了漫长的岁月，它开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活…",
-      "poster": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/nYs4ZwnJBK4AgljhvzwNz7fpr3E.jpg",
-      "genres": [
-        "动画",
-        "家庭",
-        "科幻"
-      ],
-      "runtime": 98,
-      "tagline": "一个超越“平凡”的冒险",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Pixar"
-      ],
-      "director": {
-        "id": 7,
-        "name": "安德鲁·斯坦顿"
-      },
-      "cast": [
-        {
-          "id": 670,
-          "name": "本·贝尔特",
-          "character": "WALL·E / M-O (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/7asFDWjls2bYQSfXJf5StjXmlhI.jpg"
-        },
-        {
-          "id": 72754,
-          "name": "艾丽莎·奈特",
-          "character": "EVE (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/exRLyaNaHcgawQA0DoBxo5IvdoI.jpg"
-        },
-        {
-          "id": 60074,
-          "name": "杰夫·格尔林",
-          "character": "Captain (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg"
-        },
-        {
-          "id": 20753,
-          "name": "佛莱德·威拉特",
-          "character": "Shelby Forthright, BnL CEO",
-          "profile": "https://image.tmdb.org/t/p/w185/AaHxpkee9nQfBpQeDyJLoPNtYR6.jpg"
-        },
-        {
-          "id": 7907,
-          "name": "约翰·拉岑伯格",
-          "character": "John (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
-        },
-        {
-          "id": 11074,
-          "name": "凯茜·纳基麦",
-          "character": "Mary (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg"
-        },
-        {
-          "id": 10205,
-          "name": "西格妮·韦弗",
-          "character": "Ship's Computer (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
-        },
-        {
-          "id": 24358,
-          "name": "洛瑞·艾伦",
-          "character": "Additional Voices (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/cavATg4fX0zAl2MHwlt1IZei7EI.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 823219,
-      "title": "猫猫的奇幻漂流",
-      "originalTitle": "Straume",
-      "year": 2025,
-      "releaseDate": "2025-02-28",
-      "rating": 8.1,
-      "voteCount": 3006,
-      "overview": "这是一段关于友谊与生存的动人篇章，将独立动画的创作雄心与想象力推至令人惊叹的高度。这部荣获奥斯卡奖、风靡全球的作品，讲述了一只勇敢的猫在家园被大洪水摧毁后的故事。它与一只水豚、一只狐猴、一只小鸟和一只小狗结伴，共同驾驶小船寻找陆地。在这颗已然化为水世界的星球上，它们必须凭借信任、勇气与智慧渡过重重险境。凭借开源软件与小团队协作，富有远见的独立动画师金茨·齐尔巴洛迪斯营造了一场绝妙的感官之旅，深刻沉思了环境的脆弱与社群精神的真谛。",
-      "poster": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/4XPNNt0zfZKBqxxVWaQALd57UHl.jpg",
-      "genres": [
-        "冒险",
-        "动画",
-        "家庭",
-        "奇幻"
-      ],
-      "runtime": 85,
-      "tagline": "只要有猫在，就没什么好怕的！",
-      "status": "Released",
-      "originalLanguage": "lv",
-      "productionCompanies": [
-        "Dream Well Studio",
-        "Sacrebleu Productions",
-        "Take Five",
-        "ARTE France Cinéma"
-      ],
-      "director": {
-        "id": 1328012,
-        "name": "金兹·兹巴洛迪斯"
-      },
-      "cast": [],
-      "trailer": null
-    },
-    {
-      "id": 26466,
-      "title": "恐怖游轮",
-      "originalTitle": "Triangle",
-      "year": 2026,
-      "releaseDate": "2026-07-17",
-      "rating": 6.9,
-      "voteCount": 3097,
-      "overview": "单亲母亲杰西和一帮朋友乘游艇出海游玩，但她总有一种有不好的事情发生的感觉。不久，他们便在海上遭遇一场强烈的风暴。游艇翻船，众人落海，几经挣扎他们好不容易爬到游艇残骸上来。正当他们无计可施之时，一艘巨大的游轮向众人缓缓驶来。众人欣喜过望，未加思索便登上这艘名为“艾俄洛斯”的游轮，结果发现这竟是一艘1930年便告失踪的神秘之船，而船上更是空无一人。随处可见的鲜血、神秘的指示以及突如其来的凶杀事件，将这群男女带入万劫不复的恐怖轮回之中……",
-      "poster": "https://image.tmdb.org/t/p/w500/JPF79YnhjuVP545OLYli4w6gq1.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/rlVpm5r7vZYyU9JHWf9UGOVDo5M.jpg",
-      "genres": [
-        "恐怖"
-      ],
-      "runtime": 99,
-      "tagline": "通往地狱的路",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Dan Films",
-        "Pictures in Paradise",
-        "Icon Productions",
-        "Creative Europe Media"
-      ],
-      "director": {
-        "id": 41041,
-        "name": "克里斯托弗·史密斯"
-      },
-      "cast": [
-        {
-          "id": 27755,
-          "name": "梅利莎·乔治",
-          "character": "Jess",
-          "profile": "https://image.tmdb.org/t/p/w185/pqikObF4yi5PBbMGX806QNGUVW0.jpg"
-        },
-        {
-          "id": 96066,
-          "name": "利亚姆·海姆斯沃斯",
-          "character": "Victor",
-          "profile": "https://image.tmdb.org/t/p/w185/As5ujeSSJRQN4TE3odg3kDk0b5o.jpg"
-        },
-        {
-          "id": 62754,
-          "name": "艾玛·朗",
-          "character": "Heather",
-          "profile": "https://image.tmdb.org/t/p/w185/8XdaJyUu7AYxH1UVU4qY6cN5V6c.jpg"
-        },
-        {
-          "id": 77767,
-          "name": "瑞秋·卡帕尼",
-          "character": "Sally",
-          "profile": "https://image.tmdb.org/t/p/w185/l0hVQiZgVuRq4yEQN1Dyr1TMmnR.jpg"
-        },
-        {
-          "id": 76068,
-          "name": "迈克尔·多曼",
-          "character": "Greg",
-          "profile": "https://image.tmdb.org/t/p/w185/7Ut9ofZ7fJAvLZ95LVLO1Lepbuc.jpg"
-        },
-        {
-          "id": 993846,
-          "name": "Joshua McIvor",
-          "character": "Tommy",
-          "profile": "https://image.tmdb.org/t/p/w185/70EFKXOx00PwTnBa9PQH26E43Gc.jpg"
-        },
-        {
-          "id": 555945,
-          "name": "亨利·尼克松",
-          "character": "Downey",
-          "profile": "https://image.tmdb.org/t/p/w185/fQL3rtJbKL3ZTOEcoFK8Z6qYpHV.jpg"
-        },
-        {
-          "id": 1485203,
-          "name": "杰克·泰勒",
-          "character": "Jack",
-          "profile": "https://image.tmdb.org/t/p/w185/4dNtGwrvgbnuVYv1vi7A0zNg0LN.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1748007,
-      "title": "牛来",
-      "originalTitle": "牛来",
-      "year": 2026,
-      "releaseDate": "2026-08-05",
-      "rating": 4,
-      "voteCount": 11,
-      "overview": "来自枯竭荒漠的云雀，误入一头初生牛犊的梦境，在梦的疆域里，没有时间，只有反复降临的召唤：地脉的低鸣、旧兽残息、未曾落下暴雨。  云雀静默旁观，见证“牛来”在多重力量的拉扯中，从懵懂走向承担——不是成为英雄，而是学会在生死面前不退，这是一部以极简笔触构建的成长寓言：荒原即内心，梦境即试炼，迈出的那一步，即是全部答案。",
-      "poster": "https://image.tmdb.org/t/p/w500/eum2kcqFr665SgnFulgO7b2lRwW.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/zByhNXeL7JpyNgLETSZipb8NKxr.jpg",
-      "genres": [
-        "动画",
-        "冒险"
-      ],
-      "runtime": 86,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [
-        "Dalian Jingyuan Culture Film and Television Media"
-      ],
-      "director": {
-        "id": 6406604,
-        "name": "信雨萌"
-      },
-      "cast": [
-        {
-          "id": 6406604,
-          "name": "信雨萌",
-          "character": "Niulai / Father of Niulai / Spotted Leopard / Fox (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/r1R0R50xgl5Cf9qufSyNg3fLQup.jpg"
-        },
-        {
-          "id": 6406605,
-          "name": "孙丽芳",
-          "character": "Mother of Niulai / Skylark (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/a03OzvRdI0l3sDCN4Mn0WaiH5Oo.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
       "id": 414419,
       "title": "杀死比尔：血色全传",
       "originalTitle": "Kill Bill: The Whole Bloody Affair",
       "year": 2026,
       "releaseDate": "2026-08-07",
       "rating": 8.1,
-      "voteCount": 1391,
-      "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗——完全以导演原本意图呈现，并包含一段前所未见的新动画片段。乌玛·瑟曼饰演“新娘”，她在婚礼排练时遭前老板兼情人比尔伏击，头部中枪，未出生的孩子被夺走，人被弃之不顾。为复仇，她必须先猎杀“致命毒蛇暗杀小队”剩余的四名成员，最后再与比尔本人对决。",
+      "voteCount": 1395,
+      "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗一一完全以导演原本意图呈现，并包含一段前所未见的新动画片段。新娘（乌玛·瑟曼 Uma Thurman 饰）曾是暗杀组织中的一名成员，也是组织首脑比尔（大卫·卡拉丁 David Carradine 饰）的情人，金盆洗手后的她结识了一个单纯的小伙子并准备忘掉过去与之结婚。没想到，婚礼当天比尔突然出现，并带领手下大开杀戒，霎时间，圣洁的教堂变成人间地狱。新娘头部中弹昏迷4年，醒来后脑中首先想起的便是昏迷前的几张残酷的面孔，他们是曾经的同僚和爱人，是如今的敌人。满腔怒火的新娘要一一找到这些人，开启血色复仇……",
       "poster": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/gxSWwZyYPA50f5T2IJzFX4NzxAG.jpg",
       "genres": [
         "动作",
-        "犯罪"
+        "犯罪",
+        "剧情",
+        "惊悚"
       ],
-      "runtime": 254,
-      "tagline": "昆汀·塔伦蒂诺执导的第四部电影作品。未经删减，未分级，完整呈现。",
+      "runtime": 253,
+      "tagline": null,
       "status": "Released",
       "originalLanguage": "en",
       "productionCompanies": [
@@ -810,91 +928,6 @@
         }
       ],
       "trailer": null
-    },
-    {
-      "id": 1541125,
-      "title": "年会不能停！2",
-      "originalTitle": "年会不能停！2",
-      "year": 2026,
-      "releaseDate": "2026-07-24",
-      "rating": 7,
-      "voteCount": 1,
-      "overview": "　　众和集团分公司的小组长刘奔（张若昀 饰），遇到了曾经在年会上大出风头的马杰（白客 饰），两个人一起开启了奇葩的职场之旅，寻找到了自己真正的价值。",
-      "poster": "https://image.tmdb.org/t/p/w500/y5oPzKYE2tEoySlN4Bd6ZBP78QU.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/jXW4Gu7s96HB2KZf8Cb73SRGe9q.jpg",
-      "genres": [
-        "喜剧",
-        "剧情"
-      ],
-      "runtime": 126,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [
-        "Tianjin Maoyan Weiying Culture Media 天津猫眼微影文化传媒",
-        "China Film Group Corporation",
-        "Shanghai Ruyi Film & TV Production 上海儒意影视制作"
-      ],
-      "director": {
-        "id": 1958906,
-        "name": "董润年"
-      },
-      "cast": [
-        {
-          "id": 1675905,
-          "name": "张若昀",
-          "character": "Liu Yi",
-          "profile": "https://image.tmdb.org/t/p/w185/dnNTcRc58ikoJ0JihisgXYTwr75.jpg"
-        },
-        {
-          "id": 1627281,
-          "name": "白客",
-          "character": "Ma Jie",
-          "profile": "https://image.tmdb.org/t/p/w185/jzR0XXpzWDoOCA7gVuuX6GjkEeD.jpg"
-        },
-        {
-          "id": 1823685,
-          "name": "高叶",
-          "character": "Kathy",
-          "profile": "https://image.tmdb.org/t/p/w185/iowwWeVy1IlA2h42c08FpmzLCvq.jpg"
-        },
-        {
-          "id": 1292116,
-          "name": "董成鹏",
-          "character": "Hu Jianlin",
-          "profile": "https://image.tmdb.org/t/p/w185/rR2zPhvqwx0aZuLPOJrFuqOjcBE.jpg"
-        },
-        {
-          "id": 2611997,
-          "name": "庄达菲",
-          "character": "Pan Yiran",
-          "profile": "https://image.tmdb.org/t/p/w185/fDAPC5xUqxMhEowcsObB8z5YsBX.jpg"
-        },
-        {
-          "id": 1258617,
-          "name": "孙艺洲",
-          "character": "Peter",
-          "profile": "https://image.tmdb.org/t/p/w185/7LrjgcfjklPW6AyC4sxaNx6z089.jpg"
-        },
-        {
-          "id": 1397566,
-          "name": "田雨",
-          "character": "Bob",
-          "profile": "https://image.tmdb.org/t/p/w185/hltc7NNhaBpD45nVqhC1dPkoVuB.jpg"
-        },
-        {
-          "id": 1623136,
-          "name": "王耀庆",
-          "character": "Raymond",
-          "profile": "https://image.tmdb.org/t/p/w185/uDOia8x3GyqhRnQs7Akgqytui7Y.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "CmMHi_kivpg",
-        "name": "【Trailer 2】 Johnny Keep Walking! 《年会不能停!》(2023)",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
     }
   ]
 }
