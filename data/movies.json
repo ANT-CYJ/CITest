@@ -1,177 +1,15 @@
 {
-  "generatedAt": "2026-09-21T05:35:01.227Z",
+  "generatedAt": "2026-09-28T06:00:46.809Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
-    {
-      "id": 1101383,
-      "title": "逃出绝命街",
-      "originalTitle": "The End of Oak Street",
-      "year": 2026,
-      "releaseDate": "2026-08-14",
-      "rating": 7,
-      "voteCount": 1311,
-      "overview": "居住在花谷街的一对夫妻，察觉到社区里发生了一些细微的变化。当一场剧烈的雷暴袭来后，他们连同他们的孩子和邻居醒来发现自己竟被“传送回了史前时代”，身边被恐龙和其他野生生物包围。",
-      "poster": "https://image.tmdb.org/t/p/w500/2eXquFgtDqSyVmrcBwC9ZnzNw3d.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-      "genres": [
-        "科幻",
-        "悬疑",
-        "惊悚"
-      ],
-      "runtime": 100,
-      "tagline": "恐龙乍现 大开杀戒",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Warner Bros. Pictures",
-        "Domain Entertainment",
-        "Bad Robot",
-        "Jackson Pictures"
-      ],
-      "director": {
-        "id": 558929,
-        "name": "大卫·罗伯特·米切尔"
-      },
-      "cast": [
-        {
-          "id": 1813,
-          "name": "安妮·海瑟薇",
-          "character": "Denise Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
-        },
-        {
-          "id": 3061,
-          "name": "伊万·麦克格雷格",
-          "character": "Greg Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/aEmyadfRXTmmR7UW7OXsm5a6smS.jpg"
-        },
-        {
-          "id": 1104567,
-          "name": "梅西·斯黛拉",
-          "character": "Audrey Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/dlnP0Yzbr9EEbVg6M0PQVQ7pwUF.jpg"
-        },
-        {
-          "id": 1721268,
-          "name": "克里斯蒂安·康佛瑞",
-          "character": "Brian Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/tOR2tSrvHPVDltE4jBDEva3GNqY.jpg"
-        },
-        {
-          "id": 1900828,
-          "name": "乔丹·亚历山大·戴维斯",
-          "character": "Jeannette Christiansen",
-          "profile": "https://image.tmdb.org/t/p/w185/itz31u3sG9hAlwuFZ6FWz1KhY1R.jpg"
-        },
-        {
-          "id": 1211946,
-          "name": "P·J·伯恩",
-          "character": "Mel Jacobs",
-          "profile": "https://image.tmdb.org/t/p/w185/1JVBaxRy3OxkHymD3nwBd5kVWWL.jpg"
-        },
-        {
-          "id": 1488908,
-          "name": "哈德森·米克",
-          "character": "Kaden Tucker",
-          "profile": "https://image.tmdb.org/t/p/w185/29S5mIoO18vNbOs0qrLC2XRVNlV.jpg"
-        },
-        {
-          "id": 156395,
-          "name": "安妮·吉伯德",
-          "character": "Mrs. Huddleston",
-          "profile": "https://image.tmdb.org/t/p/w185/yNqUNepmVQ462yoTnZOWVbudKeG.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1368337,
-      "title": "奥德赛",
-      "originalTitle": "The Odyssey",
-      "year": 2026,
-      "releaseDate": "2026-08-01",
-      "rating": 8,
-      "voteCount": 3822,
-      "overview": "特洛伊战争之后，奥德修斯踏上返回伊萨卡的艰险归途，途中遭遇了诸如独眼巨人波吕斐摩斯、塞壬女妖和喀耳刻等神话生物。",
-      "poster": "https://image.tmdb.org/t/p/w500/Aj0Uykxj0vhwVsyrRJka0aM3SP1.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg",
-      "genres": [
-        "冒险",
-        "动作",
-        "奇幻"
-      ],
-      "runtime": 173,
-      "tagline": "违抗神明，逆天而行",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Universal Pictures",
-        "Syncopy"
-      ],
-      "director": {
-        "id": 525,
-        "name": "克里斯托弗·诺兰"
-      },
-      "cast": [
-        {
-          "id": 1892,
-          "name": "马特·达蒙",
-          "character": "Odysseus",
-          "profile": "https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
-        },
-        {
-          "id": 1136406,
-          "name": "汤姆·赫兰德",
-          "character": "Telemachus",
-          "profile": "https://image.tmdb.org/t/p/w185/5OK84Wn1bIEIThFKcVoaN087mLj.jpg"
-        },
-        {
-          "id": 1813,
-          "name": "安妮·海瑟薇",
-          "character": "Penelope",
-          "profile": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
-        },
-        {
-          "id": 11288,
-          "name": "罗伯特·帕丁森",
-          "character": "Antinous",
-          "profile": "https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
-        },
-        {
-          "id": 1227717,
-          "name": "希米什·帕特尔",
-          "character": "Eurylochus",
-          "profile": "https://image.tmdb.org/t/p/w185/icqsXLmU0FxBGTv63kkA0GcrecO.jpg"
-        },
-        {
-          "id": 6885,
-          "name": "查理兹·塞隆",
-          "character": "Calypso",
-          "profile": "https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg"
-        },
-        {
-          "id": 5723,
-          "name": "约翰·雷吉扎莫",
-          "character": "Eumaeus",
-          "profile": "https://image.tmdb.org/t/p/w185/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg"
-        },
-        {
-          "id": 1978406,
-          "name": "Travis Scott",
-          "character": "Bard",
-          "profile": "https://image.tmdb.org/t/p/w185/eBdm7HQS6lLGg4BocgfoJ5qB9yp.jpg"
-        }
-      ],
-      "trailer": null
-    },
     {
       "id": 1288445,
       "title": "怒之杀",
       "originalTitle": "Mutiny",
       "year": 2026,
       "releaseDate": "2026-09-04",
-      "rating": 6.4,
-      "voteCount": 424,
+      "rating": 7.2,
+      "voteCount": 664,
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
@@ -244,13 +82,241 @@
       "trailer": null
     },
     {
+      "id": 1263337,
+      "title": "野兽之心",
+      "originalTitle": "Heart of the Beast",
+      "year": 2026,
+      "releaseDate": "2026-09-30",
+      "rating": 7.7,
+      "voteCount": 102,
+      "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
+      "poster": "https://image.tmdb.org/t/p/w500/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "genres": [
+        "冒险",
+        "惊悚"
+      ],
+      "runtime": 101,
+      "tagline": "生死相依，绝境求生",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Paramount Pictures",
+        "Wild Chickens Productions",
+        "Temple Hill Entertainment",
+        "Domain Entertainment"
+      ],
+      "director": {
+        "id": 19769,
+        "name": "大卫·阿耶"
+      },
+      "cast": [
+        {
+          "id": 287,
+          "name": "布拉德·皮特",
+          "character": "James Belmont",
+          "profile": "https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
+        },
+        {
+          "id": 18999,
+          "name": "J·K·西蒙斯",
+          "character": "Watkins",
+          "profile": "https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+        },
+        {
+          "id": 2307481,
+          "name": "Anna Lambe",
+          "character": "Amber",
+          "profile": "https://image.tmdb.org/t/p/w185/cKm5ZnAOVc6nD8KAgSDMJdZclYH.jpg"
+        },
+        {
+          "id": 2846013,
+          "name": "Justin Melnick",
+          "character": "Military Soldier",
+          "profile": "https://image.tmdb.org/t/p/w185/sE5W8tononGWHKH2Z6GLeUHXeyP.jpg"
+        },
+        {
+          "id": 6504999,
+          "name": "Shaun DeZern",
+          "character": "Military Soldier",
+          "profile": "https://image.tmdb.org/t/p/w185/iORM61n9AM6ldFm7C4t8dm9pRLq.jpg"
+        },
+        {
+          "id": 6508882,
+          "name": "Uber",
+          "character": "Odin",
+          "profile": "https://image.tmdb.org/t/p/w185/95wWWPlrsY360HiSlyTrWlEHvCk.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 299534,
+      "title": "复仇者联盟4：终局之战",
+      "originalTitle": "Avengers: Endgame",
+      "year": 2019,
+      "releaseDate": "2019-04-24",
+      "rating": 8.2,
+      "voteCount": 28819,
+      "overview": "灭霸集齐六颗无限宝石后的一声响指，让宇宙中半数生命灰飞烟灭。幸存的复仇者们几近绝望，即使找到灭霸，也发现无限宝石已经被毁，希望似乎彻底破灭。五年后，迷失在量子领域的蚁人意外回到现实世界，并带来了一个可能逆转一切的办法。托尼·斯塔克、美国队长等幸存的英雄再度集结，尝试穿越不同的时间节点寻找过去的无限宝石。然而在行动过程中，过去的灭霸也逐渐察觉了他们的计划。为了挽回失去的一切，复仇者们不得不再次面对一场决定整个宇宙命运的终极挑战……",
+      "poster": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "genres": [
+        "冒险",
+        "科幻",
+        "动作"
+      ],
+      "runtime": 181,
+      "tagline": "逆转无限 不惜一切代价",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Marvel Studios"
+      ],
+      "director": {
+        "id": 19272,
+        "name": "乔·罗素"
+      },
+      "cast": [
+        {
+          "id": 3223,
+          "name": "小罗伯特·唐尼",
+          "character": "Tony Stark / Iron Man",
+          "profile": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "id": 16828,
+          "name": "克里斯·埃文斯",
+          "character": "Steve Rogers / Captain America",
+          "profile": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+        },
+        {
+          "id": 103,
+          "name": "马克·鲁法洛",
+          "character": "Bruce Banner / Hulk",
+          "profile": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+        },
+        {
+          "id": 74568,
+          "name": "克里斯·海姆斯沃斯",
+          "character": "Thor",
+          "profile": "https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+        },
+        {
+          "id": 1245,
+          "name": "斯嘉丽·约翰逊",
+          "character": "Natasha Romanoff / Black Widow",
+          "profile": "https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg"
+        },
+        {
+          "id": 17604,
+          "name": "杰瑞米·雷纳",
+          "character": "Clint Barton / Hawkeye",
+          "profile": "https://image.tmdb.org/t/p/w185/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg"
+        },
+        {
+          "id": 16851,
+          "name": "乔什·布洛林",
+          "character": "Thanos",
+          "profile": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+        },
+        {
+          "id": 1896,
+          "name": "唐·钱德尔",
+          "character": "James Rhodes / War Machine",
+          "profile": "https://image.tmdb.org/t/p/w185/umhTmcVF26qZKEpSfG1ZNpcbs9D.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 1101412,
+      "title": "坠落2：死点",
+      "originalTitle": "Fall 2: Deadpoint",
+      "year": 2026,
+      "releaseDate": "2026-09-01",
+      "rating": 6.2,
+      "voteCount": 50,
+      "overview": "痛失姐妹汉特之后，杰克斯与汉特那无畏的好友露斯再度重聚。为了抚平内心的伤痛，两人结伴前往泰国著名的坤山山脉徒步疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的3000英尺高空栈道上。面对死神的威胁，杰克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
+      "poster": "https://image.tmdb.org/t/p/w500/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+      "genres": [
+        "惊悚"
+      ],
+      "runtime": 98,
+      "tagline": "别往下看！",
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Tea Shop Productions",
+        "Capstone Pictures",
+        "Flawless Production",
+        "Cousin Jones"
+      ],
+      "director": {
+        "id": 56502,
+        "name": "彼得·斯派瑞"
+      },
+      "cast": [
+        {
+          "id": 2480853,
+          "name": "哈里特·斯莱特",
+          "character": "Jax Hunter",
+          "profile": "https://image.tmdb.org/t/p/w185/9BJxdhi4tuiQdgT8bfDuiPipnsx.jpg"
+        },
+        {
+          "id": 3486664,
+          "name": "Arsema Thomas",
+          "character": "Luce",
+          "profile": "https://image.tmdb.org/t/p/w185/lvzhZIbkWIVLSRHsOICs9o37g2I.jpg"
+        },
+        {
+          "id": 1626604,
+          "name": "汤姆·布里特尼",
+          "character": "Jon Platt",
+          "profile": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
+        },
+        {
+          "id": 1279279,
+          "name": "弗吉尼亚·加德纳",
+          "character": "Shiloh Hunter",
+          "profile": "https://image.tmdb.org/t/p/w185/1DnNysK267b0te48KCkUlTKoTzj.jpg"
+        },
+        {
+          "id": 521673,
+          "name": "萨哈贾克·波斯安吉特",
+          "character": "Thai Barman",
+          "profile": "https://image.tmdb.org/t/p/w185/a36MI02S0f11bJZjBoxkZTsUDAK.jpg"
+        },
+        {
+          "id": 6455282,
+          "name": "Korakod Yensuk",
+          "character": "Large Woman",
+          "profile": null
+        },
+        {
+          "id": 3698000,
+          "name": "Jordan Coleman",
+          "character": "Luce",
+          "profile": "https://image.tmdb.org/t/p/w185/57FrMe016RyMHm8WDL2mK7P0bmS.jpg"
+        },
+        {
+          "id": 3725028,
+          "name": "Maryna Bennett",
+          "character": "Female Teenager",
+          "profile": "https://image.tmdb.org/t/p/w185/alqr0Hx7kgLZ38QvwdQKFIA8Y8l.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
       "id": 278,
       "title": "肖申克的救赎",
       "originalTitle": "The Shawshank Redemption",
       "year": 2026,
       "releaseDate": "2026-08-28",
       "rating": 8.7,
-      "voteCount": 31366,
+      "voteCount": 31434,
       "overview": "1947年，银行家安迪·杜佛兰因被控杀害妻子及其情人，尽管始终坚称清白，仍被判处两项无期徒刑，送入缅因州的肖申克监狱服刑。在残酷而压抑的监狱生活中，安迪凭借冷静、智慧和始终未曾熄灭的希望逐渐赢得狱友们的尊重，并与能够在狱中弄到各种物品的瑞德建立起深厚的友谊。漫长的岁月里，他始终没有让高墙彻底改变自己，也开始用自己的方式影响身边的人，以及这座看似牢不可破的监狱……",
       "poster": "https://image.tmdb.org/t/p/w500/aAdnwqwkKX5PPcr8EdtaiA8AZVl.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
@@ -322,93 +388,13 @@
       "trailer": null
     },
     {
-      "id": 1101412,
-      "title": "坠落2：死点",
-      "originalTitle": "Fall 2: Deadpoint",
-      "year": 2026,
-      "releaseDate": "2026-09-01",
-      "rating": 6.8,
-      "voteCount": 38,
-      "overview": "痛失姐妹汉特之后，杰克斯与汉特那无畏的好友露斯再度重聚。为了抚平内心的伤痛，两人结伴前往泰国著名的坤山山脉徒步疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的3000英尺高空栈道上。面对死神的威胁，杰克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
-      "poster": "https://image.tmdb.org/t/p/w500/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
-      "genres": [
-        "惊悚"
-      ],
-      "runtime": 98,
-      "tagline": "别往下看！",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Tea Shop Productions",
-        "Capstone Pictures",
-        "Flawless Production",
-        "Cousin Jones"
-      ],
-      "director": {
-        "id": 56501,
-        "name": "迈克尔·斯派瑞"
-      },
-      "cast": [
-        {
-          "id": 2480853,
-          "name": "哈里特·斯莱特",
-          "character": "Jax Hunter",
-          "profile": "https://image.tmdb.org/t/p/w185/9BJxdhi4tuiQdgT8bfDuiPipnsx.jpg"
-        },
-        {
-          "id": 3486664,
-          "name": "Arsema Thomas",
-          "character": "Luce",
-          "profile": "https://image.tmdb.org/t/p/w185/lvzhZIbkWIVLSRHsOICs9o37g2I.jpg"
-        },
-        {
-          "id": 1626604,
-          "name": "汤姆·布里特尼",
-          "character": "Jon Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
-        },
-        {
-          "id": 1279279,
-          "name": "弗吉尼亚·加德纳",
-          "character": "Shiloh Hunter",
-          "profile": "https://image.tmdb.org/t/p/w185/1DnNysK267b0te48KCkUlTKoTzj.jpg"
-        },
-        {
-          "id": 521673,
-          "name": "萨哈贾克·波斯安吉特",
-          "character": "Thai Barman",
-          "profile": "https://image.tmdb.org/t/p/w185/a36MI02S0f11bJZjBoxkZTsUDAK.jpg"
-        },
-        {
-          "id": 6455282,
-          "name": "Korakod Yensuk",
-          "character": "Large Woman",
-          "profile": null
-        },
-        {
-          "id": 3698000,
-          "name": "Jordan Coleman",
-          "character": "Luce",
-          "profile": "https://image.tmdb.org/t/p/w185/57FrMe016RyMHm8WDL2mK7P0bmS.jpg"
-        },
-        {
-          "id": 3725028,
-          "name": "Maryna Bennett",
-          "character": "Female Teenager",
-          "profile": "https://image.tmdb.org/t/p/w185/alqr0Hx7kgLZ38QvwdQKFIA8Y8l.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
       "id": 10681,
       "title": "机器人总动员",
       "originalTitle": "WALL·E",
       "year": 2026,
       "releaseDate": "2026-08-15",
       "rating": 8.1,
-      "voteCount": 20876,
+      "voteCount": 20924,
       "overview": "公元 2700 年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长无边的宇宙之旅。临行前他们委托 Buynlarge 的公司对地球垃圾进行清理，该公司开发了名为 WALL·E（地球废品分装员的缩写）的机器人担当此重任。 这些机器人按照程序日复一日、年复一年辛勤工作，但随着时间的流逝和恶劣环境的侵蚀，WALL·E 们接连损坏、停止运动。最后只有一个仍在进行这项似乎永无止境的工作。经历了漫长的岁月，它开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活…",
       "poster": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/nYs4ZwnJBK4AgljhvzwNz7fpr3E.jpg",
@@ -487,9 +473,9 @@
       "year": 2026,
       "releaseDate": "2026-08-26",
       "rating": 8,
-      "voteCount": 74,
+      "voteCount": 76,
       "overview": "",
-      "poster": "https://image.tmdb.org/t/p/w500/oiIPU4lvnI0Ag2K9cyAi44eCaoE.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/tZ8eSBXbza96vzCYeVTG9RBJ78E.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg",
       "genres": [
         "动作",
@@ -559,6 +545,174 @@
         }
       ],
       "trailer": null
+    },
+    {
+      "id": 414419,
+      "title": "杀死比尔：血色全传",
+      "originalTitle": "Kill Bill: The Whole Bloody Affair",
+      "year": 2026,
+      "releaseDate": "2026-08-07",
+      "rating": 8.1,
+      "voteCount": 1432,
+      "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗一一完全以导演原本意图呈现，并包含一段前所未见的新动画片段。新娘（乌玛·瑟曼 Uma Thurman 饰）曾是暗杀组织中的一名成员，也是组织首脑比尔（大卫·卡拉丁 David Carradine 饰）的情人，金盆洗手后的她结识了一个单纯的小伙子并准备忘掉过去与之结婚。没想到，婚礼当天比尔突然出现，并带领手下大开杀戒，霎时间，圣洁的教堂变成人间地狱。新娘头部中弹昏迷4年，醒来后脑中首先想起的便是昏迷前的几张残酷的面孔，他们是曾经的同僚和爱人，是如今的敌人。满腔怒火的新娘要一一找到这些人，开启血色复仇……",
+      "poster": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/gxSWwZyYPA50f5T2IJzFX4NzxAG.jpg",
+      "genres": [
+        "动作",
+        "犯罪",
+        "剧情",
+        "惊悚"
+      ],
+      "runtime": 253,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Miramax",
+        "A Band Apart",
+        "Super Cool ManChu"
+      ],
+      "director": {
+        "id": 138,
+        "name": "昆汀·塔伦蒂诺"
+      },
+      "cast": [
+        {
+          "id": 139,
+          "name": "乌玛·瑟曼",
+          "character": "The Bride / Beatrix Kiddo (Black Mamba) / Mommy",
+          "profile": "https://image.tmdb.org/t/p/w185/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
+        },
+        {
+          "id": 140,
+          "name": "刘玉玲",
+          "character": "O-Ren Ishii (Cottonmouth)",
+          "profile": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg"
+        },
+        {
+          "id": 2535,
+          "name": "薇薇卡·福克斯",
+          "character": "Vernita Green (Copperhead)",
+          "profile": "https://image.tmdb.org/t/p/w185/oIzevp0dqjIxqRQ2VoSzjiDCBt.jpg"
+        },
+        {
+          "id": 147,
+          "name": "迈克尔·马德森",
+          "character": "Budd (Sidewinder)",
+          "profile": "https://image.tmdb.org/t/p/w185/fvr2EXEPrVwsF2JlfRp0Olbj4g8.jpg"
+        },
+        {
+          "id": 589,
+          "name": "达丽尔·汉纳",
+          "character": "Elle Driver (California Mountain Snake)",
+          "profile": "https://image.tmdb.org/t/p/w185/5FllFmoiaru7tjXJ6Orc11OpQcw.jpg"
+        },
+        {
+          "id": 141,
+          "name": "大卫·卡拉丁",
+          "character": "Bill (Snake Charmer)",
+          "profile": "https://image.tmdb.org/t/p/w185/1X2GlkMKS9FIG1kGou7o6LRqAjz.jpg"
+        },
+        {
+          "id": 2537,
+          "name": "千叶真一",
+          "character": "Hattori Hanzo",
+          "profile": "https://image.tmdb.org/t/p/w185/7HTYqrtWl1DRpfFhasBCgptmx4H.jpg"
+        },
+        {
+          "id": 2538,
+          "name": "栗山千明",
+          "character": "Gogo Yubari",
+          "profile": "https://image.tmdb.org/t/p/w185/2lGs2rzx9VovrtBFsKM5Fy1Uja5.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 1678102,
+      "title": "死亡禁区实录",
+      "originalTitle": "死亡禁区实录",
+      "year": 2026,
+      "releaseDate": "2026-09-11",
+      "rating": 0,
+      "voteCount": 0,
+      "overview": "　　一场以 “寻人 + 揭秘” 为噱头的全球直播探险，将各怀目的他们送入一片死寂的荒废电诈园区。夜幕降临后，当死亡步步逼近，他们终于发现，比恶“鬼”更可怕的，是深藏于此的人间罪孽……",
+      "poster": "https://image.tmdb.org/t/p/w500/9azqzuWzexTDU9EuHGqgrn11Gmb.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/q7wulfheRc4KdO1ClDwMMPyIwJc.jpg",
+      "genres": [
+        "悬疑",
+        "惊悚",
+        "恐怖"
+      ],
+      "runtime": 96,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [
+        "iQIYI",
+        "Damai Entertainment",
+        "聚欢乐影业"
+      ],
+      "director": {
+        "id": 4040219,
+        "name": "王晟赫"
+      },
+      "cast": [
+        {
+          "id": 1059217,
+          "name": "邓家佳",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/zwTb6M8FI0eOaLEITulpSKUWmtE.jpg"
+        },
+        {
+          "id": 3376151,
+          "name": "苏小玎",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/fpg0OWRKmASQOiPVSneSFYsAiCI.jpg"
+        },
+        {
+          "id": 1260865,
+          "name": "海陆",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/vpTJRDYxeb22vEcYaBCKIo0thom.jpg"
+        },
+        {
+          "id": 3155068,
+          "name": "孙芮",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/mM6Bwypk8MV9PbNiKcazAASjsL4.jpg"
+        },
+        {
+          "id": 2461691,
+          "name": "刘迅",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/kltFWIXmNDSmpGKb1gwdWBkH6ak.jpg"
+        },
+        {
+          "id": 3092412,
+          "name": "叶常清",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/klyiLZ3c8m297ZIknonyqB3e9jp.jpg"
+        },
+        {
+          "id": 4915706,
+          "name": "王星",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/lp1dwfoCiUs5tWViZnoCdTJRYK9.jpg"
+        },
+        {
+          "id": 5062367,
+          "name": "刘佳玺",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/7xQ9FR3EBmtLDsdAVvvl9MZ6ZnW.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "luXKakGyNtc",
+        "name": "NO GO: THE CHILD 3D / MOTHER'S REVENGE (China 2026) Trailer [ENG SUBS] 死亡禁区实录",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
     },
     {
       "id": 1567937,
@@ -647,208 +801,6 @@
       }
     },
     {
-      "id": 823219,
-      "title": "猫猫的奇幻漂流",
-      "originalTitle": "Straume",
-      "year": 2025,
-      "releaseDate": "2025-02-28",
-      "rating": 8.1,
-      "voteCount": 3061,
-      "overview": "这是一段关于友谊与生存的动人篇章，将独立动画的创作雄心与想象力推至令人惊叹的高度。这部荣获奥斯卡奖、风靡全球的作品，讲述了一只勇敢的猫在家园被大洪水摧毁后的故事。它与一只水豚、一只狐猴、一只小鸟和一只小狗结伴，共同驾驶小船寻找陆地。在这颗已然化为水世界的星球上，它们必须凭借信任、勇气与智慧渡过重重险境。凭借开源软件与小团队协作，富有远见的独立动画师金茨·齐尔巴洛迪斯营造了一场绝妙的感官之旅，深刻沉思了环境的脆弱与社群精神的真谛。",
-      "poster": "https://image.tmdb.org/t/p/w500/tn89woD33WgLgT7ZMUr1r47hnql.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/pZfpUMEJzw9BZHtXuZzzOrRxtMa.jpg",
-      "genres": [
-        "冒险",
-        "动画",
-        "家庭",
-        "奇幻"
-      ],
-      "runtime": 85,
-      "tagline": "只要有猫在，就没什么好怕的！",
-      "status": "Released",
-      "originalLanguage": "lv",
-      "productionCompanies": [
-        "Dream Well Studio",
-        "Sacrebleu Productions",
-        "Take Five",
-        "ARTE France Cinéma"
-      ],
-      "director": {
-        "id": 1328012,
-        "name": "金兹·兹巴洛迪斯"
-      },
-      "cast": [],
-      "trailer": null
-    },
-    {
-      "id": 414419,
-      "title": "杀死比尔：血色全传",
-      "originalTitle": "Kill Bill: The Whole Bloody Affair",
-      "year": 2026,
-      "releaseDate": "2026-08-07",
-      "rating": 8.1,
-      "voteCount": 1422,
-      "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗一一完全以导演原本意图呈现，并包含一段前所未见的新动画片段。新娘（乌玛·瑟曼 Uma Thurman 饰）曾是暗杀组织中的一名成员，也是组织首脑比尔（大卫·卡拉丁 David Carradine 饰）的情人，金盆洗手后的她结识了一个单纯的小伙子并准备忘掉过去与之结婚。没想到，婚礼当天比尔突然出现，并带领手下大开杀戒，霎时间，圣洁的教堂变成人间地狱。新娘头部中弹昏迷4年，醒来后脑中首先想起的便是昏迷前的几张残酷的面孔，他们是曾经的同僚和爱人，是如今的敌人。满腔怒火的新娘要一一找到这些人，开启血色复仇……",
-      "poster": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/gxSWwZyYPA50f5T2IJzFX4NzxAG.jpg",
-      "genres": [
-        "动作",
-        "犯罪",
-        "剧情",
-        "惊悚"
-      ],
-      "runtime": 253,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Miramax",
-        "A Band Apart",
-        "Super Cool ManChu"
-      ],
-      "director": {
-        "id": 138,
-        "name": "昆汀·塔伦蒂诺"
-      },
-      "cast": [
-        {
-          "id": 139,
-          "name": "乌玛·瑟曼",
-          "character": "The Bride / Beatrix Kiddo (Black Mamba) / Mommy",
-          "profile": "https://image.tmdb.org/t/p/w185/hlYG0MC6im0MHNq1xixxVilfwyR.jpg"
-        },
-        {
-          "id": 140,
-          "name": "刘玉玲",
-          "character": "O-Ren Ishii (Cottonmouth)",
-          "profile": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg"
-        },
-        {
-          "id": 2535,
-          "name": "薇薇卡·福克斯",
-          "character": "Vernita Green (Copperhead)",
-          "profile": "https://image.tmdb.org/t/p/w185/oIzevp0dqjIxqRQ2VoSzjiDCBt.jpg"
-        },
-        {
-          "id": 147,
-          "name": "迈克尔·马德森",
-          "character": "Budd (Sidewinder)",
-          "profile": "https://image.tmdb.org/t/p/w185/fvr2EXEPrVwsF2JlfRp0Olbj4g8.jpg"
-        },
-        {
-          "id": 589,
-          "name": "达丽尔·汉纳",
-          "character": "Elle Driver (California Mountain Snake)",
-          "profile": "https://image.tmdb.org/t/p/w185/5FllFmoiaru7tjXJ6Orc11OpQcw.jpg"
-        },
-        {
-          "id": 141,
-          "name": "大卫·卡拉丁",
-          "character": "Bill (Snake Charmer)",
-          "profile": "https://image.tmdb.org/t/p/w185/1X2GlkMKS9FIG1kGou7o6LRqAjz.jpg"
-        },
-        {
-          "id": 2537,
-          "name": "千叶真一",
-          "character": "Hattori Hanzo",
-          "profile": "https://image.tmdb.org/t/p/w185/7HTYqrtWl1DRpfFhasBCgptmx4H.jpg"
-        },
-        {
-          "id": 2538,
-          "name": "栗山千明",
-          "character": "Gogo Yubari",
-          "profile": "https://image.tmdb.org/t/p/w185/2lGs2rzx9VovrtBFsKM5Fy1Uja5.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1678102,
-      "title": "死亡禁区实录",
-      "originalTitle": "死亡禁区实录",
-      "year": 2026,
-      "releaseDate": "2026-09-11",
-      "rating": 0,
-      "voteCount": 0,
-      "overview": "　　一场以 “寻人 + 揭秘” 为噱头的全球直播探险，将各怀目的他们送入一片死寂的荒废电诈园区。夜幕降临后，当死亡步步逼近，他们终于发现，比恶“鬼”更可怕的，是深藏于此的人间罪孽……",
-      "poster": "https://image.tmdb.org/t/p/w500/9azqzuWzexTDU9EuHGqgrn11Gmb.jpg",
-      "backdrop": null,
-      "genres": [
-        "悬疑",
-        "惊悚",
-        "恐怖"
-      ],
-      "runtime": 96,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [
-        "iQIYI",
-        "Damai Entertainment",
-        "聚欢乐影业"
-      ],
-      "director": {
-        "id": 4040219,
-        "name": "王晟赫"
-      },
-      "cast": [
-        {
-          "id": 1059217,
-          "name": "邓家佳",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/zwTb6M8FI0eOaLEITulpSKUWmtE.jpg"
-        },
-        {
-          "id": 3376151,
-          "name": "苏小玎",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/fpg0OWRKmASQOiPVSneSFYsAiCI.jpg"
-        },
-        {
-          "id": 1260865,
-          "name": "海陆",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/vpTJRDYxeb22vEcYaBCKIo0thom.jpg"
-        },
-        {
-          "id": 3155068,
-          "name": "孙芮",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/mM6Bwypk8MV9PbNiKcazAASjsL4.jpg"
-        },
-        {
-          "id": 2461691,
-          "name": "刘迅",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/kltFWIXmNDSmpGKb1gwdWBkH6ak.jpg"
-        },
-        {
-          "id": 3092412,
-          "name": "叶常清",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/klyiLZ3c8m297ZIknonyqB3e9jp.jpg"
-        },
-        {
-          "id": 4915706,
-          "name": "王星",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/lp1dwfoCiUs5tWViZnoCdTJRYK9.jpg"
-        },
-        {
-          "id": 5062367,
-          "name": "刘佳玺",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/7xQ9FR3EBmtLDsdAVvvl9MZ6ZnW.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "luXKakGyNtc",
-        "name": "NO GO: THE CHILD 3D / MOTHER'S REVENGE (China 2026) Trailer [ENG SUBS] 死亡禁区实录",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
       "id": 1502135,
       "title": "密档",
       "originalTitle": "密档",
@@ -927,6 +879,90 @@
       "trailer": {
         "key": "TJM4b5xDybI",
         "name": "密档 Hideaway: The Dossiers 2026 电影 预告片1：“接任务”定档版 (中文字幕) #密档 #Hideaway: The Dossiers",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
+    },
+    {
+      "id": 1089598,
+      "title": "敦煌英雄",
+      "originalTitle": "敦煌英雄",
+      "year": 2026,
+      "releaseDate": "2026-09-25",
+      "rating": 0,
+      "voteCount": 0,
+      "overview": "电影讲述的是一个关于“不忘”与“回归”的敦煌故事，取材自沙州（“敦煌”旧称“沙州”）军民归唐风云史——安史之乱后，沙州一度孤悬河西，与长安联系切断六十余年。此后，沙州军民在张议潮的带领下，穷尽一切奋勇抗击，最终使沙州唐旗高树。影片将用极致电影工业美学呈现大唐纷繁历史中的这段热血传奇，展现为家国舍身取义的少年英雄故事和中国人民千百年所传承的家国团圆梦。",
+      "poster": "https://image.tmdb.org/t/p/w500/zIzru6pQiHi9FNWZ4W3Gx2a9uor.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/tXJrjbAkrbkMvBUcu9VYBjbUQ66.jpg",
+      "genres": [
+        "动作",
+        "历史"
+      ],
+      "runtime": 123,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [
+        "Beijing Cheering Times Culture & Entertainment",
+        "Baination"
+      ],
+      "director": {
+        "id": 1917066,
+        "name": "曹盾"
+      },
+      "cast": [
+        {
+          "id": 2074441,
+          "name": "章宇",
+          "character": "狼鹞子",
+          "profile": "https://image.tmdb.org/t/p/w185/u8sPe0IqyPoMzy6Qzmtpy3RZeHq.jpg"
+        },
+        {
+          "id": 145093,
+          "name": "窦骁",
+          "character": "Cao Guangzong",
+          "profile": "https://image.tmdb.org/t/p/w185/Aeh3z8MCLu7CEClcXswvMXNSOE9.jpg"
+        },
+        {
+          "id": 2309269,
+          "name": "吕凉",
+          "character": "Ren Kongre",
+          "profile": "https://image.tmdb.org/t/p/w185/uX4JKiEoezrKrqhuwtVAOyzkhTI.jpg"
+        },
+        {
+          "id": 2816786,
+          "name": "蔡鹭",
+          "character": "Luo Sang",
+          "profile": "https://image.tmdb.org/t/p/w185/ez45nSo9VxmAUpWVDurFiM1DneT.jpg"
+        },
+        {
+          "id": 3573150,
+          "name": "赵蕴卓",
+          "character": "Zhang Yueya",
+          "profile": "https://image.tmdb.org/t/p/w185/ei1i8x20BS4fLenvZcqApCXtupf.jpg"
+        },
+        {
+          "id": 3781946,
+          "name": "公磊",
+          "character": "Bai Ba",
+          "profile": "https://image.tmdb.org/t/p/w185/gSZANQg4sOsJDuYMizwkHNCwiYs.jpg"
+        },
+        {
+          "id": 3842315,
+          "name": "杨溢",
+          "character": "Zhang Yichao",
+          "profile": "https://image.tmdb.org/t/p/w185/wC8O3c3eusTsKi1a9W5pKaWfcht.jpg"
+        },
+        {
+          "id": 3550887,
+          "name": "赵魏",
+          "character": "Master Hongbian",
+          "profile": "https://image.tmdb.org/t/p/w185/kQnjL3MWIRFDrLFXVLwtYAzosZn.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "pato2F6ji5M",
+        "name": "Dunhuang Warriors Official Trailer 敦煌英雄定档预告",
         "site": "YouTube",
         "type": "Trailer"
       }
