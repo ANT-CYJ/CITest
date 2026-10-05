@@ -1,15 +1,97 @@
 {
-  "generatedAt": "2026-09-28T06:00:46.809Z",
+  "generatedAt": "2026-10-05T06:20:51.026Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
+    {
+      "id": 1423191,
+      "title": "生化危机：爆发夜",
+      "originalTitle": "Resident Evil",
+      "year": 2026,
+      "releaseDate": "2026-10-05",
+      "rating": 7.3,
+      "voteCount": 743,
+      "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
+      "poster": "https://image.tmdb.org/t/p/w500/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "genres": [
+        "恐怖",
+        "科幻",
+        "冒险"
+      ],
+      "runtime": 95,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Constantin Film",
+        "Subconscious",
+        "Vertigo Entertainment",
+        "Davis Films"
+      ],
+      "director": {
+        "id": 84833,
+        "name": "扎克·克雷格"
+      },
+      "cast": [
+        {
+          "id": 148992,
+          "name": "奥斯汀·艾布拉姆斯",
+          "character": "Bryan",
+          "profile": "https://image.tmdb.org/t/p/w185/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+        },
+        {
+          "id": 1294982,
+          "name": "保罗·沃尔特·豪瑟",
+          "character": "Paul",
+          "profile": "https://image.tmdb.org/t/p/w185/hXjjbYg1Ah8mFf5ZcaakyXzDKMx.jpg"
+        },
+        {
+          "id": 3119545,
+          "name": "卡莉·瑞斯",
+          "character": "Maxine",
+          "profile": "https://image.tmdb.org/t/p/w185/ruLDXHnKA4aHEQCcFGDAJ7bLTdt.jpg"
+        },
+        {
+          "id": 1838225,
+          "name": "扎克·切利",
+          "character": "Carl",
+          "profile": "https://image.tmdb.org/t/p/w185/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg"
+        },
+        {
+          "id": 1169291,
+          "name": "Johnno Wilson",
+          "character": "Officer Wilson",
+          "profile": "https://image.tmdb.org/t/p/w185/eZtBoBE0F7Qb9ZyNpacMOQtmWnM.jpg"
+        },
+        {
+          "id": 2445714,
+          "name": "Shaun W. Loeser",
+          "character": "Puker",
+          "profile": "https://image.tmdb.org/t/p/w185/pMV7kzy7OHk4X93uRGbrdvuFgQB.jpg"
+        },
+        {
+          "id": 84833,
+          "name": "扎克·克雷格",
+          "character": "Intercom (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/bpFGFfWYIrZVK7WjwkVLwIoMKEb.jpg"
+        },
+        {
+          "id": 1362996,
+          "name": "Emily Piggford",
+          "character": "Dr. Maria Stokes",
+          "profile": "https://image.tmdb.org/t/p/w185/ruijvaNNXzGXqGphQXsoHts1Ovc.jpg"
+        }
+      ],
+      "trailer": null
+    },
     {
       "id": 1288445,
       "title": "怒之杀",
       "originalTitle": "Mutiny",
       "year": 2026,
       "releaseDate": "2026-09-04",
-      "rating": 7.2,
-      "voteCount": 664,
+      "rating": 7.4,
+      "voteCount": 789,
       "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
       "poster": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
@@ -87,8 +169,8 @@
       "originalTitle": "Heart of the Beast",
       "year": 2026,
       "releaseDate": "2026-09-30",
-      "rating": 7.7,
-      "voteCount": 102,
+      "rating": 7.5,
+      "voteCount": 217,
       "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
       "poster": "https://image.tmdb.org/t/p/w500/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
@@ -140,12 +222,6 @@
           "name": "Shaun DeZern",
           "character": "Military Soldier",
           "profile": "https://image.tmdb.org/t/p/w185/iORM61n9AM6ldFm7C4t8dm9pRLq.jpg"
-        },
-        {
-          "id": 6508882,
-          "name": "Uber",
-          "character": "Odin",
-          "profile": "https://image.tmdb.org/t/p/w185/95wWWPlrsY360HiSlyTrWlEHvCk.jpg"
         }
       ],
       "trailer": null
@@ -157,7 +233,7 @@
       "year": 2019,
       "releaseDate": "2019-04-24",
       "rating": 8.2,
-      "voteCount": 28819,
+      "voteCount": 28899,
       "overview": "灭霸集齐六颗无限宝石后的一声响指，让宇宙中半数生命灰飞烟灭。幸存的复仇者们几近绝望，即使找到灭霸，也发现无限宝石已经被毁，希望似乎彻底破灭。五年后，迷失在量子领域的蚁人意外回到现实世界，并带来了一个可能逆转一切的办法。托尼·斯塔克、美国队长等幸存的英雄再度集结，尝试穿越不同的时间节点寻找过去的无限宝石。然而在行动过程中，过去的灭霸也逐渐察觉了他们的计划。为了挽回失去的一切，复仇者们不得不再次面对一场决定整个宇宙命运的终极挑战……",
       "poster": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
@@ -174,8 +250,8 @@
         "Marvel Studios"
       ],
       "director": {
-        "id": 19272,
-        "name": "乔·罗素"
+        "id": 19271,
+        "name": "安东尼·罗素"
       },
       "cast": [
         {
@@ -236,7 +312,7 @@
       "year": 2026,
       "releaseDate": "2026-09-01",
       "rating": 6.2,
-      "voteCount": 50,
+      "voteCount": 60,
       "overview": "痛失姐妹汉特之后，杰克斯与汉特那无畏的好友露斯再度重聚。为了抚平内心的伤痛，两人结伴前往泰国著名的坤山山脉徒步疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的3000英尺高空栈道上。面对死神的威胁，杰克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
       "poster": "https://image.tmdb.org/t/p/w500/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
@@ -254,8 +330,8 @@
         "Cousin Jones"
       ],
       "director": {
-        "id": 56502,
-        "name": "彼得·斯派瑞"
+        "id": 56501,
+        "name": "迈克尔·斯派瑞"
       },
       "cast": [
         {
@@ -316,7 +392,7 @@
       "year": 2026,
       "releaseDate": "2026-08-28",
       "rating": 8.7,
-      "voteCount": 31434,
+      "voteCount": 31491,
       "overview": "1947年，银行家安迪·杜佛兰因被控杀害妻子及其情人，尽管始终坚称清白，仍被判处两项无期徒刑，送入缅因州的肖申克监狱服刑。在残酷而压抑的监狱生活中，安迪凭借冷静、智慧和始终未曾熄灭的希望逐渐赢得狱友们的尊重，并与能够在狱中弄到各种物品的瑞德建立起深厚的友谊。漫长的岁月里，他始终没有让高墙彻底改变自己，也开始用自己的方式影响身边的人，以及这座看似牢不可破的监狱……",
       "poster": "https://image.tmdb.org/t/p/w500/aAdnwqwkKX5PPcr8EdtaiA8AZVl.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
@@ -388,83 +464,82 @@
       "trailer": null
     },
     {
-      "id": 10681,
-      "title": "机器人总动员",
-      "originalTitle": "WALL·E",
+      "id": 1439171,
+      "title": "神探之痕迹",
+      "originalTitle": "神探之痕迹",
       "year": 2026,
-      "releaseDate": "2026-08-15",
-      "rating": 8.1,
-      "voteCount": 20924,
-      "overview": "公元 2700 年，人类文明高度发展，却因污染和生活垃圾大量增加使得地球不再适于人类居住。地球人被迫乘坐飞船离开故乡，进行一次漫长无边的宇宙之旅。临行前他们委托 Buynlarge 的公司对地球垃圾进行清理，该公司开发了名为 WALL·E（地球废品分装员的缩写）的机器人担当此重任。 这些机器人按照程序日复一日、年复一年辛勤工作，但随着时间的流逝和恶劣环境的侵蚀，WALL·E 们接连损坏、停止运动。最后只有一个仍在进行这项似乎永无止境的工作。经历了漫长的岁月，它开始拥有了自己的意识。它喜欢将收集来的宝贝小心翼翼藏起，喜欢收工后看看几百年前的歌舞片，此外还有一只蟑螂朋友作伴。直到有一天，一艘来自宇宙的飞船打破了它一成不变的生活…",
-      "poster": "https://image.tmdb.org/t/p/w500/eVcHArmmMXajXaqVBH4dhUWfwmS.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/nYs4ZwnJBK4AgljhvzwNz7fpr3E.jpg",
+      "releaseDate": "2026-10-01",
+      "rating": 7,
+      "voteCount": 1,
+      "overview": "凡是经过，皆有痕迹。刑事技术警察崔寻走过半个多世纪，与同事屡破大案，这位秉承着“为人民服务”初心的神探，不仅见证了公安事业的发展，更见证了新中国的崛起。",
+      "poster": "https://image.tmdb.org/t/p/w500/jfDFyAb9DW6QczgNeieSzPOz1cT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/9gKgRM5nzNBQVy50peiR2eYQVX0.jpg",
       "genres": [
-        "动画",
-        "家庭",
-        "科幻"
+        "犯罪",
+        "剧情"
       ],
-      "runtime": 98,
-      "tagline": "一个超越“平凡”的冒险",
+      "runtime": 140,
+      "tagline": null,
       "status": "Released",
-      "originalLanguage": "en",
+      "originalLanguage": "zh",
       "productionCompanies": [
-        "Pixar"
+        "New Classics Media",
+        "As One Production"
       ],
       "director": {
-        "id": 7,
-        "name": "安德鲁·斯坦顿"
+        "id": 1065761,
+        "name": "陈思诚"
       },
       "cast": [
         {
-          "id": 670,
-          "name": "本·贝尔特",
-          "character": "WALL·E / M-O (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/7asFDWjls2bYQSfXJf5StjXmlhI.jpg"
+          "id": 146098,
+          "name": "张译",
+          "character": "崔寻",
+          "profile": "https://image.tmdb.org/t/p/w185/l34U9AP3AegNzvogW2rYs0H5DOG.jpg"
         },
         {
-          "id": 72754,
-          "name": "艾丽莎·奈特",
-          "character": "EVE (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/exRLyaNaHcgawQA0DoBxo5IvdoI.jpg"
+          "id": 1519027,
+          "name": "马丽",
+          "character": "黄仁德",
+          "profile": "https://image.tmdb.org/t/p/w185/qyZrvxKCUHMXTyrqXSi78X2Sgu8.jpg"
         },
         {
-          "id": 60074,
-          "name": "杰夫·格尔林",
-          "character": "Captain (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/8shJOwynglerVVxhOKbvDYTThBd.jpg"
+          "id": 124993,
+          "name": "陈明昊",
+          "character": "王卫国",
+          "profile": "https://image.tmdb.org/t/p/w185/ksWDHeCd9Tbhtj4Zbh10EbT58CM.jpg"
         },
         {
-          "id": 20753,
-          "name": "佛莱德·威拉特",
-          "character": "Shelby Forthright, BnL CEO",
-          "profile": "https://image.tmdb.org/t/p/w185/AaHxpkee9nQfBpQeDyJLoPNtYR6.jpg"
+          "id": 143358,
+          "name": "李雪健",
+          "character": "老年崔寻",
+          "profile": "https://image.tmdb.org/t/p/w185/22QFJKWJPNj3O3A6PdRKJc0qeKK.jpg"
         },
         {
-          "id": 7907,
-          "name": "约翰·拉岑伯格",
-          "character": "John (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
+          "id": 1785744,
+          "name": "王俊凯",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/gl1ibG6gEDy0XKAkSDbzEieDZq0.jpg"
         },
         {
-          "id": 11074,
-          "name": "凯茜·纳基麦",
-          "character": "Mary (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg"
+          "id": 1948101,
+          "name": "范丞丞",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/mmpJ9EcYweG9pr1iU5q5aqcsusG.jpg"
         },
         {
-          "id": 10205,
-          "name": "西格妮·韦弗",
-          "character": "Ship's Computer (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
-        },
-        {
-          "id": 24358,
-          "name": "洛瑞·艾伦",
-          "character": "Additional Voices (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/cavATg4fX0zAl2MHwlt1IZei7EI.jpg"
+          "id": 2165598,
+          "name": "陈飞宇",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/rP046czFxScpvRiinBAwJtc3302.jpg"
         }
       ],
-      "trailer": null
+      "trailer": {
+        "key": "Pi2rTaPWfJs",
+        "name": "Traces of Justice Trailer 神探之痕迹 预告片",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
     },
     {
       "id": 1213243,
@@ -472,8 +547,8 @@
       "originalTitle": "ಟಾಕ್ಸಿಕ್",
       "year": 2026,
       "releaseDate": "2026-08-26",
-      "rating": 8,
-      "voteCount": 76,
+      "rating": 7.9,
+      "voteCount": 78,
       "overview": "",
       "poster": "https://image.tmdb.org/t/p/w500/tZ8eSBXbza96vzCYeVTG9RBJ78E.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg",
@@ -529,7 +604,7 @@
           "id": 2252714,
           "name": "ರುಕ್ಮಿಣಿ ವಸಂತ",
           "character": "Mellisa",
-          "profile": "https://image.tmdb.org/t/p/w185/sQrlyh8YSnqFKsZ80E0HUWtx7Um.jpg"
+          "profile": "https://image.tmdb.org/t/p/w185/4LERfXpxgdAXwxixYOCPWFeQ800.jpg"
         },
         {
           "id": 1544619,
@@ -553,7 +628,7 @@
       "year": 2026,
       "releaseDate": "2026-08-07",
       "rating": 8.1,
-      "voteCount": 1432,
+      "voteCount": 1436,
       "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗一一完全以导演原本意图呈现，并包含一段前所未见的新动画片段。新娘（乌玛·瑟曼 Uma Thurman 饰）曾是暗杀组织中的一名成员，也是组织首脑比尔（大卫·卡拉丁 David Carradine 饰）的情人，金盆洗手后的她结识了一个单纯的小伙子并准备忘掉过去与之结婚。没想到，婚礼当天比尔突然出现，并带领手下大开杀戒，霎时间，圣洁的教堂变成人间地狱。新娘头部中弹昏迷4年，醒来后脑中首先想起的便是昏迷前的几张残酷的面孔，他们是曾经的同僚和爱人，是如今的敌人。满腔怒火的新娘要一一找到这些人，开启血色复仇……",
       "poster": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/gxSWwZyYPA50f5T2IJzFX4NzxAG.jpg",
@@ -629,173 +704,83 @@
       "trailer": null
     },
     {
-      "id": 1678102,
-      "title": "死亡禁区实录",
-      "originalTitle": "死亡禁区实录",
+      "id": 1563608,
+      "title": "什么意思夫妇",
+      "originalTitle": "什么意思夫妇",
       "year": 2026,
-      "releaseDate": "2026-09-11",
+      "releaseDate": "2026-10-01",
       "rating": 0,
       "voteCount": 0,
-      "overview": "　　一场以 “寻人 + 揭秘” 为噱头的全球直播探险，将各怀目的他们送入一片死寂的荒废电诈园区。夜幕降临后，当死亡步步逼近，他们终于发现，比恶“鬼”更可怕的，是深藏于此的人间罪孽……",
-      "poster": "https://image.tmdb.org/t/p/w500/9azqzuWzexTDU9EuHGqgrn11Gmb.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/q7wulfheRc4KdO1ClDwMMPyIwJc.jpg",
+      "overview": "　　沈默和天意是一对中年夫妻，正在经历婚姻的第三个七年之痒，锅碗瓢盆的碰撞，终于让积压许久的烦躁、嫌弃和失望彻底爆发，三十天的离婚冷静期，即将奏响他们婚姻的终曲。",
+      "poster": "https://image.tmdb.org/t/p/w500/uofN38bDaG3qYeLoerXynlVRHRt.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/vPoEbGeBuAfag3TcFzwPt9EqVWT.jpg",
       "genres": [
-        "悬疑",
-        "惊悚",
-        "恐怖"
+        "剧情",
+        "喜剧",
+        "爱情"
       ],
-      "runtime": 96,
+      "runtime": 106,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "zh",
-      "productionCompanies": [
-        "iQIYI",
-        "Damai Entertainment",
-        "聚欢乐影业"
-      ],
+      "productionCompanies": [],
       "director": {
-        "id": 4040219,
-        "name": "王晟赫"
+        "id": 2086271,
+        "name": "沈春阳"
       },
       "cast": [
         {
-          "id": 1059217,
-          "name": "邓家佳",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/zwTb6M8FI0eOaLEITulpSKUWmtE.jpg"
+          "id": 131513,
+          "name": "小沈阳",
+          "character": "沈默",
+          "profile": "https://image.tmdb.org/t/p/w185/6GCFPZND6yCL9TdO2LPF4hqqAzb.jpg"
         },
         {
-          "id": 3376151,
-          "name": "苏小玎",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/fpg0OWRKmASQOiPVSneSFYsAiCI.jpg"
+          "id": 2086271,
+          "name": "沈春阳",
+          "character": "尤天意",
+          "profile": "https://image.tmdb.org/t/p/w185/aOkqOD8q2VT32pDkejlI0HGZZw5.jpg"
         },
         {
-          "id": 1260865,
-          "name": "海陆",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/vpTJRDYxeb22vEcYaBCKIo0thom.jpg"
+          "id": 2295882,
+          "name": "贾冰",
+          "character": "郑金山",
+          "profile": "https://image.tmdb.org/t/p/w185/pum0e3d2ZVq9XZyNohZSXt46bkH.jpg"
         },
         {
-          "id": 3155068,
-          "name": "孙芮",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/mM6Bwypk8MV9PbNiKcazAASjsL4.jpg"
+          "id": 2858382,
+          "name": "于洋",
+          "character": "尤天理",
+          "profile": "https://image.tmdb.org/t/p/w185/cccqipLF2z5SnQ5IWUjTjN9v5aG.jpg"
         },
         {
-          "id": 2461691,
-          "name": "刘迅",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/kltFWIXmNDSmpGKb1gwdWBkH6ak.jpg"
+          "id": 2093326,
+          "name": "魏翔",
+          "character": "劝架壮汉",
+          "profile": "https://image.tmdb.org/t/p/w185/j1XqYkSGoRHfBOH59nTOnv7DcRn.jpg"
         },
         {
-          "id": 3092412,
-          "name": "叶常清",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/klyiLZ3c8m297ZIknonyqB3e9jp.jpg"
+          "id": 3838631,
+          "name": "梁龙",
+          "character": "大仙",
+          "profile": "https://image.tmdb.org/t/p/w185/b9f2r8XkHz9E0OUZNLUQmb8NSIv.jpg"
         },
         {
-          "id": 4915706,
-          "name": "王星",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/lp1dwfoCiUs5tWViZnoCdTJRYK9.jpg"
+          "id": 1996700,
+          "name": "许君聪",
+          "character": "李丽老公",
+          "profile": "https://image.tmdb.org/t/p/w185/nZYcU98OsKJeOyEdHFZwrrPqlaE.jpg"
         },
         {
-          "id": 5062367,
-          "name": "刘佳玺",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/7xQ9FR3EBmtLDsdAVvvl9MZ6ZnW.jpg"
+          "id": 2536370,
+          "name": "王丽云",
+          "character": "李丽婆婆",
+          "profile": "https://image.tmdb.org/t/p/w185/nqx3HGx32AiHhPf00wZoSScIWq7.jpg"
         }
       ],
       "trailer": {
-        "key": "luXKakGyNtc",
-        "name": "NO GO: THE CHILD 3D / MOTHER'S REVENGE (China 2026) Trailer [ENG SUBS] 死亡禁区实录",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 1567937,
-      "title": "空枪",
-      "originalTitle": "空枪",
-      "year": 2026,
-      "releaseDate": "2026-08-19",
-      "rating": 5.7,
-      "voteCount": 6,
-      "overview": "90年代初，这座“遍地黄金”的欲望之城，秩序崩坏，犯罪丛生。打工仔万梓强（朱一龙 饰）一心想改写命运，在结识空姐骆嘉苑（卫诗雅 饰）后，两人联手作案，劫取巨额钱款，这次得手让万梓强愈发疯狂，也将他与富商陈辉延（梁家辉 饰）推向了更深的角力漩涡中。与此同时，内地警察亓宏刚（檀健次 饰）和香港警察关苏辰（李施嬅 饰）坚持对万梓强进行调查，两地警方联手行动，正邪较量一触即发。",
-      "poster": "https://image.tmdb.org/t/p/w500/rNqQQ3hFknhKpy8OTyGfzk7FY20.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/c1hrosrq2q56Afn7aZHJZqA1Dn6.jpg",
-      "genres": [
-        "剧情",
-        "犯罪"
-      ],
-      "runtime": 160,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "cn",
-      "productionCompanies": [
-        "广东珠影影视制作有限公司",
-        "广东联瑞木马影业有限公司",
-        "Zhejiang Hengdian Film Production",
-        "Pearl River Film Group 珠江电影集团"
-      ],
-      "director": {
-        "id": 1068848,
-        "name": "韩延"
-      },
-      "cast": [
-        {
-          "id": 1743471,
-          "name": "朱一龙",
-          "character": "Man Tsz-keung",
-          "profile": "https://image.tmdb.org/t/p/w185/tdm21vg4E7ubhd429UT1UpPpFGo.jpg"
-        },
-        {
-          "id": 2122379,
-          "name": "檀健次",
-          "character": "Qi Honggang",
-          "profile": "https://image.tmdb.org/t/p/w185/wZVw3agRZwqTKeOr4q7wkMET9hJ.jpg"
-        },
-        {
-          "id": 56861,
-          "name": "梁家辉",
-          "character": "Chan Fai-yin",
-          "profile": "https://image.tmdb.org/t/p/w185/sPDShFDtDx1pMNwHEx14o4WHrEH.jpg"
-        },
-        {
-          "id": 1005911,
-          "name": "卫诗雅",
-          "character": "Lok Ka-yuen",
-          "profile": "https://image.tmdb.org/t/p/w185/7dZzH15rB7dqdBxXWuwnFIK63zl.jpg"
-        },
-        {
-          "id": 84205,
-          "name": "惠英红",
-          "character": "Li Huiru",
-          "profile": "https://image.tmdb.org/t/p/w185/usUroq18HASSFlTh9NFfdWqQmwn.jpg"
-        },
-        {
-          "id": 1178843,
-          "name": "李施嬅",
-          "character": "Guan Suchen",
-          "profile": "https://image.tmdb.org/t/p/w185/fHwTvf1qkwspkfPYEWP4rj1QKjE.jpg"
-        },
-        {
-          "id": 551605,
-          "name": "袁富华",
-          "character": "Mr. Rong",
-          "profile": "https://image.tmdb.org/t/p/w185/XFt49WTIm48LRjsELMIaDozNLw.jpg"
-        },
-        {
-          "id": 17382,
-          "name": "倪大红",
-          "character": "Chang Weirong",
-          "profile": "https://image.tmdb.org/t/p/w185/4Eo2UHZTIyo6WU5I3zqIb60je9U.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "MebgWogBVdQ",
-        "name": "空枪预告-檀健次-8月19日电影院见",
+        "key": "uD1K5pC2X2c",
+        "name": "电影 什么意思夫妇 预告片0924 2026-10-01上映 沈春阳 小沈阳,沈春阳,贾冰 喜剧,家庭 中国大陆 260924",
         "site": "YouTube",
         "type": "Trailer"
       }
@@ -884,88 +869,28 @@
       }
     },
     {
-      "id": 1089598,
-      "title": "敦煌英雄",
-      "originalTitle": "敦煌英雄",
+      "id": 1778310,
+      "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
+      "originalTitle": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
       "year": 2026,
-      "releaseDate": "2026-09-25",
+      "releaseDate": "2026-10-01",
       "rating": 0,
       "voteCount": 0,
-      "overview": "电影讲述的是一个关于“不忘”与“回归”的敦煌故事，取材自沙州（“敦煌”旧称“沙州”）军民归唐风云史——安史之乱后，沙州一度孤悬河西，与长安联系切断六十余年。此后，沙州军民在张议潮的带领下，穷尽一切奋勇抗击，最终使沙州唐旗高树。影片将用极致电影工业美学呈现大唐纷繁历史中的这段热血传奇，展现为家国舍身取义的少年英雄故事和中国人民千百年所传承的家国团圆梦。",
-      "poster": "https://image.tmdb.org/t/p/w500/zIzru6pQiHi9FNWZ4W3Gx2a9uor.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/tXJrjbAkrbkMvBUcu9VYBjbUQ66.jpg",
+      "overview": "　　为了替小头爸爸出气整顿职场，大头儿子借助天眼的魔法瞬间长大，但是到失控的第七天，情况越发难以控制，大头儿子与天眼还会碰撞出怎样的火花？七天魔法将尽，他们又该如何收场？\r 　　影片是《大头儿子和小头爸爸》与《天眼》两大国民级卡通联动。",
+      "poster": "https://image.tmdb.org/t/p/w500/nQhGByf1SEhmMNrwirvjzBVOxXn.jpg",
+      "backdrop": null,
       "genres": [
-        "动作",
-        "历史"
+        "动画",
+        "奇幻"
       ],
-      "runtime": 123,
+      "runtime": 85,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "zh",
-      "productionCompanies": [
-        "Beijing Cheering Times Culture & Entertainment",
-        "Baination"
-      ],
-      "director": {
-        "id": 1917066,
-        "name": "曹盾"
-      },
-      "cast": [
-        {
-          "id": 2074441,
-          "name": "章宇",
-          "character": "狼鹞子",
-          "profile": "https://image.tmdb.org/t/p/w185/u8sPe0IqyPoMzy6Qzmtpy3RZeHq.jpg"
-        },
-        {
-          "id": 145093,
-          "name": "窦骁",
-          "character": "Cao Guangzong",
-          "profile": "https://image.tmdb.org/t/p/w185/Aeh3z8MCLu7CEClcXswvMXNSOE9.jpg"
-        },
-        {
-          "id": 2309269,
-          "name": "吕凉",
-          "character": "Ren Kongre",
-          "profile": "https://image.tmdb.org/t/p/w185/uX4JKiEoezrKrqhuwtVAOyzkhTI.jpg"
-        },
-        {
-          "id": 2816786,
-          "name": "蔡鹭",
-          "character": "Luo Sang",
-          "profile": "https://image.tmdb.org/t/p/w185/ez45nSo9VxmAUpWVDurFiM1DneT.jpg"
-        },
-        {
-          "id": 3573150,
-          "name": "赵蕴卓",
-          "character": "Zhang Yueya",
-          "profile": "https://image.tmdb.org/t/p/w185/ei1i8x20BS4fLenvZcqApCXtupf.jpg"
-        },
-        {
-          "id": 3781946,
-          "name": "公磊",
-          "character": "Bai Ba",
-          "profile": "https://image.tmdb.org/t/p/w185/gSZANQg4sOsJDuYMizwkHNCwiYs.jpg"
-        },
-        {
-          "id": 3842315,
-          "name": "杨溢",
-          "character": "Zhang Yichao",
-          "profile": "https://image.tmdb.org/t/p/w185/wC8O3c3eusTsKi1a9W5pKaWfcht.jpg"
-        },
-        {
-          "id": 3550887,
-          "name": "赵魏",
-          "character": "Master Hongbian",
-          "profile": "https://image.tmdb.org/t/p/w185/kQnjL3MWIRFDrLFXVLwtYAzosZn.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "pato2F6ji5M",
-        "name": "Dunhuang Warriors Official Trailer 敦煌英雄定档预告",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
+      "productionCompanies": [],
+      "director": null,
+      "cast": [],
+      "trailer": null
     }
   ]
 }
