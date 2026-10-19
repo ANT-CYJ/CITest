@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T06:39:35.787Z",
+  "generatedAt": "2026-10-19T05:25:20.737Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
     {
@@ -9,7 +9,7 @@
       "year": 2026,
       "releaseDate": "2026-10-05",
       "rating": 7.3,
-      "voteCount": 880,
+      "voteCount": 984,
       "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
       "poster": "https://image.tmdb.org/t/p/w500/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
@@ -85,160 +85,81 @@
       "trailer": null
     },
     {
-      "id": 1101412,
-      "title": "坠落２：死点",
-      "originalTitle": "Fall 2: Deadpoint",
+      "id": 1255833,
+      "title": "鲸口脱险",
+      "originalTitle": "Whalefall",
       "year": 2026,
-      "releaseDate": "2026-09-01",
-      "rating": 7.4,
-      "voteCount": 433,
-      "overview": "痛失姐姐杭特之后，贾克斯与杭特那无畏的好友露斯重聚。两人结伴前往泰国著名的关山山脉疗伤。不料突如其来的山体滑坡将她们逼入绝境，两人被困在一段摇摇欲坠、高耸入云的4000英尺高空栈道上。面对死神的威胁，贾克斯必须直面内心深处的恐惧，在绝壁之上觅得一线生机。",
-      "poster": "https://image.tmdb.org/t/p/w500/nsihyCiAHotJ3G4NTSJcBuWLbzg.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+      "releaseDate": "2026-10-16",
+      "rating": 6.7,
+      "voteCount": 47,
+      "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
+      "poster": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
       "genres": [
-        "惊悚"
+        "惊悚",
+        "剧情"
       ],
-      "runtime": 98,
-      "tagline": "别往下看！",
+      "runtime": 106,
+      "tagline": null,
       "status": "Released",
       "originalLanguage": "en",
       "productionCompanies": [
-        "Tea Shop Productions",
-        "Capstone Pictures",
-        "Flawless Production",
-        "Cousin Jones"
+        "Imagine Entertainment",
+        "20th Century Studios",
+        "Jurassic Party"
       ],
       "director": {
-        "id": 56502,
-        "name": "彼得·斯派瑞"
+        "id": 1295292,
+        "name": "布莱恩·达菲尔德"
       },
       "cast": [
         {
-          "id": 2480853,
-          "name": "哈里特·斯莱特",
-          "character": "Jax Hunter",
-          "profile": "https://image.tmdb.org/t/p/w185/mR9ewUjIKoP6Z4DjokAD83tpZ6q.jpg"
+          "id": 148992,
+          "name": "奥斯汀·艾布拉姆斯",
+          "character": "Jay Gardiner",
+          "profile": "https://image.tmdb.org/t/p/w185/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
         },
         {
-          "id": 3486664,
-          "name": "Arsema Thomas",
-          "character": "Billie",
-          "profile": "https://image.tmdb.org/t/p/w185/seZPjbZDFgIVdvM5UPBFvSISItw.jpg"
+          "id": 16851,
+          "name": "乔什·布洛林",
+          "character": "Mitt Gardiner",
+          "profile": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
         },
         {
-          "id": 1626604,
-          "name": "汤姆·布里特尼",
-          "character": "Jon Platt",
-          "profile": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
+          "id": 1951,
+          "name": "伊丽莎白·苏",
+          "character": "Zara Gardiner",
+          "profile": "https://image.tmdb.org/t/p/w185/1pmjDSLvOuqKW1P2KRPlpFMeUFe.jpg"
         },
         {
-          "id": 1279279,
-          "name": "弗吉尼亚·加德纳",
-          "character": "Shiloh Hunter",
-          "profile": "https://image.tmdb.org/t/p/w185/1DnNysK267b0te48KCkUlTKoTzj.jpg"
+          "id": 40543,
+          "name": "约翰·奥提兹",
+          "character": "Hewey",
+          "profile": "https://image.tmdb.org/t/p/w185/o2SOFI53N6Gv5S3fDEBNbeimbzY.jpg"
         },
         {
-          "id": 521673,
-          "name": "萨哈贾克·波斯安吉特",
-          "character": "Thai Barman",
-          "profile": "https://image.tmdb.org/t/p/w185/a36MI02S0f11bJZjBoxkZTsUDAK.jpg"
+          "id": 530618,
+          "name": "简·利维",
+          "character": "Eva Gardiner",
+          "profile": "https://image.tmdb.org/t/p/w185/iYyWPOOpZgAqZK6IddSaD4R9QW3.jpg"
         },
         {
-          "id": 6455282,
-          "name": "Korakod Yensuk",
-          "character": "Large Woman",
+          "id": 1568101,
+          "name": "埃米莉·拉德",
+          "character": "Nan Gardiner",
+          "profile": "https://image.tmdb.org/t/p/w185/vVl4ABlqUuh5n1M2B9AOOa9r6kV.jpg"
+        },
+        {
+          "id": 2356114,
+          "name": "Kamy D. Bruder",
+          "character": "Whale Watcher Man",
+          "profile": "https://image.tmdb.org/t/p/w185/zClbeBZWyCogpRZz9zRQnBSl5X9.jpg"
+        },
+        {
+          "id": 5586848,
+          "name": "Mark Meloro Jr.",
+          "character": "Whale Watcher Man",
           "profile": null
-        },
-        {
-          "id": 3698000,
-          "name": "Jordan Coleman",
-          "character": "Luce",
-          "profile": "https://image.tmdb.org/t/p/w185/57FrMe016RyMHm8WDL2mK7P0bmS.jpg"
-        },
-        {
-          "id": 3725028,
-          "name": "Maryna Bennett",
-          "character": "Female Teenager",
-          "profile": "https://image.tmdb.org/t/p/w185/alqr0Hx7kgLZ38QvwdQKFIA8Y8l.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1288445,
-      "title": "怒之杀",
-      "originalTitle": "Mutiny",
-      "year": 2026,
-      "releaseDate": "2026-09-04",
-      "rating": 7.5,
-      "voteCount": 850,
-      "overview": "　　在目睹亿万富豪蒂布遇害，自己被诬陷为凶手后，科尔·里德只身闯入一艘远洋货轮，决心为老板复仇，却由此意外揭开了一个骇人听闻的惊天阴谋。",
-      "poster": "https://image.tmdb.org/t/p/w500/5E6hS9faru2CDOXLrHhIyOUfC7a.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
-      "genres": [
-        "动作",
-        "惊悚"
-      ],
-      "runtime": 96,
-      "tagline": "血染水域，杀机毕露",
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Punch Palace Productions",
-        "MadRiver Pictures"
-      ],
-      "director": {
-        "id": 58324,
-        "name": "让-弗朗索瓦·里歇"
-      },
-      "cast": [
-        {
-          "id": 976,
-          "name": "杰森·斯坦森",
-          "character": "Cole Reed",
-          "profile": "https://image.tmdb.org/t/p/w185/8l6lmrmKFDvhDjMJPj6tBpJdhaA.jpg"
-        },
-        {
-          "id": 82809,
-          "name": "安娜贝拉·沃丽丝",
-          "character": "Angie Ellis",
-          "profile": "https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg"
-        },
-        {
-          "id": 141876,
-          "name": "罗兰·默勒",
-          "character": "Captain Marko Madsen",
-          "profile": "https://image.tmdb.org/t/p/w185/bF7wrJ5mrIhSwyi6ylhyQWj9BoN.jpg"
-        },
-        {
-          "id": 178622,
-          "name": "拉蒙·提卡蓝",
-          "character": "Tibu Campallo",
-          "profile": "https://image.tmdb.org/t/p/w185/wtBLiI8tzeqPLMB9uswkyFhChva.jpg"
-        },
-        {
-          "id": 1156305,
-          "name": "阿尔纳斯·费达拉维丘斯",
-          "character": "Mateo Pineda",
-          "profile": "https://image.tmdb.org/t/p/w185/7WfcGugvkuPqEzu0cUJBeJPt1lD.jpg"
-        },
-        {
-          "id": 1033691,
-          "name": "黄竣锋",
-          "character": "Taran",
-          "profile": "https://image.tmdb.org/t/p/w185/tt3D1PAoB8Yf4jPCovnhlP4pvL3.jpg"
-        },
-        {
-          "id": 76215,
-          "name": "阿德里安·莱斯特",
-          "character": "Captain Adam Spencer",
-          "profile": "https://image.tmdb.org/t/p/w185/xyRB9aykTFtI42Ce8xFKZDCsHYd.jpg"
-        },
-        {
-          "id": 2223751,
-          "name": "钱尼尔·库勒",
-          "character": "Kameron Campallo",
-          "profile": "https://image.tmdb.org/t/p/w185/b6TmM2wcVntDMJGZWQM3ftshhIi.jpg"
         }
       ],
       "trailer": null
@@ -250,7 +171,7 @@
       "year": 2026,
       "releaseDate": "2026-09-30",
       "rating": 7.4,
-      "voteCount": 272,
+      "voteCount": 313,
       "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
       "poster": "https://image.tmdb.org/t/p/w500/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
@@ -331,7 +252,7 @@
       "year": 2019,
       "releaseDate": "2019-04-24",
       "rating": 8.2,
-      "voteCount": 28976,
+      "voteCount": 29034,
       "overview": "灭霸集齐六颗无限宝石后的一声响指，让宇宙中半数生命灰飞烟灭。幸存的复仇者们几近绝望，即使找到灭霸，也发现无限宝石已经被毁，希望似乎彻底破灭。五年后，迷失在量子领域的蚁人意外回到现实世界，并带来了一个可能逆转一切的办法。托尼·斯塔克、美国队长等幸存的英雄再度集结，尝试穿越不同的时间节点寻找过去的无限宝石。然而在行动过程中，过去的灭霸也逐渐察觉了他们的计划。为了挽回失去的一切，复仇者们不得不再次面对一场决定整个宇宙命运的终极挑战……",
       "poster": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
@@ -415,8 +336,7 @@
       "poster": "https://image.tmdb.org/t/p/w500/jfDFyAb9DW6QczgNeieSzPOz1cT.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/9gKgRM5nzNBQVy50peiR2eYQVX0.jpg",
       "genres": [
-        "犯罪",
-        "剧情"
+        "犯罪"
       ],
       "runtime": 140,
       "tagline": null,
@@ -434,49 +354,137 @@
         {
           "id": 146098,
           "name": "张译",
-          "character": "崔寻",
+          "character": "Cui Xun",
           "profile": "https://image.tmdb.org/t/p/w185/l34U9AP3AegNzvogW2rYs0H5DOG.jpg"
         },
         {
           "id": 1519027,
           "name": "马丽",
-          "character": "黄仁德",
+          "character": "Huang Rende",
           "profile": "https://image.tmdb.org/t/p/w185/qyZrvxKCUHMXTyrqXSi78X2Sgu8.jpg"
         },
         {
           "id": 124993,
           "name": "陈明昊",
-          "character": "王卫国",
+          "character": "Wang Weiguo",
           "profile": "https://image.tmdb.org/t/p/w185/ksWDHeCd9Tbhtj4Zbh10EbT58CM.jpg"
-        },
-        {
-          "id": 143358,
-          "name": "李雪健",
-          "character": "老年崔寻",
-          "profile": "https://image.tmdb.org/t/p/w185/22QFJKWJPNj3O3A6PdRKJc0qeKK.jpg"
         },
         {
           "id": 1785744,
           "name": "王俊凯",
-          "character": null,
+          "character": "Ye Zhongcheng",
           "profile": "https://image.tmdb.org/t/p/w185/gl1ibG6gEDy0XKAkSDbzEieDZq0.jpg"
         },
         {
           "id": 1948101,
           "name": "范丞丞",
-          "character": null,
+          "character": "Qi Xiaolong",
           "profile": "https://image.tmdb.org/t/p/w185/mmpJ9EcYweG9pr1iU5q5aqcsusG.jpg"
         },
         {
           "id": 2165598,
           "name": "陈飞宇",
-          "character": null,
+          "character": "Ma Chaoyang",
           "profile": "https://image.tmdb.org/t/p/w185/rP046czFxScpvRiinBAwJtc3302.jpg"
+        },
+        {
+          "id": 143358,
+          "name": "李雪健",
+          "character": "Cui Xun (old)",
+          "profile": "https://image.tmdb.org/t/p/w185/22QFJKWJPNj3O3A6PdRKJc0qeKK.jpg"
+        },
+        {
+          "id": 1823685,
+          "name": "高叶",
+          "character": "Jin Minyu",
+          "profile": "https://image.tmdb.org/t/p/w185/iowwWeVy1IlA2h42c08FpmzLCvq.jpg"
         }
       ],
       "trailer": {
         "key": "Pi2rTaPWfJs",
         "name": "Traces of Justice Trailer 神探之痕迹 预告片",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
+    },
+    {
+      "id": 1503023,
+      "title": "重生2",
+      "originalTitle": "重生2",
+      "year": 2026,
+      "releaseDate": "2026-10-03",
+      "rating": 5,
+      "voteCount": 2,
+      "overview": "　　孩子遭人迫害的母亲希拉，与妹妹有相同遭遇的哥哥苏诚，联手查明孩子受害的真相。两人以命相搏为孩子伸张正义，也将罪恶与阴谋的冰山一点点拽出。身负痛苦的他们在这趟复仇之旅中慢慢获得重生....",
+      "poster": "https://image.tmdb.org/t/p/w500/b64Qih8RALtpxQcuFnsJOOSoIBT.jpg",
+      "backdrop": null,
+      "genres": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "runtime": 132,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [],
+      "director": {
+        "id": 1615891,
+        "name": "马浴柯"
+      },
+      "cast": [
+        {
+          "id": 1625880,
+          "name": "文俊辉",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/z1seXrQQWG7nsQVHqSWKefJQ8DO.jpg"
+        },
+        {
+          "id": 72040,
+          "name": "梁洛施",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/goc7CVYEW0Fd6cB5hjUjOG8KY9N.jpg"
+        },
+        {
+          "id": 62410,
+          "name": "洪金宝",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/AsB9uRDQWdIbFGnkICEl8I2gDWn.jpg"
+        },
+        {
+          "id": 2534411,
+          "name": "阿如那",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/loohGJbdGzpqdRRAKqkGym9t5x.jpg"
+        },
+        {
+          "id": 1615891,
+          "name": "马浴柯",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/zMm1gk79CFAso6Rx3rdt9pzf4vK.jpg"
+        },
+        {
+          "id": 1755282,
+          "name": "卡斯柏",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/qM4ZbgqKrXieKR6Vwdqm3qbD8so.jpg"
+        },
+        {
+          "id": 72731,
+          "name": "张家辉",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/yjjSMT1bCX7vlJMVt2BiPVwOATo.jpg"
+        },
+        {
+          "id": 1739834,
+          "name": "王龙正",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/gTKEAwwL6yjoNmEbDJ5k8brsuai.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "NgEedDUb-HY",
+        "name": "电影 重生2 预告片0927 2026-10-03上映 马浴柯 梁洛施,文俊辉,洪金宝 犯罪,动作 中国大陆 260927",
         "site": "YouTube",
         "type": "Trailer"
       }
@@ -559,170 +567,6 @@
       "trailer": {
         "key": "uD1K5pC2X2c",
         "name": "电影 什么意思夫妇 预告片0924 2026-10-01上映 沈春阳 小沈阳,沈春阳,贾冰 喜剧,家庭 中国大陆 260924",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 414419,
-      "title": "杀死比尔：血色全传",
-      "originalTitle": "Kill Bill: The Whole Bloody Affair",
-      "year": 2026,
-      "releaseDate": "2026-08-07",
-      "rating": 8.1,
-      "voteCount": 1446,
-      "overview": "昆汀·塔伦蒂诺的本片将第一卷与第二卷合二为一，呈现出一部未分级的完整史诗一一完全以导演原本意图呈现，并包含一段前所未见的新动画片段。新娘（乌玛·瑟曼 Uma Thurman 饰）曾是暗杀组织中的一名成员，也是组织首脑比尔（大卫·卡拉丁 David Carradine 饰）的情人，金盆洗手后的她结识了一个单纯的小伙子并准备忘掉过去与之结婚。没想到，婚礼当天比尔突然出现，并带领手下大开杀戒，霎时间，圣洁的教堂变成人间地狱。新娘头部中弹昏迷4年，醒来后脑中首先想起的便是昏迷前的几张残酷的面孔，他们是曾经的同僚和爱人，是如今的敌人。满腔怒火的新娘要一一找到这些人，开启血色复仇……",
-      "poster": "https://image.tmdb.org/t/p/w500/8w8bV7nmHq25mH68bqZaopMxnV7.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/gxSWwZyYPA50f5T2IJzFX4NzxAG.jpg",
-      "genres": [
-        "动作",
-        "犯罪",
-        "剧情",
-        "惊悚"
-      ],
-      "runtime": 253,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "en",
-      "productionCompanies": [
-        "Miramax",
-        "A Band Apart",
-        "Super Cool ManChu"
-      ],
-      "director": {
-        "id": 138,
-        "name": "昆汀·塔伦蒂诺"
-      },
-      "cast": [
-        {
-          "id": 139,
-          "name": "乌玛·瑟曼",
-          "character": "The Bride / Beatrix Kiddo (Black Mamba) / Mommy",
-          "profile": "https://image.tmdb.org/t/p/w185/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
-        },
-        {
-          "id": 140,
-          "name": "刘玉玲",
-          "character": "O-Ren Ishii (Cottonmouth)",
-          "profile": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg"
-        },
-        {
-          "id": 2535,
-          "name": "薇薇卡·福克斯",
-          "character": "Vernita Green (Copperhead)",
-          "profile": "https://image.tmdb.org/t/p/w185/oIzevp0dqjIxqRQ2VoSzjiDCBt.jpg"
-        },
-        {
-          "id": 147,
-          "name": "迈克尔·马德森",
-          "character": "Budd (Sidewinder)",
-          "profile": "https://image.tmdb.org/t/p/w185/fvr2EXEPrVwsF2JlfRp0Olbj4g8.jpg"
-        },
-        {
-          "id": 589,
-          "name": "达丽尔·汉纳",
-          "character": "Elle Driver (California Mountain Snake)",
-          "profile": "https://image.tmdb.org/t/p/w185/5FllFmoiaru7tjXJ6Orc11OpQcw.jpg"
-        },
-        {
-          "id": 141,
-          "name": "大卫·卡拉丁",
-          "character": "Bill (Snake Charmer)",
-          "profile": "https://image.tmdb.org/t/p/w185/1X2GlkMKS9FIG1kGou7o6LRqAjz.jpg"
-        },
-        {
-          "id": 2537,
-          "name": "千叶真一",
-          "character": "Hattori Hanzo",
-          "profile": "https://image.tmdb.org/t/p/w185/7HTYqrtWl1DRpfFhasBCgptmx4H.jpg"
-        },
-        {
-          "id": 2538,
-          "name": "栗山千明",
-          "character": "Gogo Yubari",
-          "profile": "https://image.tmdb.org/t/p/w185/2lGs2rzx9VovrtBFsKM5Fy1Uja5.jpg"
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1503023,
-      "title": "重生2",
-      "originalTitle": "重生2",
-      "year": 2026,
-      "releaseDate": "2026-10-03",
-      "rating": 0,
-      "voteCount": 0,
-      "overview": "　　孩子遭人迫害的母亲希拉，与妹妹有相同遭遇的哥哥苏诚，联手查明孩子受害的真相。两人以命相搏为孩子伸张正义，也将罪恶与阴谋的冰山一点点拽出。身负痛苦的他们在这趟复仇之旅中慢慢获得重生....",
-      "poster": "https://image.tmdb.org/t/p/w500/b64Qih8RALtpxQcuFnsJOOSoIBT.jpg",
-      "backdrop": null,
-      "genres": [
-        "剧情",
-        "动作",
-        "犯罪"
-      ],
-      "runtime": 132,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [],
-      "director": {
-        "id": 1615891,
-        "name": "马浴柯"
-      },
-      "cast": [
-        {
-          "id": 1625880,
-          "name": "文俊辉",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/z1seXrQQWG7nsQVHqSWKefJQ8DO.jpg"
-        },
-        {
-          "id": 72040,
-          "name": "梁洛施",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/goc7CVYEW0Fd6cB5hjUjOG8KY9N.jpg"
-        },
-        {
-          "id": 62410,
-          "name": "洪金宝",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/AsB9uRDQWdIbFGnkICEl8I2gDWn.jpg"
-        },
-        {
-          "id": 2534411,
-          "name": "阿如那",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/loohGJbdGzpqdRRAKqkGym9t5x.jpg"
-        },
-        {
-          "id": 1615891,
-          "name": "马浴柯",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/zMm1gk79CFAso6Rx3rdt9pzf4vK.jpg"
-        },
-        {
-          "id": 1755282,
-          "name": "卡斯柏",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/qM4ZbgqKrXieKR6Vwdqm3qbD8so.jpg"
-        },
-        {
-          "id": 72731,
-          "name": "张家辉",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/yjjSMT1bCX7vlJMVt2BiPVwOATo.jpg"
-        },
-        {
-          "id": 1739834,
-          "name": "王龙正",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/gTKEAwwL6yjoNmEbDJ5k8brsuai.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "NgEedDUb-HY",
-        "name": "电影 重生2 预告片0927 2026-10-03上映 马浴柯 梁洛施,文俊辉,洪金宝 犯罪,动作 中国大陆 260927",
         "site": "YouTube",
         "type": "Trailer"
       }
@@ -814,28 +658,87 @@
       }
     },
     {
-      "id": 1778310,
-      "title": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
-      "originalTitle": "新大头儿子和小头爸爸之天眼系列：失控的第七天",
+      "id": 1671541,
+      "title": "三国第一部：争洛阳",
+      "originalTitle": "三国第一部：争洛阳",
       "year": 2026,
-      "releaseDate": "2026-10-01",
-      "rating": 0,
-      "voteCount": 0,
-      "overview": "　　为了替小头爸爸出气整顿职场，大头儿子借助天眼的魔法瞬间长大，但是到失控的第七天，情况越发难以控制，大头儿子与天眼还会碰撞出怎样的火花？七天魔法将尽，他们又该如何收场？\r 　　影片是《大头儿子和小头爸爸》与《天眼》两大国民级卡通联动。",
-      "poster": "https://image.tmdb.org/t/p/w500/nQhGByf1SEhmMNrwirvjzBVOxXn.jpg",
-      "backdrop": null,
+      "releaseDate": "2026-06-27",
+      "rating": 6.3,
+      "voteCount": 3,
+      "overview": "东汉末年，危机四伏，宦官掌权，百姓困苦。黄巾军起，曹操、袁绍、袁术、吕布、孙坚、刘备等乱世英雄初露头角。各方势力争斗洛阳，惊涛骇浪中，曹操、袁绍如何应对？",
+      "poster": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/ysftTAaYr3Hu1Vy8b4AFoIUis6C.jpg",
       "genres": [
         "动画",
-        "奇幻"
+        "历史"
       ],
-      "runtime": 85,
+      "runtime": 137,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "zh",
-      "productionCompanies": [],
-      "director": null,
-      "cast": [],
-      "trailer": null
+      "productionCompanies": [
+        "Light Chaser Animation Studios"
+      ],
+      "director": {
+        "id": 3931953,
+        "name": "谢君伟"
+      },
+      "cast": [
+        {
+          "id": 2129165,
+          "name": "王凯",
+          "character": "曹操(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/gjhmjROKqAxIwAbUdxaItr3AyMf.jpg"
+        },
+        {
+          "id": 2199340,
+          "name": "魏超",
+          "character": "袁绍(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/aPYAEWrS1lb1UYwCFejIcJOOGSU.jpg"
+        },
+        {
+          "id": 6315667,
+          "name": "万昊",
+          "character": "何进(voice)",
+          "profile": null
+        },
+        {
+          "id": 3769757,
+          "name": "李楠",
+          "character": "董卓(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/nnyFddBJJm0s5UTwzFSBX3VLTes.jpg"
+        },
+        {
+          "id": 4376425,
+          "name": "常文涛",
+          "character": "吕布(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/s9jQXrUzbtMXA6d5iZkgQ6nGJ5N.jpg"
+        },
+        {
+          "id": 5557717,
+          "name": "唐明冬",
+          "character": "袁术(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/rHlanIUmJVMm01zxfq10KXZJsUG.jpg"
+        },
+        {
+          "id": 2796184,
+          "name": "严燕生",
+          "character": "王允(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/9gArKt4F8IxPToVrFRqZEviToXb.jpg"
+        },
+        {
+          "id": 4244140,
+          "name": "陈喆",
+          "character": "张让(voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/dXhqfDYNGThM4qPdjb1W2gbL77H.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "VWyJZEp67sE",
+        "name": "追光动画新作《三国第一部：争洛阳》“乱世争雄”版预告Three Kingdoms: The Beginning | Official Trailer 2 - in theaters July 10",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
     },
     {
       "id": 1650896,
@@ -872,6 +775,135 @@
         "site": "YouTube",
         "type": "Trailer"
       }
+    },
+    {
+      "id": 1789496,
+      "title": "狄仁杰之狼人劫",
+      "originalTitle": "狄仁杰之狼人劫",
+      "year": 2026,
+      "releaseDate": "2026-10-06",
+      "rating": 4,
+      "voteCount": 2,
+      "overview": "　　靺鞨粟末部落狼人萨满劫杀新罗向大唐敬献之佛女，阻两国修好，不想巧遇到边境办案的狄仁杰，狄仁杰与司马小刀、段医师联手，抽丝剥茧，破获了靺鞨粟末部落阴谋，再一次拯救国家于危难。",
+      "poster": "https://image.tmdb.org/t/p/w500/lNzZZJXfa6kifGymK1eR9A5nvmv.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/lCywgIvcVE02gdm5nrfVwSbf00G.jpg",
+      "genres": [
+        "悬疑",
+        "奇幻"
+      ],
+      "runtime": 108,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [
+        "Aikesen (Beijing) Film & TV Culture Co., Ltd."
+      ],
+      "director": {
+        "id": 1044896,
+        "name": "蓝志伟"
+      },
+      "cast": [
+        {
+          "id": 2651624,
+          "name": "John Do",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/xgTPvZiJiCiiegMC2OYgDdDa5oD.jpg"
+        },
+        {
+          "id": 3217776,
+          "name": "张雪菡",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/aXfoQ1d203yKGIcFNYxWxXaktg7.jpg"
+        },
+        {
+          "id": 1174690,
+          "name": "杜奕衡",
+          "character": "Di Renjie",
+          "profile": "https://image.tmdb.org/t/p/w185/qhOG73oDo4ZxM4K3trpiNWKqsPk.jpg"
+        },
+        {
+          "id": 5723933,
+          "name": "张珹朗",
+          "character": "Physician Duan",
+          "profile": "https://image.tmdb.org/t/p/w185/wLsP2fzbsOxOVnRjDq0Vsj2rgI5.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 1761059,
+      "title": "一路超平安",
+      "originalTitle": "一路超平安",
+      "year": 2026,
+      "releaseDate": "2026-09-19",
+      "rating": 3,
+      "voteCount": 2,
+      "overview": "　　一位不着调父亲的自洽之旅，老蔡带着他珍宝般特别的儿子上路旅行，去实现梦想。他们沿路向南，经历了人生一般的嬉闹苦痛，这一路不太平，但这一路却超平安。乔杉领衔全明星喜剧阵容，幽默温情展现人生百态。",
+      "poster": "https://image.tmdb.org/t/p/w500/9IpSEwd7vmE2wUIDwvyf2RhiT7f.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/tKVo3s6MsSEyCPMFWzpu8fhdQ37.jpg",
+      "genres": [
+        "喜剧"
+      ],
+      "runtime": 97,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [],
+      "director": {
+        "id": 2212890,
+        "name": "孙小杭"
+      },
+      "cast": [
+        {
+          "id": 1734106,
+          "name": "乔杉",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/zaTccwcq61PWWzWIgqapnpQph00.jpg"
+        },
+        {
+          "id": 6453601,
+          "name": "黄翎翰",
+          "character": null,
+          "profile": null
+        },
+        {
+          "id": 128027,
+          "name": "吕孔维",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/eGk2ixDt6db9vIdUc0P8TB3tvbJ.jpg"
+        },
+        {
+          "id": 4293702,
+          "name": "王天放",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/fyQBkryz1V5APmOVs3eE6Y9mtaR.jpg"
+        },
+        {
+          "id": 2494881,
+          "name": "赵海燕",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/uietBXRHdNbX1pAUHSRcCyn7JkV.jpg"
+        },
+        {
+          "id": 4848608,
+          "name": "罗圣灯",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/yQoKJivaJChL7RzYTa0b6oukfNQ.jpg"
+        },
+        {
+          "id": 4549666,
+          "name": "雷淞然",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/d4BqKFHk5PYfxaTtDidDe807u5V.jpg"
+        },
+        {
+          "id": 6191679,
+          "name": "刘天一",
+          "character": null,
+          "profile": null
+        }
+      ],
+      "trailer": null
     }
   ]
 }
