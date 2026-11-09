@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:56:05.953Z",
+  "generatedAt": "2026-11-09T07:18:01.615Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
     {
@@ -8,8 +8,8 @@
       "originalTitle": "Resident Evil",
       "year": 2026,
       "releaseDate": "2026-10-05",
-      "rating": 7.3,
-      "voteCount": 1117,
+      "rating": 7.5,
+      "voteCount": 1839,
       "overview": "奉命奔赴浣熊市的医疗速递员布莱恩，意外深陷全城失控的病毒浩劫。浣熊市彻底沦陷，异变怪物横行肆虐、嗜血猎捕，身陷末日绝境的他，能否在这场惊魂噩梦中突围求生，搏出一线生机？",
       "poster": "https://image.tmdb.org/t/p/w500/qMvRqzzDVfQpLi5ZoKwttTQdaJe.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
@@ -18,7 +18,7 @@
         "科幻",
         "冒险"
       ],
-      "runtime": 95,
+      "runtime": 94,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "en",
@@ -91,10 +91,10 @@
       "year": 2026,
       "releaseDate": "2026-09-30",
       "rating": 7.3,
-      "voteCount": 371,
+      "voteCount": 513,
       "overview": "一名前陆军特种部队士兵与他退役战犬在阿拉斯加深处遭遇坠机事故后，这对老搭档必须在环境严酷的极地荒野中相互扶持，为生存而战。",
       "poster": "https://image.tmdb.org/t/p/w500/k1nznc9xTRkRq0BNu7qOXE3NSlU.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/kpqsljPQtWqPKJBTAEtoXtQZ9Ko.jpg",
       "genres": [
         "冒险",
         "惊悚"
@@ -148,80 +148,85 @@
       "trailer": null
     },
     {
-      "id": 299534,
-      "title": "复仇者联盟4：终局之战",
-      "originalTitle": "Avengers: Endgame",
-      "year": 2019,
-      "releaseDate": "2019-04-24",
-      "rating": 8.2,
-      "voteCount": 29190,
-      "overview": "灭霸集齐六颗无限宝石后的一声响指，让宇宙中半数生命灰飞烟灭。幸存的复仇者们几近绝望，即使找到灭霸，也发现无限宝石已经被毁，希望似乎彻底破灭。五年后，迷失在量子领域的蚁人意外回到现实世界，并带来了一个可能逆转一切的办法。托尼·斯塔克、美国队长等幸存的英雄再度集结，尝试穿越不同的时间节点寻找过去的无限宝石。然而在行动过程中，过去的灭霸也逐渐察觉了他们的计划。为了挽回失去的一切，复仇者们不得不再次面对一场决定整个宇宙命运的终极挑战……",
-      "poster": "https://image.tmdb.org/t/p/w500/wXyZYO6BKDh8Evf80DF80VzKcz3.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "id": 1117898,
+      "title": "戴帽子的猫",
+      "originalTitle": "The Cat in the Hat",
+      "year": 2026,
+      "releaseDate": "2026-11-06",
+      "rating": 7.2,
+      "voteCount": 16,
+      "overview": "改编自苏斯博士创作的同名儿童绘本。一只古灵精怪的猫接到最艰巨的任务：帮助一对因搬家而闷闷不乐的兄妹加比和塞巴斯蒂安重拾快乐。这场充满魔法与恶作剧的冒险，也可能成为他证明自己的最后机会，否则就将失去魔法帽。",
+      "poster": "https://image.tmdb.org/t/p/w500/6qBLbcj7kM2pkrkGHAOwcleVVqy.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
       "genres": [
+        "动画",
+        "奇幻",
         "冒险",
-        "科幻",
-        "动作"
+        "家庭",
+        "喜剧"
       ],
-      "runtime": 181,
-      "tagline": "逆转无限 不惜一切代价",
+      "runtime": 108,
+      "tagline": "帽子一戴，脑洞大开。",
       "status": "Released",
       "originalLanguage": "en",
       "productionCompanies": [
-        "Marvel Studios"
+        "DNEG",
+        "Dr. Seuss Enterprises",
+        "Warner Bros. Pictures Animation",
+        "A Stern Talking To"
       ],
       "director": {
-        "id": 19271,
-        "name": "安东尼·罗素"
+        "id": 1229796,
+        "name": "Erica Rivinoja"
       },
       "cast": [
         {
-          "id": 3223,
-          "name": "小罗伯特·唐尼",
-          "character": "Tony Stark / Iron Man",
-          "profile": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+          "id": 19278,
+          "name": "比尔·哈德尔",
+          "character": "The Cat in the Hat (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/qyT50vQ9PQIEctE1IxDTEsBKstU.jpg"
         },
         {
-          "id": 16828,
-          "name": "克里斯·埃文斯",
-          "character": "Steve Rogers / Captain America",
-          "profile": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+          "id": 1912381,
+          "name": "克索斯利尔·戈麦斯",
+          "character": "Gabby (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/q39DOx44YHrGF1h88R9HxRNZS3.jpg"
         },
         {
-          "id": 103,
-          "name": "马克·鲁法洛",
-          "character": "Bruce Banner / Hulk",
-          "profile": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+          "id": 3516191,
+          "name": "Tiago Martinez",
+          "character": "Sebastian (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/hqbi17NIqvNmBhI2KiazHtdpS8j.jpg"
         },
         {
-          "id": 74568,
-          "name": "克里斯·海姆斯沃斯",
-          "character": "Thor",
-          "profile": "https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+          "id": 1488236,
+          "name": "马修·贝瑞",
+          "character": "Waffles (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/1UCAuXgzQfeANlLnZFVSuq0OFhR.jpg"
         },
         {
-          "id": 1245,
-          "name": "斯嘉丽·约翰逊",
-          "character": "Natasha Romanoff / Black Widow",
-          "profile": "https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg"
+          "id": 1745988,
+          "name": "昆塔·布伦森",
+          "character": "Sherrie from HR (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/1oEdBc88XAN3Z9n2pdNvH1XIT71.jpg"
         },
         {
-          "id": 17604,
-          "name": "杰瑞米·雷纳",
-          "character": "Clint Barton / Hawkeye",
-          "profile": "https://image.tmdb.org/t/p/w185/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg"
+          "id": 1564920,
+          "name": "杨伯文",
+          "character": "Gary (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/qzjyaEe7jjLaKSmzQ2dmtcjyCpe.jpg"
         },
         {
-          "id": 16851,
-          "name": "乔什·布洛林",
-          "character": "Thanos",
-          "profile": "https://image.tmdb.org/t/p/w185/7QpneI3HoZCCDVPyWx3p3t7yeo7.jpg"
+          "id": 59174,
+          "name": "亚美莉卡·费雷拉",
+          "character": "Mom (Carmen) (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/7q9uUWnaIjveX8DTU2lcA7mA3dp.jpg"
         },
         {
-          "id": 1896,
-          "name": "唐·钱德尔",
-          "character": "James Rhodes / War Machine",
-          "profile": "https://image.tmdb.org/t/p/w185/umhTmcVF26qZKEpSfG1ZNpcbs9D.jpg"
+          "id": 1226294,
+          "name": "保拉·佩尔",
+          "character": "Patty (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/aQZsAcaac2zzLBMhb15O2mrSrpx.jpg"
         }
       ],
       "trailer": null
@@ -233,7 +238,7 @@
       "year": 2026,
       "releaseDate": "2026-10-16",
       "rating": 6.6,
-      "voteCount": 132,
+      "voteCount": 141,
       "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
       "poster": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
@@ -311,15 +316,16 @@
       "originalTitle": "Shaun the Sheep: The Beast of Mossy Bottom",
       "year": 2026,
       "releaseDate": "2026-10-24",
-      "rating": 7.4,
-      "voteCount": 48,
+      "rating": 7.3,
+      "voteCount": 59,
       "overview": "青苔农场的居民正翘首以盼万圣节的到来，而笨手笨脚的农夫意外毁了羊群心爱的南瓜地。为了解决问题，肖恩化身疯狂科学家，结果事情失控，森林中一只神秘怪兽横空出世。",
       "poster": "https://image.tmdb.org/t/p/w500/xJDyxCdAmzmkPt5rKrjRFvkZ88D.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
       "genres": [
         "动画",
         "科幻",
-        "喜剧"
+        "喜剧",
+        "家庭"
       ],
       "runtime": 81,
       "tagline": null,
@@ -392,7 +398,7 @@
       "year": 2026,
       "releaseDate": "2026-10-30",
       "rating": 7.5,
-      "voteCount": 21559,
+      "voteCount": 21590,
       "overview": "不久之前刚刚经历丧妻之痛的约翰·威克（基努·里维斯 Keanu Reeves 饰），未曾料到磨难与折磨接二连三袭来。他那辆1964年的福特老爷车被一伙俄罗斯小混混盯上，旋即引来对方入室抢劫，心爱的狗狗被当场杀死，约翰也遭到无情毒打，那辆老爷车自然被对方抢走。偷车的混混（阿尔菲·艾伦 Alfie Allen 饰）是黑帮大佬维格·塔拉索夫（迈克尔·恩奎斯特 Michael Nyqvist 饰）的儿子，而维格在听说这件事后显得紧张非常，因为约翰有着令人胆战心惊的身份。他曾是名震江湖的冷血杀手，当年替塔拉索夫杀掉不少难缠的对手，后来却为了妻子金盆洗手。愤怒至极的约翰拒绝塔拉索夫的调解，他决定单枪匹马展开复仇……",
       "poster": "https://image.tmdb.org/t/p/w500/5m86tQWN5X1jJ8S3bKPE5D2Ahew.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/ff2ti5DkA9UYLzyqhQfI2kZqEuh.jpg",
@@ -467,85 +473,146 @@
       "trailer": null
     },
     {
-      "id": 1089598,
-      "title": "敦煌英雄",
-      "originalTitle": "敦煌英雄",
+      "id": 1603262,
+      "title": "珠穆朗玛：云中彼岸",
+      "originalTitle": "Everest: The Other Side",
+      "year": 2026,
+      "releaseDate": "2026-11-06",
+      "rating": 6.3,
+      "voteCount": 3,
+      "overview": "真实记录登山滑雪运动员吉姆·莫里森于2025年10月成功沿珠穆朗玛峰北坡霍恩拜因雪沟登顶，并成为全球首位在该危险路线完成滑雪速降的历史性壮举。",
+      "poster": "https://image.tmdb.org/t/p/w500/cWbDLsCIChns73qh5Gd6u2e5zQ4.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/ySbav9wRhnA1yGadMIpoQnLgTq6.jpg",
+      "genres": [
+        "纪录"
+      ],
+      "runtime": 115,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "National Geographic Documentary Films",
+        "Little Monster Films",
+        "Walt Disney Pictures"
+      ],
+      "director": {
+        "id": 1403129,
+        "name": "金国威"
+      },
+      "cast": [
+        {
+          "id": 2523559,
+          "name": "Hilaree Nelson",
+          "character": "Self",
+          "profile": null
+        },
+        {
+          "id": 2523560,
+          "name": "Jim Morrison",
+          "character": "Self",
+          "profile": "https://image.tmdb.org/t/p/w185/lfAl8bGM3aUiLt7YMOvLGgYTSLI.jpg"
+        },
+        {
+          "id": 1403129,
+          "name": "金国威",
+          "character": "Self",
+          "profile": "https://image.tmdb.org/t/p/w185/3ay242p85A9QzR785SuBv4xASAp.jpg"
+        },
+        {
+          "id": 1027910,
+          "name": "伊丽莎白·柴·瓦沙瑞莉",
+          "character": "Self",
+          "profile": "https://image.tmdb.org/t/p/w185/hljaKxLMqS9JGYFuEIee0xi4fQg.jpg"
+        },
+        {
+          "id": 1283186,
+          "name": "Mikey Schaefer",
+          "character": "Self",
+          "profile": "https://image.tmdb.org/t/p/w185/ofAL0uF5lb0kKCqx25qU4fK95tb.jpg"
+        }
+      ],
+      "trailer": null
+    },
+    {
+      "id": 1650896,
+      "title": "小猪佩奇·完美假期",
+      "originalTitle": "小猪佩奇·完美假期",
       "year": 2026,
       "releaseDate": "2026-09-25",
-      "rating": 5,
-      "voteCount": 3,
-      "overview": "电影讲述的是一个关于“不忘”与“回归”的敦煌故事，取材自沙州（“敦煌”旧称“沙州”）军民归唐风云史——安史之乱后，沙州一度孤悬河西，与长安联系切断六十余年。此后，沙州军民在张议潮的带领下，穷尽一切奋勇抗击，最终使沙州唐旗高树。影片将用极致电影工业美学呈现大唐纷繁历史中的这段热血传奇，展现为家国舍身取义的少年英雄故事和中国人民千百年所传承的家国团圆梦。",
-      "poster": "https://image.tmdb.org/t/p/w500/zIzru6pQiHi9FNWZ4W3Gx2a9uor.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/qGdeXBDEMCT6MWtM60VqeHmhhx4.jpg",
+      "rating": 0,
+      "voteCount": 0,
+      "overview": "　　当佩奇得知今年全家不会去度假时，她感到非常失落。然而一场突如其来的暴风雨，竟将她带到了遥远的中国！佩奇一路解锁奇妙冒险，直到与家人重逢，佩奇拥有了最完美的假期。",
+      "poster": "https://image.tmdb.org/t/p/w500/oYe06Fh4BHn6SNSCTaUNg0zSEj2.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/jRlvwhczCBfIBBT4BRDQ51cBRuv.jpg",
       "genres": [
-        "动作",
-        "历史"
+        "动画",
+        "冒险",
+        "家庭"
       ],
-      "runtime": 123,
+      "runtime": 88,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "zh",
       "productionCompanies": [
-        "Beijing Cheering Times Culture & Entertainment",
-        "Baination"
+        "Huayi Brothers Pictures"
       ],
       "director": {
-        "id": 1917066,
-        "name": "曹盾"
+        "id": 5517593,
+        "name": "刘源"
       },
       "cast": [
         {
-          "id": 2074441,
-          "name": "章宇",
-          "character": "Lang Yaozi",
-          "profile": "https://image.tmdb.org/t/p/w185/5l3SI2RKP9bbX6MkTqnCjdYRVip.jpg"
+          "id": 3056264,
+          "name": "陈奕雯",
+          "character": "Peppa Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/muj3gVK2759u2X9GMYqfw2VTfiu.jpg"
         },
         {
-          "id": 145093,
-          "name": "窦骁",
-          "character": "Cao Guangzong",
-          "profile": "https://image.tmdb.org/t/p/w185/Aeh3z8MCLu7CEClcXswvMXNSOE9.jpg"
+          "id": 2195110,
+          "name": "符冲",
+          "character": "Daddy Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/sodEZrxC9R1E7vLnBZ3GbSxXsrY.jpg"
         },
         {
-          "id": 2309269,
-          "name": "吕凉",
-          "character": "Ren Guangre",
-          "profile": "https://image.tmdb.org/t/p/w185/uX4JKiEoezrKrqhuwtVAOyzkhTI.jpg"
+          "id": 2264326,
+          "name": "范楚绒",
+          "character": "Mummy Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/2vnYqJCiVvdhL6W0QFrOMFo00on.jpg"
         },
         {
-          "id": 2816786,
-          "name": "蔡鹭",
-          "character": "Nuo Ci",
-          "profile": "https://image.tmdb.org/t/p/w185/ez45nSo9VxmAUpWVDurFiM1DneT.jpg"
+          "id": 1528983,
+          "name": "张安琪",
+          "character": "George Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/pdmMWUpnnVNAfjEmc7uXo48gs23.jpg"
         },
         {
-          "id": 3573150,
-          "name": "赵蕴卓",
-          "character": "Zhang Yueya",
-          "profile": "https://image.tmdb.org/t/p/w185/ei1i8x20BS4fLenvZcqApCXtupf.jpg"
+          "id": 2445109,
+          "name": "贾邱",
+          "character": "Grandpa Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/f2d48fCYgAa2rp1zKFAcByonXmd.jpg"
         },
         {
-          "id": 3781946,
-          "name": "公磊",
-          "character": "Bai Ba",
-          "profile": "https://image.tmdb.org/t/p/w185/gSZANQg4sOsJDuYMizwkHNCwiYs.jpg"
+          "id": 4232958,
+          "name": "孙畅",
+          "character": "Granny Pig (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/xPEPApTDhbiaNnEQeBEpY3Yi5fz.jpg"
         },
         {
-          "id": 3842315,
-          "name": "杨溢",
-          "character": "Zhang Youcheng",
-          "profile": "https://image.tmdb.org/t/p/w185/wC8O3c3eusTsKi1a9W5pKaWfcht.jpg"
+          "id": 1496423,
+          "name": "孙晔",
+          "character": "Daddy Panda / Mr Panda / Mr Ram / Mr Deer (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/iWnDiYUZywlHBKOg11LVNS3akv9.jpg"
         },
         {
-          "id": 3550887,
-          "name": "赵魏",
-          "character": "Venerable Hong Bian",
-          "profile": "https://image.tmdb.org/t/p/w185/kQnjL3MWIRFDrLFXVLwtYAzosZn.jpg"
+          "id": 2181673,
+          "name": "武向彤",
+          "character": "Granny Panda / Mrs Alpaca (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/4GncnVvWea48MjgC7tWZgDvGhmD.jpg"
         }
       ],
       "trailer": {
-        "key": "pato2F6ji5M",
-        "name": "Dunhuang Warriors Official Trailer 敦煌英雄定档预告",
+        "key": "tQeViPGtmnY",
+        "name": "Peppa Pig: Perfect Holiday (2026) - Official Trailer",
         "site": "YouTube",
         "type": "Trailer"
       }
@@ -630,334 +697,252 @@
           "profile": "https://image.tmdb.org/t/p/w185/sNnEnje7gqpOQZR3NWIodvh0ti5.jpg"
         }
       ],
-      "trailer": null
+      "trailer": {
+        "key": "ldFO3mD8lNc",
+        "name": "电影 笑傲江湖2：东方不败 预告片1030 2026-10-30上映 程小东 李连杰,林青霞,关之琳 动作,武侠,古装 中国香港 261030",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
     },
     {
-      "id": 1650896,
-      "title": "小猪佩奇·完美假期",
-      "originalTitle": "小猪佩奇·完美假期",
+      "id": 1810158,
+      "title": "心迷宫之三重罪",
+      "originalTitle": "心迷宫之三重罪",
       "year": 2026,
-      "releaseDate": "2026-09-25",
+      "releaseDate": "2026-11-07",
       "rating": 0,
       "voteCount": 0,
-      "overview": "　　当佩奇得知今年全家不会去度假时，她感到非常失落。然而一场突如其来的暴风雨，竟将她带到了遥远的中国！佩奇一路解锁奇妙冒险，直到与家人重逢，佩奇拥有了最完美的假期。",
-      "poster": "https://image.tmdb.org/t/p/w500/oYe06Fh4BHn6SNSCTaUNg0zSEj2.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/jRlvwhczCBfIBBT4BRDQ51cBRuv.jpg",
+      "overview": "　　一具烧焦的无名尸体被发现，引发邻里间的猜疑。大家都在怀疑小肖杀人，虎子的家人企图认尸躲避恶霸追债，琴儿则借尸体摆脱已无感情的丈夫，此时，又有一场意外发生………随着警方调查，真相逐渐浮现。",
+      "poster": "https://image.tmdb.org/t/p/w500/vycINr2X4BCUwAiAA3DYot5LeK5.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/fsimBUWxaYj8tK8d1fhp07ofXGh.jpg",
       "genres": [
-        "喜剧",
-        "动画",
-        "冒险"
+        "犯罪"
       ],
-      "runtime": 88,
+      "runtime": 98,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [],
+      "director": {
+        "id": 2126616,
+        "name": "何念"
+      },
+      "cast": [
+        {
+          "id": 15170,
+          "name": "姜武",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/f8BXK5pb9yoREZq3ROM9hSBgvlk.jpg"
+        },
+        {
+          "id": 4063232,
+          "name": "杜光祎",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/wSxOxx7Ythn7k61GzJv8OLt91Zw.jpg"
+        },
+        {
+          "id": 6581192,
+          "name": "顾鑫",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/eGvbOEmaS88J35YPIlVF7VyAdS4.jpg"
+        },
+        {
+          "id": 4697589,
+          "name": "范祎琳",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/aduDt5Nz7q7eHokV3ETwcUBMcF2.jpg"
+        },
+        {
+          "id": 4063565,
+          "name": "王维帅",
+          "character": null,
+          "profile": null
+        },
+        {
+          "id": 6581204,
+          "name": "周叶",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/wKUOELx9NNVzBC7KuIjcQtzWtJJ.jpg"
+        },
+        {
+          "id": 3277418,
+          "name": "韩秀一",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/hklbGdXOmiYqeBfTEiK3mjbTPE9.jpg"
+        },
+        {
+          "id": 1724403,
+          "name": "雷佳音",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/wjDzXeAycQj01k40oXigRgJCPRr.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "4C-7qXLXa98",
+        "name": "【注目の映画新作：心迷宮之三重罪】",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
+    },
+    {
+      "id": 1303336,
+      "title": "落凡尘",
+      "originalTitle": "落凡尘",
+      "year": 2024,
+      "releaseDate": "2024-07-06",
+      "rating": 7.3,
+      "voteCount": 15,
+      "overview": "织女因擅离职守而获罪，逃散的二十八星宿也给人间带来危机。多年后，织女之子金风为替母赎罪，从神界来到人间收服星宿。途中，他意外结识了一心想前往神界寻找母亲的人间少女小凡，两人由此结伴踏上寻星之旅。随着一个个星宿被收服，隐藏在往事背后的秘密也逐渐浮出水面，而金风对凡尘、亲情与自己的选择也有了新的认识……",
+      "poster": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/cE04NNHcSVQk1bbQmUuV8Xt7Dh2.jpg",
+      "genres": [
+        "动画",
+        "奇幻"
+      ],
+      "runtime": 118,
       "tagline": null,
       "status": "Released",
       "originalLanguage": "zh",
       "productionCompanies": [
-        "Huayi Brothers Pictures"
+        "WinSing Animation",
+        "bilibili",
+        "Zhejiang Dongyang Xiaoyuzhou Film & TV Media",
+        "Youku"
       ],
       "director": {
-        "id": 5517593,
-        "name": "刘源"
+        "id": 4769443,
+        "name": "钟鼎"
       },
       "cast": [
         {
-          "id": 3056264,
-          "name": "陈奕雯",
-          "character": "Peppa Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/muj3gVK2759u2X9GMYqfw2VTfiu.jpg"
-        },
-        {
-          "id": 2195110,
-          "name": "符冲",
-          "character": "Daddy Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/sodEZrxC9R1E7vLnBZ3GbSxXsrY.jpg"
-        },
-        {
-          "id": 2264326,
-          "name": "范楚绒",
-          "character": "Mummy Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/2vnYqJCiVvdhL6W0QFrOMFo00on.jpg"
-        },
-        {
-          "id": 1528983,
-          "name": "张安琪",
-          "character": "George Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/pdmMWUpnnVNAfjEmc7uXo48gs23.jpg"
-        },
-        {
-          "id": 2445109,
-          "name": "贾邱",
-          "character": "Grandpa Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/f2d48fCYgAa2rp1zKFAcByonXmd.jpg"
-        },
-        {
-          "id": 4232958,
-          "name": "孙畅",
-          "character": "Granny Pig (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/xPEPApTDhbiaNnEQeBEpY3Yi5fz.jpg"
-        },
-        {
-          "id": 1496423,
-          "name": "孙晔",
-          "character": "Daddy Panda / Mr Panda / Mr Ram / Mr Deer (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/iWnDiYUZywlHBKOg11LVNS3akv9.jpg"
-        },
-        {
-          "id": 2181673,
-          "name": "武向彤",
-          "character": "Granny Panda / Mrs Alpaca (voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/4GncnVvWea48MjgC7tWZgDvGhmD.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "tQeViPGtmnY",
-        "name": "Peppa Pig: Perfect Holiday (2026) - Official Trailer",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 1086176,
-      "title": "老江湖",
-      "originalTitle": "老江湖",
-      "year": 2026,
-      "releaseDate": "2026-09-25",
-      "rating": 2,
-      "voteCount": 1,
-      "overview": "　　一起平平无奇的失窃案，却让即将退休的老警井有正（于谦 饰）发现了蹊跷。随着调查深入，所有线索都指向名典集团董事长边居寒（梁家辉 饰）。老井锲而不舍地追查，边居寒察觉危险靠近，亦发起反攻。当“老江湖”撞上“老江湖”，将牵扯出怎样惊人的真相？",
-      "poster": "https://image.tmdb.org/t/p/w500/gMBthetNcy0xqZVnBtzgXDylbKD.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/7QxuxYl9z8Agbj8YnLWvYFw2OtB.jpg",
-      "genres": [
-        "动作",
-        "喜剧",
-        "犯罪"
-      ],
-      "runtime": 100,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [],
-      "director": {
-        "id": 5048725,
-        "name": "刘誉"
-      },
-      "cast": [
-        {
-          "id": 1900637,
-          "name": "于谦",
-          "character": "Jing Youzheng",
-          "profile": "https://image.tmdb.org/t/p/w185/wz0w0xai9LzrirHr8tMIqXCocP6.jpg"
-        },
-        {
-          "id": 56861,
-          "name": "梁家辉",
-          "character": "Bian Juhan",
-          "profile": "https://image.tmdb.org/t/p/w185/sPDShFDtDx1pMNwHEx14o4WHrEH.jpg"
-        },
-        {
-          "id": 3066782,
-          "name": "王影璐",
-          "character": "Mo Qi",
-          "profile": "https://image.tmdb.org/t/p/w185/3omLBO8BI1Z7rpA2AXFzTUKT8rZ.jpg"
-        },
-        {
-          "id": 1678286,
-          "name": "段博文",
-          "character": "Zhong Jun",
-          "profile": "https://image.tmdb.org/t/p/w185/3KvvtPZjQbP6tevNr4zZxMFLyhV.jpg"
-        },
-        {
-          "id": 3995114,
-          "name": "赵小棠",
-          "character": "Dai Chao",
-          "profile": "https://image.tmdb.org/t/p/w185/3DbDlup4fgTYpcfh7f1mUVgQxjt.jpg"
-        },
-        {
-          "id": 3133673,
-          "name": "翟潇闻",
-          "character": "Windows",
-          "profile": "https://image.tmdb.org/t/p/w185/sX4Fhh35IZxJwultxPSilG8C8Ng.jpg"
-        },
-        {
-          "id": 1172006,
-          "name": "梁天",
-          "character": "Chamber Pot",
-          "profile": "https://image.tmdb.org/t/p/w185/6voROaggSjRaqoXiaGgWuaPA9uR.jpg"
-        },
-        {
-          "id": 3080664,
-          "name": "韩云云",
-          "character": "Snow",
-          "profile": "https://image.tmdb.org/t/p/w185/1hlkQ9QpF9gbpGK6uZ7UYkNprz8.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "x0EqdS8Fk54",
-        "name": "老江湖 The Old Dog - Official Trailer",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 1503023,
-      "title": "重生2",
-      "originalTitle": "重生2",
-      "year": 2026,
-      "releaseDate": "2026-10-03",
-      "rating": 5.3,
-      "voteCount": 3,
-      "overview": "　　孩子遭人迫害的母亲希拉，与妹妹有相同遭遇的哥哥苏诚，联手查明孩子受害的真相。两人以命相搏为孩子伸张正义，也将罪恶与阴谋的冰山一点点拽出。身负痛苦的他们在这趟复仇之旅中慢慢获得重生....",
-      "poster": "https://image.tmdb.org/t/p/w500/b64Qih8RALtpxQcuFnsJOOSoIBT.jpg",
-      "backdrop": null,
-      "genres": [
-        "剧情",
-        "动作",
-        "犯罪"
-      ],
-      "runtime": 132,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [],
-      "director": {
-        "id": 1615891,
-        "name": "马浴柯"
-      },
-      "cast": [
-        {
-          "id": 1625880,
-          "name": "文俊辉",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/z1seXrQQWG7nsQVHqSWKefJQ8DO.jpg"
-        },
-        {
-          "id": 72040,
-          "name": "梁洛施",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/eYlzDEFsUQex5sCuSZbnKsXYbaN.jpg"
-        },
-        {
-          "id": 62410,
-          "name": "洪金宝",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/AsB9uRDQWdIbFGnkICEl8I2gDWn.jpg"
-        },
-        {
-          "id": 2534411,
-          "name": "阿如那",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/loohGJbdGzpqdRRAKqkGym9t5x.jpg"
-        },
-        {
-          "id": 1615891,
-          "name": "马浴柯",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/zMm1gk79CFAso6Rx3rdt9pzf4vK.jpg"
-        },
-        {
-          "id": 1755282,
-          "name": "卡斯柏",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/qM4ZbgqKrXieKR6Vwdqm3qbD8so.jpg"
-        },
-        {
-          "id": 72731,
-          "name": "张家辉",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/yjjSMT1bCX7vlJMVt2BiPVwOATo.jpg"
-        },
-        {
-          "id": 1739834,
-          "name": "王龙正",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/gTKEAwwL6yjoNmEbDJ5k8brsuai.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "NgEedDUb-HY",
-        "name": "电影 重生2 预告片0927 2026-10-03上映 马浴柯 梁洛施,文俊辉,洪金宝 犯罪,动作 中国大陆 260927",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 1563608,
-      "title": "什么意思夫妇",
-      "originalTitle": "什么意思夫妇",
-      "year": 2026,
-      "releaseDate": "2026-10-01",
-      "rating": 7,
-      "voteCount": 1,
-      "overview": "　　沈默和天意是一对中年夫妻，正在经历婚姻的第三个七年之痒，锅碗瓢盆的碰撞，终于让积压许久的烦躁、嫌弃和失望彻底爆发，三十天的离婚冷静期，即将奏响他们婚姻的终曲。",
-      "poster": "https://image.tmdb.org/t/p/w500/uofN38bDaG3qYeLoerXynlVRHRt.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/vPoEbGeBuAfag3TcFzwPt9EqVWT.jpg",
-      "genres": [
-        "剧情",
-        "喜剧",
-        "爱情"
-      ],
-      "runtime": 106,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [],
-      "director": {
-        "id": 2086271,
-        "name": "沈春阳"
-      },
-      "cast": [
-        {
-          "id": 131513,
-          "name": "小沈阳",
-          "character": "沈默",
-          "profile": "https://image.tmdb.org/t/p/w185/6GCFPZND6yCL9TdO2LPF4hqqAzb.jpg"
-        },
-        {
-          "id": 2086271,
-          "name": "沈春阳",
-          "character": "尤天意",
-          "profile": "https://image.tmdb.org/t/p/w185/aOkqOD8q2VT32pDkejlI0HGZZw5.jpg"
-        },
-        {
-          "id": 2295882,
-          "name": "贾冰",
-          "character": "郑金山",
-          "profile": "https://image.tmdb.org/t/p/w185/pum0e3d2ZVq9XZyNohZSXt46bkH.jpg"
-        },
-        {
-          "id": 2858382,
-          "name": "于洋",
-          "character": "尤天理",
-          "profile": "https://image.tmdb.org/t/p/w185/cccqipLF2z5SnQ5IWUjTjN9v5aG.jpg"
-        },
-        {
-          "id": 2093326,
-          "name": "魏翔",
-          "character": "劝架壮汉",
-          "profile": "https://image.tmdb.org/t/p/w185/j1XqYkSGoRHfBOH59nTOnv7DcRn.jpg"
-        },
-        {
-          "id": 3838631,
-          "name": "梁龙",
-          "character": "大仙",
+          "id": 3411867,
+          "name": "李昕",
+          "character": "金风 (voice)",
           "profile": null
         },
         {
-          "id": 1996700,
-          "name": "许君聪",
-          "character": "李丽老公",
-          "profile": "https://image.tmdb.org/t/p/w185/nZYcU98OsKJeOyEdHFZwrrPqlaE.jpg"
+          "id": 3207770,
+          "name": "刘校妤",
+          "character": "小凡 / 玉露 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/bH7lP1jHVOMlUEN8lWRfHasDgC0.jpg"
         },
         {
-          "id": 2536370,
-          "name": "王丽云",
-          "character": "李丽婆婆",
-          "profile": "https://image.tmdb.org/t/p/w185/nqx3HGx32AiHhPf00wZoSScIWq7.jpg"
+          "id": 2977371,
+          "name": "星潮",
+          "character": "司牧 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/rhZQQXdT4Gu2Pj0TpjENbjk4O2c.jpg"
+        },
+        {
+          "id": 2199312,
+          "name": "刘琮",
+          "character": "神君 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/wXl2Jxi9D2hj0DLoTzCGG1xf5jy.jpg"
+        },
+        {
+          "id": 3434824,
+          "name": "孙路路",
+          "character": "牛郎 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/ktTUzFsYoFCCYN64m7EV9CTogiZ.jpg"
+        },
+        {
+          "id": 2720416,
+          "name": "关帅",
+          "character": "文昌星君 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/1rTmvuKnSKQs2DqDTKfWBWaIOmi.jpg"
+        },
+        {
+          "id": 4561980,
+          "name": "付博文",
+          "character": "土地神 (voice)",
+          "profile": "https://image.tmdb.org/t/p/w185/itG87Ow6fqWah90ccO1LJIpypTG.jpg"
         }
       ],
       "trailer": {
-        "key": "uD1K5pC2X2c",
-        "name": "电影 什么意思夫妇 预告片0924 2026-10-01上映 沈春阳 小沈阳,沈春阳,贾冰 喜剧,家庭 中国大陆 260924",
+        "key": "iRBOOvpoPLI",
+        "name": "入银幕，闯人间，与诸君见面。《落凡尘》定档预告 | MadeByBilibili",
+        "site": "YouTube",
+        "type": "Trailer"
+      }
+    },
+    {
+      "id": 1439171,
+      "title": "神探之痕迹",
+      "originalTitle": "神探之痕迹",
+      "year": 2026,
+      "releaseDate": "2026-10-01",
+      "rating": 7.3,
+      "voteCount": 3,
+      "overview": "凡是经过，皆有痕迹。刑事技术警察崔寻走过半个多世纪，与同事屡破大案，这位秉承着“为人民服务”初心的神探，不仅见证了公安事业的发展，更见证了新中国的崛起。",
+      "poster": "https://image.tmdb.org/t/p/w500/jfDFyAb9DW6QczgNeieSzPOz1cT.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/9gKgRM5nzNBQVy50peiR2eYQVX0.jpg",
+      "genres": [
+        "犯罪"
+      ],
+      "runtime": 140,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [
+        "New Classics Media",
+        "As One Production"
+      ],
+      "director": {
+        "id": 1065761,
+        "name": "陈思诚"
+      },
+      "cast": [
+        {
+          "id": 146098,
+          "name": "张译",
+          "character": "Cui Xun",
+          "profile": "https://image.tmdb.org/t/p/w185/l34U9AP3AegNzvogW2rYs0H5DOG.jpg"
+        },
+        {
+          "id": 1519027,
+          "name": "马丽",
+          "character": "Huang Rende",
+          "profile": "https://image.tmdb.org/t/p/w185/qyZrvxKCUHMXTyrqXSi78X2Sgu8.jpg"
+        },
+        {
+          "id": 124993,
+          "name": "陈明昊",
+          "character": "Wang Weiguo",
+          "profile": "https://image.tmdb.org/t/p/w185/vseMgotMJtDfPTqXi7QKAq4B0zP.jpg"
+        },
+        {
+          "id": 1785744,
+          "name": "王俊凯",
+          "character": "Ye Zhongcheng",
+          "profile": "https://image.tmdb.org/t/p/w185/gl1ibG6gEDy0XKAkSDbzEieDZq0.jpg"
+        },
+        {
+          "id": 1948101,
+          "name": "范丞丞",
+          "character": "Qi Xiaolong",
+          "profile": "https://image.tmdb.org/t/p/w185/mmpJ9EcYweG9pr1iU5q5aqcsusG.jpg"
+        },
+        {
+          "id": 2165598,
+          "name": "陈飞宇",
+          "character": "Ma Chaoyang",
+          "profile": "https://image.tmdb.org/t/p/w185/1sLStiZfOOi2Yo3ACjy4q24s7nz.jpg"
+        },
+        {
+          "id": 143358,
+          "name": "李雪健",
+          "character": "Cui Xun (old)",
+          "profile": "https://image.tmdb.org/t/p/w185/22QFJKWJPNj3O3A6PdRKJc0qeKK.jpg"
+        },
+        {
+          "id": 1823685,
+          "name": "高叶",
+          "character": "Jin Minyu",
+          "profile": "https://image.tmdb.org/t/p/w185/iowwWeVy1IlA2h42c08FpmzLCvq.jpg"
+        }
+      ],
+      "trailer": {
+        "key": "Pi2rTaPWfJs",
+        "name": "Traces of Justice Trailer 神探之痕迹 预告片",
         "site": "YouTube",
         "type": "Trailer"
       }
