@@ -1,18 +1,100 @@
 {
-  "generatedAt": "2026-11-16T07:23:48.743Z",
+  "generatedAt": "2026-11-23T08:21:14.604Z",
   "source": "TMDb movie/now_playing?region=CN",
   "movies": [
+    {
+      "id": 1300968,
+      "title": "饥饿游戏：收获日出",
+      "originalTitle": "The Hunger Games: Sunrise on the Reaping",
+      "year": 2026,
+      "releaseDate": "2026-11-20",
+      "rating": 7.8,
+      "voteCount": 246,
+      "overview": "改编自苏珊·柯林斯的同名小说。故事发生在《饥饿游戏》事件发生前24年，讲述第50届饥饿游戏（第二次四分区叛乱纪念赛）抽签日当天，年轻的黑密斯·阿伯纳西被选中参赛的故事。",
+      "poster": "https://image.tmdb.org/t/p/w500/r47dh8cGfgJ7yCq07oBY7bS1sKs.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "genres": [
+        "科幻",
+        "动作",
+        "冒险"
+      ],
+      "runtime": 159,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "en",
+      "productionCompanies": [
+        "Lionsgate",
+        "Color Force",
+        "about:blank",
+        "Studio Babelsberg"
+      ],
+      "director": {
+        "id": 10943,
+        "name": "弗朗西斯·劳伦斯"
+      },
+      "cast": [
+        {
+          "id": 4744857,
+          "name": "Joseph Zada",
+          "character": "Haymitch Abernathy",
+          "profile": "https://image.tmdb.org/t/p/w185/7CUBF2zZpk9iFetHPfGFj9kOIx2.jpg"
+        },
+        {
+          "id": 88124,
+          "name": "杰西·普莱蒙",
+          "character": "Plutarch Heavensbee",
+          "profile": "https://image.tmdb.org/t/p/w185/v6WBJbm02mfzLhs8zeUzFRDtoly.jpg"
+        },
+        {
+          "id": 5469,
+          "name": "拉尔夫·费因斯",
+          "character": "President Snow",
+          "profile": "https://image.tmdb.org/t/p/w185/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
+        },
+        {
+          "id": 515,
+          "name": "格伦·克洛斯",
+          "character": "Drusilla Sickle",
+          "profile": "https://image.tmdb.org/t/p/w185/4VHZ1GfLwN7MUgApy0LCBzdDF9L.jpg"
+        },
+        {
+          "id": 1172108,
+          "name": "麦肯娜·格瑞丝",
+          "character": "Maysilee / Merrilee Donner",
+          "profile": "https://image.tmdb.org/t/p/w185/sK0CVa56IIpFhCDrcXSTqPWxNbx.jpg"
+        },
+        {
+          "id": 1842860,
+          "name": "Whitney Peak",
+          "character": "Lenore Dove",
+          "profile": "https://image.tmdb.org/t/p/w185/2TuyybZPFBJzIV4ctUzxo4w3O0X.jpg"
+        },
+        {
+          "id": 18050,
+          "name": "艾丽·范宁",
+          "character": "Effie Trinket",
+          "profile": "https://image.tmdb.org/t/p/w185/ucC5faqfEYVhoC25M6Hi3znZmab.jpg"
+        },
+        {
+          "id": 18793,
+          "name": "基兰·卡尔金",
+          "character": "Caesar Flickerman",
+          "profile": "https://image.tmdb.org/t/p/w185/4TiNEWVb5R0E62H9ljkY9RU4PoK.jpg"
+        }
+      ],
+      "trailer": null
+    },
     {
       "id": 1117898,
       "title": "戴帽子的猫",
       "originalTitle": "The Cat in the Hat",
       "year": 2026,
       "releaseDate": "2026-11-06",
-      "rating": 6.9,
-      "voteCount": 28,
+      "rating": 7,
+      "voteCount": 34,
       "overview": "改编自苏斯博士创作的同名儿童绘本。一只古灵精怪的猫接到最艰巨的任务：帮助一对因搬家而闷闷不乐的兄妹加比和塞巴斯蒂安重拾快乐。这场充满魔法与恶作剧的冒险，也可能成为他证明自己的最后机会，否则就将失去魔法帽。",
       "poster": "https://image.tmdb.org/t/p/w500/6qBLbcj7kM2pkrkGHAOwcleVVqy.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/56Bepb58k71UUTVwKN1SxHmfzPK.jpg",
       "genres": [
         "动画",
         "奇幻",
@@ -93,7 +175,7 @@
       "year": 2026,
       "releaseDate": "2026-10-16",
       "rating": 6.6,
-      "voteCount": 145,
+      "voteCount": 149,
       "overview": "一场突如其来的意外，让他被巨鲸吞入腹中。受困于漆黑鲸腹之中，他仅剩 一小时氧气。在与时间赛跑、与恐惧正面交锋的同时，父亲留给他的技能，或许正是他逃出生天的唯一希望。",
       "poster": "https://image.tmdb.org/t/p/w500/dGDJlUMPbLPavjrpMwUhmDHCBMB.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
@@ -253,7 +335,7 @@
       "year": 2026,
       "releaseDate": "2026-10-30",
       "rating": 7.5,
-      "voteCount": 21632,
+      "voteCount": 21656,
       "overview": "不久之前刚刚经历丧妻之痛的约翰·威克（基努·里维斯 Keanu Reeves 饰），未曾料到磨难与折磨接二连三袭来。他那辆1964年的福特老爷车被一伙俄罗斯小混混盯上，旋即引来对方入室抢劫，心爱的狗狗被当场杀死，约翰也遭到无情毒打，那辆老爷车自然被对方抢走。偷车的混混（阿尔菲·艾伦 Alfie Allen 饰）是黑帮大佬维格·塔拉索夫（迈克尔·恩奎斯特 Michael Nyqvist 饰）的儿子，而维格在听说这件事后显得紧张非常，因为约翰有着令人胆战心惊的身份。他曾是名震江湖的冷血杀手，当年替塔拉索夫杀掉不少难缠的对手，后来却为了妻子金盆洗手。愤怒至极的约翰拒绝塔拉索夫的调解，他决定单枪匹马展开复仇……",
       "poster": "https://image.tmdb.org/t/p/w500/5m86tQWN5X1jJ8S3bKPE5D2Ahew.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/ff2ti5DkA9UYLzyqhQfI2kZqEuh.jpg",
@@ -334,7 +416,7 @@
       "year": 2019,
       "releaseDate": "2019-11-09",
       "rating": 8.2,
-      "voteCount": 2525,
+      "voteCount": 2530,
       "overview": "1900年，一个被遗弃的婴儿出现在往返欧美的弗吉尼亚号上，被船上的锅炉工丹尼收养，并以新世纪的年份取名为“1900”。丹尼意外去世后，1900继续在船上长大，并逐渐展现出无师自通的惊人钢琴天赋，成为弗吉尼亚号上的钢琴师。他的演奏吸引着来自世界各地的乘客，也让他与小号手麦克斯结下深厚友谊。然而无论船只多少次靠岸，1900始终没有真正踏上陆地，对他而言，这艘船和八十八个琴键就是自己熟悉的整个世界。直到一次偶然的邂逅，让从未离开过大海的他第一次认真考虑走下弗吉尼亚号，面对那个没有边界的陌生世界……",
       "poster": "https://image.tmdb.org/t/p/w500/bXk1kSDSiVPj06LtpESZK7C8HsL.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
@@ -474,7 +556,7 @@
       "year": 2026,
       "releaseDate": "2026-10-30",
       "rating": 6.6,
-      "voteCount": 136,
+      "voteCount": 138,
       "overview": "华山派大弟子令狐冲（李连杰 饰）在经历江湖纷争后，本欲与师妹岳灵珊（李嘉欣 饰）及众师弟一同归隐，退出江湖。然而，此时的武林正被一场巨大阴谋笼罩。日月神教教主东方不败（林青霞 饰）凭借绝世武功《葵花宝典》篡权，囚禁了原教主任我行（任世官 饰），并勾结东瀛浪人，意图颠覆朝廷。\r 令狐冲在途中偶遇一位超凡脱俗的神秘女子，两人月下对饮，引为知己，令狐冲更对这位女子暗生情愫。他全然不知，眼前这位佳人，正是他受朋友任盈盈（关之琳 饰）和蓝凤凰（袁洁莹 饰）所托、计划要铲除的魔教枭雄东方不败。\r 与此同时，东方不败为巩固权势，开始铲除教内异己。当令狐冲得知自己的同门师兄弟惨遭东方不败毒手时，他义愤填膺，决心联手任盈盈、向问天（刘洵 饰）以及被救出的任我行，攻上黑木崖，为同门报仇。\r 在最终的决战中，令狐冲震惊地发现，那个与自己有过一段情缘、刻骨铭心的神秘女子，竟然就是他要手刃的仇敌东方不败。爱恨交织与江湖大义在前，两人展开了一场惊天动地的生死对决。东方不败虽武功盖世，但因对令狐冲手下留情，最终坠下悬崖。\r 风波平息后，重掌大权的任我行变得与昔日的东方不败一样专横，开始大肆清除异己。令狐冲看透江湖权力斗争的循环与虚妄，心灰意冷之下，选择携师妹岳灵珊浪迹天涯，真正远离这个纷扰的江湖。",
       "poster": "https://image.tmdb.org/t/p/w500/yZYzCiF0uGSg6kRkDE1UKzuesaF.jpg",
       "backdrop": "https://image.tmdb.org/t/p/w780/4hCNxfO3mFYxsrjXKeUgoSOMRtv.jpg",
@@ -553,6 +635,87 @@
         "site": "YouTube",
         "type": "Trailer"
       }
+    },
+    {
+      "id": 1239037,
+      "title": "深度安静",
+      "originalTitle": "深度安靜",
+      "year": 2026,
+      "releaseDate": "2026-11-19",
+      "rating": 6.3,
+      "voteCount": 4,
+      "overview": "影片改编自林秀赫同名短篇小说。讲述谕明与依庭相遇于大学图书馆里的深度安静区，两人相爱并走入婚姻，正期待迎接第一个孩子。然而，依庭的意外自杀让谕明陷入混乱与痛苦。他想起依庭在怀孕后变得异常，甚至提出离婚。自责的谕明照顾起依庭的家人，透过深入了解她的家庭后，开始理解她的行径，以及她无法面对自己父亲的原因，真相却让人难以接受。",
+      "poster": "https://image.tmdb.org/t/p/w500/rSi6JslKprYh6i0HSfwBMtXnyDd.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/zmvZs90ocaYhp4MPBCKHK3peALQ.jpg",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "家庭"
+      ],
+      "runtime": 107,
+      "tagline": null,
+      "status": "Released",
+      "originalLanguage": "zh",
+      "productionCompanies": [
+        "Flash Forward Entertainment",
+        "Wind Rises Entertainment",
+        "Oxygen Films"
+      ],
+      "director": {
+        "id": 1083227,
+        "name": "沈可尚"
+      },
+      "cast": [
+        {
+          "id": 126717,
+          "name": "张孝全",
+          "character": "Li Yu-ming",
+          "profile": "https://image.tmdb.org/t/p/w185/jZY7c982XpzwUWmnLxDhP7QaypY.jpg"
+        },
+        {
+          "id": 1222312,
+          "name": "林依晨",
+          "character": "Ko Yi-ting",
+          "profile": null
+        },
+        {
+          "id": 582557,
+          "name": "金士杰",
+          "character": "Professor Ko",
+          "profile": "https://image.tmdb.org/t/p/w185/pQZBMC8ed97f5MNWb64SOlahxGs.jpg"
+        },
+        {
+          "id": 1375776,
+          "name": "丁宁",
+          "character": "Yu-ming's mom",
+          "profile": "https://image.tmdb.org/t/p/w185/dhqOBR5KFPxMRKw18U4lFR60xDT.jpg"
+        },
+        {
+          "id": 3126443,
+          "name": "陈季霞",
+          "character": "Yi-ting's mom",
+          "profile": null
+        },
+        {
+          "id": 1017332,
+          "name": "马志翔",
+          "character": "Huang Zhi-cheng",
+          "profile": "https://image.tmdb.org/t/p/w185/lwwXChc5zdXaMK6Ve8rcj5B8dcO.jpg"
+        },
+        {
+          "id": 1749592,
+          "name": "蔡亘晏",
+          "character": null,
+          "profile": "https://image.tmdb.org/t/p/w185/xlDWgQ5gywdI2gW3hYgezuxbVoC.jpg"
+        },
+        {
+          "id": 2211938,
+          "name": "戴若梅",
+          "character": "Yi-ting's older sister",
+          "profile": null
+        }
+      ],
+      "trailer": null
     },
     {
       "id": 1303336,
@@ -635,78 +798,81 @@
       }
     },
     {
-      "id": 1821748,
-      "title": "我没错！",
-      "originalTitle": "我没错！",
+      "id": 1303034,
+      "title": "生日快乐",
+      "originalTitle": "عيد ميلاد سعيد",
       "year": 2026,
-      "releaseDate": "2026-11-14",
-      "rating": 5,
-      "voteCount": 1,
-      "overview": "一次伸手相助的善意让黎响（佟丽娅 饰）被判过失杀人，不甘心的她携手失意律师韩铮（王皓 饰），与多年未见的三位老友王海燕（王智 饰）、李欣怡（吴优 饰）、刘思涵（王丽坤 饰），一同踏上和时间赛跑的寻证之路。",
-      "poster": "https://image.tmdb.org/t/p/w500/5ceN7TJ27djX29YtPYvliik9e1T.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/xPw16NMyAtgwub5Du8j3ByAqPxV.jpg",
+      "releaseDate": "2026-09-18",
+      "rating": 7.8,
+      "voteCount": 6,
+      "overview": "八岁的小女孩托哈在开罗一个富裕家庭当童工女仆，并与雇主的女儿奈莉建立了特殊的联系。从未庆祝过自己生日的托哈下定决心要为奈莉举办一场完美的生日派对，她暗自希望借此体验到自己从未感受过的快乐。",
+      "poster": "https://image.tmdb.org/t/p/w500/4BL6RXKImeTkh7dffmHkopIIFZd.jpg",
+      "backdrop": "https://image.tmdb.org/t/p/w780/A0qsoBy3S4SzmPOVv6AwpIMLxdq.jpg",
       "genres": [
-        "剧情",
-        "喜剧",
-        "犯罪"
+        "剧情"
       ],
-      "runtime": 106,
-      "tagline": null,
+      "runtime": 91,
+      "tagline": "一场生日，两个世界。",
       "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [],
+      "originalLanguage": "ar",
+      "productionCompanies": [
+        "SkyLimit Studio",
+        "Film Square",
+        "Immersive Studios",
+        "Foxxhole Productions"
+      ],
       "director": {
-        "id": 3448194,
-        "name": "宗海英"
+        "id": 4768033,
+        "name": "Sarah Goher"
       },
       "cast": [
         {
-          "id": 1173214,
-          "name": "佟丽娅",
-          "character": "黎响",
-          "profile": "https://image.tmdb.org/t/p/w185/wh5CsexUjI7zc9eJQesCepBO4s3.jpg"
+          "id": 226912,
+          "name": "نيللى كريم",
+          "character": "Laila",
+          "profile": "https://image.tmdb.org/t/p/w185/6URqCTsDW1bPTCRGfyIKUtavDJY.jpg"
         },
         {
-          "id": 3667973,
-          "name": "王皓",
-          "character": "韩铮",
-          "profile": "https://image.tmdb.org/t/p/w185/mPROeLU9VmqNTbVnXidbR8N4uWV.jpg"
+          "id": 5377503,
+          "name": "Doha Ramadan",
+          "character": "Toha",
+          "profile": null
         },
         {
-          "id": 1985026,
-          "name": "王智",
-          "character": "王海燕",
-          "profile": "https://image.tmdb.org/t/p/w185/q9KQAA8587VmYH6pxfd6DfVTFmj.jpg"
+          "id": 226924,
+          "name": "شريف سلامة",
+          "character": "Asser",
+          "profile": "https://image.tmdb.org/t/p/w185/1KK2HlLD8m7B0qhOb7OJmvUzGCl.jpg"
         },
         {
-          "id": 2131224,
-          "name": "吴优",
-          "character": "李欣怡",
-          "profile": "https://image.tmdb.org/t/p/w185/7PUzF89kFtJ57V6rePeXsKIvfdn.jpg"
+          "id": 141003,
+          "name": "حنان مطاوع",
+          "character": "Nadia",
+          "profile": "https://image.tmdb.org/t/p/w185/3Nl6UYi2fgswbZDL4B5NZEXRPyM.jpg"
         },
         {
-          "id": 1251113,
-          "name": "王丽坤",
-          "character": "刘思涵",
-          "profile": "https://image.tmdb.org/t/p/w185/mAPYXNk7L8SHoEy7azrVku6Oe8g.jpg"
+          "id": 1196486,
+          "name": "حنان يوسف",
+          "character": "Grandmother",
+          "profile": "https://image.tmdb.org/t/p/w185/3VwLYLFNDDLI26lWrxWEt5FXZfD.jpg"
         },
         {
-          "id": 1376103,
-          "name": "张慧雯",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/medfjgb0DvHMWsyEyOortnCps3R.jpg"
+          "id": 1574798,
+          "name": "Aly Sobhy",
+          "character": "Toktok Kidnapper",
+          "profile": "https://image.tmdb.org/t/p/w185/rdfCcZOwbfA1tgOilGfzfelBtHv.jpg"
         },
         {
-          "id": 1079119,
-          "name": "刘敏涛",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/32bnuj7u6P3LGs7iEAUax3JSW6E.jpg"
+          "id": 4588316,
+          "name": "جهاد حسام الدين",
+          "character": "Clothing Store Seller",
+          "profile": "https://image.tmdb.org/t/p/w185/rZiDUJHugPQBIlB6QL0YdW1vztD.jpg"
         },
         {
-          "id": 1996700,
-          "name": "许君聪",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/nZYcU98OsKJeOyEdHFZwrrPqlaE.jpg"
+          "id": 2537153,
+          "name": "Hazem Ehab",
+          "character": "Cake Shop Cashier",
+          "profile": "https://image.tmdb.org/t/p/w185/pQerOJHnJeaDklPJgerpWiSAnl1.jpg"
         }
       ],
       "trailer": null
@@ -787,166 +953,6 @@
           "name": "Lisa Perrio",
           "character": "Mélanie",
           "profile": null
-        }
-      ],
-      "trailer": null
-    },
-    {
-      "id": 1671541,
-      "title": "三国第一部：争洛阳",
-      "originalTitle": "三国第一部：争洛阳",
-      "year": 2026,
-      "releaseDate": "2026-06-27",
-      "rating": 6.8,
-      "voteCount": 4,
-      "overview": "东汉末年，危机四伏，宦官掌权，百姓困苦。黄巾军起，曹操、袁绍、袁术、吕布、孙坚、刘备等乱世英雄初露头角。各方势力争斗洛阳，惊涛骇浪中，曹操、袁绍如何应对？",
-      "poster": "https://image.tmdb.org/t/p/w500/vsDiLRTjXmK75PXG2jPn575yCnj.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/ysftTAaYr3Hu1Vy8b4AFoIUis6C.jpg",
-      "genres": [
-        "动画",
-        "历史"
-      ],
-      "runtime": 137,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "zh",
-      "productionCompanies": [
-        "Light Chaser Animation Studios"
-      ],
-      "director": {
-        "id": 3931953,
-        "name": "谢君伟"
-      },
-      "cast": [
-        {
-          "id": 2129165,
-          "name": "王凯",
-          "character": "曹操(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/gjhmjROKqAxIwAbUdxaItr3AyMf.jpg"
-        },
-        {
-          "id": 2199340,
-          "name": "魏超",
-          "character": "袁绍(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/aPYAEWrS1lb1UYwCFejIcJOOGSU.jpg"
-        },
-        {
-          "id": 6315667,
-          "name": "万昊",
-          "character": "何进(voice)",
-          "profile": null
-        },
-        {
-          "id": 3769757,
-          "name": "李楠",
-          "character": "董卓(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/nnyFddBJJm0s5UTwzFSBX3VLTes.jpg"
-        },
-        {
-          "id": 4376425,
-          "name": "常文涛",
-          "character": "吕布(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/s9jQXrUzbtMXA6d5iZkgQ6nGJ5N.jpg"
-        },
-        {
-          "id": 5557717,
-          "name": "唐明冬",
-          "character": "袁术(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/rHlanIUmJVMm01zxfq10KXZJsUG.jpg"
-        },
-        {
-          "id": 2796184,
-          "name": "严燕生",
-          "character": "王允(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/9gArKt4F8IxPToVrFRqZEviToXb.jpg"
-        },
-        {
-          "id": 4244140,
-          "name": "陈喆",
-          "character": "张让(voice)",
-          "profile": "https://image.tmdb.org/t/p/w185/dXhqfDYNGThM4qPdjb1W2gbL77H.jpg"
-        }
-      ],
-      "trailer": {
-        "key": "VWyJZEp67sE",
-        "name": "追光动画新作《三国第一部：争洛阳》“乱世争雄”版预告Three Kingdoms: The Beginning | Official Trailer 2 - in theaters July 10",
-        "site": "YouTube",
-        "type": "Trailer"
-      }
-    },
-    {
-      "id": 1394721,
-      "title": "麻将女王",
-      "originalTitle": "麻雀女王追男仔",
-      "year": 2026,
-      "releaseDate": "2026-11-06",
-      "rating": 5.7,
-      "voteCount": 3,
-      "overview": "龙家村村长龙卷峰（许绍雄 饰）育有三女一子，分别名叫龙小东（高海宁 饰）、龙小南（陈静 饰）、龙小茜（郭珮文 饰）和龙小北（文佐匡 饰）。大家姐小东是连续五年跻身最佳业绩的百万元桌级经理。外表是事业女王的小东却是一个“天生麻将狂”，更偏偏恋上科学家男友马壮（马国明 饰）。马壮对小东情深一往，只是他一生最憎恨人打麻将。为了不让爱郎失望，小东竭力隐瞒自己是麻将狂的真相。  二妹小南攻读戏剧，毕业后当不了演员，却在片场担任“亲密指导员”，遇上了躁狂影帝千红哥（陈家乐 饰）。二人对戏剧追求南辕北辙，但两个火星撞地球的人偏偏在相处过程中由欢喜冤家变成擦出爱火花。  三妹小茜一天竟被小北老板，胸围厂太子爷林雨云（李尚正 饰）落力追求，以为大团圆结局之际，谁知真相峰回路转。小茜和雨云相爱背后，其实也暗藏一个惊天秘密。",
-      "poster": "https://image.tmdb.org/t/p/w500/vY6Nl8km2kxh3uop6o5dfUAwgQj.jpg",
-      "backdrop": "https://image.tmdb.org/t/p/w780/8O43PKiYsC2V50kr2ivE6YEQ1vX.jpg",
-      "genres": [
-        "喜剧"
-      ],
-      "runtime": 99,
-      "tagline": null,
-      "status": "Released",
-      "originalLanguage": "cn",
-      "productionCompanies": [
-        "Jing's Production Limited"
-      ],
-      "director": {
-        "id": 548474,
-        "name": "王晶"
-      },
-      "cast": [
-        {
-          "id": 1173598,
-          "name": "高海宁",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/trFirFO6af8zjdwbVNQI4YMpKf6.jpg"
-        },
-        {
-          "id": 1232198,
-          "name": "马国明",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/6DejZHB8htcmosNwuOGJeDUgfJr.jpg"
-        },
-        {
-          "id": 1172629,
-          "name": "陈家乐",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/uCocD9qqMME6ADzKmfaHU6m2eV8.jpg"
-        },
-        {
-          "id": 1098628,
-          "name": "陈静",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/tLEkaSwU1ymBimiOy6mf0MjSGro.jpg"
-        },
-        {
-          "id": 4901086,
-          "name": "郭珮文",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/exw41uymChsvdHk7F5C6zGH9199.jpg"
-        },
-        {
-          "id": 1173215,
-          "name": "李尚正",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/uCU0BUcaku2hNV3osUTX4R7bp1N.jpg"
-        },
-        {
-          "id": 4879127,
-          "name": "张锦霞",
-          "character": "真龍小茜(Real Winnie Lung)",
-          "profile": "https://image.tmdb.org/t/p/w185/2h3YV9lNOkvmjIqrrp0fY4RSzEw.jpg"
-        },
-        {
-          "id": 63582,
-          "name": "许绍雄",
-          "character": null,
-          "profile": "https://image.tmdb.org/t/p/w185/bgC8VLG8bBdbQTuiHQtjFlEXo6E.jpg"
         }
       ],
       "trailer": null
